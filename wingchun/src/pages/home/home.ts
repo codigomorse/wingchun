@@ -65,6 +65,7 @@ export class HomePage {
     if(this.showVT){
       this.hideVT();
     }else{
+      this.hideVT();
       this.showVT = !this.showVT;
     }
   }
@@ -72,8 +73,24 @@ export class HomePage {
     if(this.showCF){
       this.hideVT();
     }else{
+      this.hideVT();
       this.showCF = !this.showCF;
     }
   }
-  
+  goL(){
+    if(this.showL){
+      this.hideVT();
+    }else{
+      this.hideVT();
+      this.showL = !this.showL;
+    }
+  }
+  goH(){
+    if(this.showHistoria){
+      this.hideVT();
+    }else{
+      this.hideVT();
+      this.showHistoria = !this.showHistoria;
+    }
+  }
 }
