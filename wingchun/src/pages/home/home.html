@@ -5,6 +5,7 @@
     <button ion-button class="navBtn" clear (click)="goLinage()">Linage</button>
     <button ion-button class="navBtn" clear (click)="goContacto()">Contacto</button>
   </ion-navbar>
+  <div padding>
   <div *ngIf="showStart">
     <ion-slides autoplay="5000" loop="true" speed="3000" pager>
       <ion-slide *ngFor="let slide of slides2">
@@ -31,6 +32,14 @@
       Linage
   </div>
   <div *ngIf="showContacto">
-      Contacto
+      <h1>Contacto</h1>
+      <p>Sifu Jorge combina entrenamiento tradicional y filosofía oriental en un ambiente relajado y familiar, fomentando la relación Sito      que se debe dar entre el Maestro (Si Fu) y los estudiantes (To Dai) necesaria para aprender Auténtico Kung Fu Ving Tsun</p>
+      <p>Celular: 092 781 471</p>
+      <p>Email: wingchunuruguay@gmail.com</p>
+      <p>EQUILIBRIO, Instituto Superior de Artes Humanas: 
+          Bvar. Gral. Artigas 1168 / 1172</p>
+      <p>Lunes y Miércoles de 20.00 a 21.00 Hs</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.922845481352!2d-56.16552378459932!3d-34.90838568038172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a669514e7d%3A0x93c3df1fb71fe257!2sBulevar+General+Artigas+1168%2C+11300+Montevideo!5e0!3m2!1ses!2suy!4v1496360788602" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
   </div>
 </ion-content>
