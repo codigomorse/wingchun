@@ -115,4 +115,7 @@ export class HomePage {
       this.showHistoria = !this.showHistoria;
     }
   }
+  showDesc(){
+    console.log("click");
+  }
 }

@@ -27460,7 +27460,7 @@ page-home #slide-image {
 }
 
 page-home .navBtn {
-  width: 23%;
+  width: 18%;
 }
 
 page-home textarea {
@@ -27473,4 +27473,28 @@ page-home ion-navbar {
 
 page-home .navBtn2 {
   display: block;
+}
+
+page-home #logo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+page-home #instIcon {
+  position: absolute;
+  height: 20%;
+  width: 20%;
+}
+
+page-home #logo2 {
+  height: 100%;
+  width: 100%;
+}
+
+page-home #btnLogo2 {
+  width: 160px;
+  height: 100px;
 }

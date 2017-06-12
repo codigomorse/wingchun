@@ -1,9 +1,14 @@
 <ion-content>
   <ion-navbar>
+    <img src="assets/img/logoWC.png" id="logo"/>
     <button ion-button class="navBtn" clear id="primerBtn" (click)="goHome()">Inicio</button>
     <button ion-button class="navBtn" clear (click)="goVT()">Ving Tsung</button>
     <button ion-button class="navBtn" clear (click)="goLinage()">Linage</button>
     <button ion-button class="navBtn" clear (click)="goContacto()">Contacto</button>
+    <A HREF="https://www.instagram.com/vingtsunuruguay/" target="_blank"><button ion-button clear><ion-icon name="logo-instagram" id="instIcon"></ion-icon></button></A>
+    <A HREF="https://www.youtube.com/channel/UCbSCyPkCqETToYkP34pXdxA" target="_blank"><button ion-button clear><ion-icon name="logo-youtube" id="instIcon"></ion-icon></button></A>
+    <A HREF="https://www.facebook.com/yipmanvingtsun/" target="_blank"><button ion-button clear><ion-icon name="logo-facebook" id="instIcon"></ion-icon></button></A>
+    <A HREF="http://www.wuhsingchuan.com.ar/" target="_blank"><button ion-button clear id="btnLogo2"><img src="assets/img/Logo-Wu-Hsing-Chuan-Blanco.png" id="logo2"/></button></A>
   </ion-navbar>
   <div padding>
   <div *ngIf="showStart">
@@ -24,8 +29,7 @@
           <p>Nuestra misión comprende la difusión, el desarrollo, y la practica continua y profunda de este sistema de combate. A su vez buscamos que todas las personas sin importar su sexo ni condición física, puedan tener acceso a este contundente sistema de combate basado en principios físicos, matemáticos y geométricos que sostiene habilidades características tales como la sensibilidad táctil, la estructura corporal el posicionamiento, la coordinación y un especifico sistema de defensa activa perimetral. Para lograrlo contamos con instructores altamente calificados y reconocidos a nivel internacional, y programas de entrenamiento diseñados para obtener un desarrollo progresivo de las habilidades que conforman este sistema. Buscamos difundir el sistema Wing Chun Ip Man en todo el territorio nacional. Formar Instructores calificados para transmitir el Wing Chun de forma efectiva y tradicional.</p>
         </ion-col>
       </ion-row>
-    </ion-grid>
-    
+    </ion-grid>   
   </div>
   <div *ngIf="showVingTsung">
     <ion-grid>
@@ -61,7 +65,7 @@
   <div *ngIf="showLinage">
     <ion-slides slidesPerView="4">
       <ion-slide *ngFor="let slide of linaje">
-        <img [src]="slide.image" class="thumb-img" imageViewer/>
+        <img [src]="slide.image" class="thumb-img" align="left" imageViewer (click)="showDesc()"/>
         <h3>{{slide.title}}</h3>
         <p>{{slide.description}}</p>
       </ion-slide>
@@ -70,12 +74,12 @@
   <div *ngIf="showContacto">
       <h1>Contacto</h1>
       <p>Sifu Jorge combina entrenamiento tradicional y filosofía oriental en un ambiente relajado y familiar, fomentando la relación Sito      que se debe dar entre el Maestro (Si Fu) y los estudiantes (To Dai) necesaria para aprender Auténtico Kung Fu Ving Tsun</p>
-      <p>Celular: 092 781 471</p>
-      <p>Email: wingchunuruguay@gmail.com</p>
-      <p>EQUILIBRIO, Instituto Superior de Artes Humanas: 
+      <p><ion-icon name="phone-portrait"></ion-icon> Celular: 092 781 471</p>
+      <p><ion-icon name="md-mail"></ion-icon> Email: wingchunuruguay@gmail.com</p>
+      <p><ion-icon name="ios-pin"></ion-icon> EQUILIBRIO, Instituto Superior de Artes Humanas: 
           Bvar. Gral. Artigas 1168 / 1172</p>
-      <p>Lunes y Miércoles de 20.00 a 21.00 Hs</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.922845481352!2d-56.16552378459932!3d-34.90838568038172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a669514e7d%3A0x93c3df1fb71fe257!2sBulevar+General+Artigas+1168%2C+11300+Montevideo!5e0!3m2!1ses!2suy!4v1496360788602" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <p><ion-icon name="md-alarm"></ion-icon> Lunes y Miércoles de 20.00 a 21.00 Hs</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.922845481352!2d-56.16552378459932!3d-34.90838568038172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a669514e7d%3A0x93c3df1fb71fe257!2sBulevar+General+Artigas+1168%2C+11300+Montevideo!5e0!3m2!1ses!2suy!4v1496360788602" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
   </div>
 </ion-content>
