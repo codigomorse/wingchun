@@ -59,7 +59,13 @@
     </ion-grid> 
   </div>
   <div *ngIf="showLinage">
-      Linage
+    <ion-slides slidesPerView="4">
+      <ion-slide *ngFor="let slide of linaje">
+        <img [src]="slide.image" class="thumb-img" imageViewer/>
+        <h3>{{slide.title}}</h3>
+        <p>{{slide.description}}</p>
+      </ion-slide>
+    </ion-slides>
   </div>
   <div *ngIf="showContacto">
       <h1>Contacto</h1>
