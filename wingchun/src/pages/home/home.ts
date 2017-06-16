@@ -36,86 +36,86 @@ export class HomePage {
       }
     ];
   }
-  hideAll(){
+  hideAll() {
     this.showStart = false;
     this.showVingTsung = false;
     this.showLinage = false;
     this.showContacto = false;
     document.getElementById("menu-bar").click();
   }
-  goHome(){
+  goHome() {
     this.hideAll();
     this.showStart = true;
   }
-  goVT(){
+  goVT() {
     this.hideAll();
     this.showVingTsung = true;
   }
-  goLinage(){
+  goLinage() {
     this.hideAll();
     this.showLinage = true;
   }
-  goContacto(){
+  goContacto() {
     this.hideAll();
     this.showContacto = true;
   }
-  hideVT(){
+  hideVT() {
     this.showVT = false;
     this.showCF = false;
     this.showL = false;
     this.showHistoria = false;
   }
-  goVTDetails(){
-    if(this.showVT){
+  goVTDetails() {
+    if (this.showVT) {
       this.hideVT();
-    }else{
+    } else {
       this.hideVT();
       this.showVT = !this.showVT;
     }
   }
-  goCF(){
-    if(this.showCF){
+  goCF() {
+    if (this.showCF) {
       this.hideVT();
-    }else{
+    } else {
       this.hideVT();
       this.showCF = !this.showCF;
     }
   }
-  goL(){
-    if(this.showL){
+  goL() {
+    if (this.showL) {
       this.hideVT();
-    }else{
+    } else {
       this.hideVT();
       this.showL = !this.showL;
     }
   }
-  goH(){
-    if(this.showHistoria){
+  goH() {
+    if (this.showHistoria) {
       this.hideVT();
-    }else{
+    } else {
       this.hideVT();
       this.showHistoria = !this.showHistoria;
     }
   }
-  hideLinaje(){
+  hideLinaje() {
     this.ipMan = false;
     this.lunKai = false;
     this.neldo = false;
     this.sifu = false;
   }
-  showIpMan(){
+  showIpMan() {
     this.hideLinaje();
-    this.ipMan=true;
+    this.ipMan = true;
   }
-  showLunKai(){
+  showLunKai() {
     this.hideLinaje();
     this.lunKai = true;
   }
-  showNeldo(){
+  showNeldo() {
     this.hideLinaje();
     this.neldo = true;
   }
-  showSifu(){
+  showSifu() {
     this.hideLinaje();
     this.sifu = true;
   }
