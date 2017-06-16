@@ -27455,6 +27455,12 @@ ion-navbar.toolbar {
   }
 }
 
+page-home * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 page-home #slide-image {
   width: 100% !important;
 }
@@ -27497,4 +27503,11 @@ page-home #logo2 {
 page-home #btnLogo2 {
   width: 160px;
   height: 100px;
+}
+
+page-home .linajeImg {
+  width: 330px;
+  height: 330px;
+  margin: 0 auto;
+  padding: 10px;
 }
