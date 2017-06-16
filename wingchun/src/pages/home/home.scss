@@ -1,48 +1,125 @@
 page-home {
         *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        width: 100%;
+        height: 50px;
+        background: #333;
+        color: #fff;
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    .contenedor {
+        width: 98%;
+        margin: auto;
+    }
+    #menu-bar {
+        display: none;
+    }
+    header label {
+        float: right;
+        font-size: 28px;
+        margin: 6px 0;
+        cursor: pointer;
+    }
+    .menu{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(51,51,51,0.9);
+        transition: all 0.5s;
+        transform: translateX(-100%);
+    }
+    header .contenedor {
+       display: table;
+    }
+    .menu button {
+        display: block;
+        color: #fff;
+        height: 50px;
+        text-decoration: none;
+        padding: 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        width: 100%;
+    }
+    .menu button:hover {
+        background: rgba(255,255,255,0.3);
+    }
+    #menu-bar:checked ~ .menu {
+        transform: translateX(0%);
+    }
+    .footerP{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        color: #8b898c;
+        text-align: center;
+    }
+    #slide-image{
+       margin-top: 80px !important;
+       height: 70%;
+       width: 70%;
+    }
+    .thumb-img{
+        padding: 15px;
+        margin: auto;
+        display: block;
+    }
+    .title{
+        margin-top: 80px;
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
+    #map{
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 10%;
+        padding: 15px;
+        display: block;
+     }
+     #logo{
+        height: 100px;
+        //background-color: #ffffff;
+        //background-image: url("../../assets/img/logo_header.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-x: 0%;
+     }
+     @media (min-width:1024px) {
+        .menu {
+            position: static;
+            width: auto;
+            height: 50px;
+            transform: translateX(0%);
+            float: right;
+            display: flex;
         }
-        #slide-image{
-            width: 100% !important;
+    
+        .menu a {
+            border: none;
         }
-        .navBtn{
-            width: 18%;
-        }
-        textarea{
-            width: 100% !important;
-        }
-        ion-navbar{
-            height: 90px !important;
-        }
-        .navBtn2{
-            display: block;
-        }
-        #logo{
-            position: absolute;
-            left: 10px;
-            top: 10px;
-            height: 60px;
-            width: 60px;
-        }
-        #instIcon{
-            position: absolute;
-            height: 20%;
-            width: 20%;
-        }
-        #logo2{
-            height: 100%;
-            width: 100%;
-        }
-        #btnLogo2{
-            width: 160px;
-            height: 100px;
+    
+        header label { 
+            display: none;
         }
         .linajeImg{
+            margin-top: 100px;
             width: 330px;
             height: 330px;
-            margin: 0 auto;
             padding: 10px;
         }
+        .divContenido{
+            margin-top: 100px;
+        }
+     }
 }

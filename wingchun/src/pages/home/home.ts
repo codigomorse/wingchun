@@ -41,6 +41,7 @@ export class HomePage {
     this.showVingTsung = false;
     this.showLinage = false;
     this.showContacto = false;
+    document.getElementById("menu-bar").click();
   }
   goHome(){
     this.hideAll();
