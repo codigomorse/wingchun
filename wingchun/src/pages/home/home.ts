@@ -23,8 +23,8 @@ export class HomePage {
   private ipManImg = true;
   private lunKaiImg = false;
   private neldoImg = false;
-  private sifuImg = false;
-  	
+  private sifuImg = false;  
+
   @ViewChild(Slides) slides: Slides;
   constructor(public navCtrl: NavController) {
     this.slides2 = [
@@ -109,7 +109,8 @@ export class HomePage {
     this.ipManImg = false;
     this.lunKaiImg = false;
     this.neldoImg = false;
-    this.sifuImg = false;	
+    this.sifuImg = false;
+
   }
   showIpMan() {
     this.hideLinaje();
