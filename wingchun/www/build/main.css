@@ -554,6 +554,7 @@
   content: "\f14c";
 }
 
+
 .ion-ios-clipboard-outline:before {
   content: "\f14b";
 }
@@ -1119,6 +1120,7 @@
 }
 
 .ion-ios-heart:before {
+
   content: "\f443";
 }
 
@@ -5199,6 +5201,7 @@ h6 {
   margin-bottom: 1rem;
   font-weight: 500;
   line-height: 1.2;
+  color:#ED742F;
 }
 
 [padding] h1:first-child,
@@ -5240,6 +5243,13 @@ h5 {
 
 h6 {
   font-size: 1.6rem;
+}
+
+p{
+	font-size:1.2em;
+	line-height:1.8;
+	margin-bottom:2em;
+	color:#333;
 }
 
 small {
@@ -11168,6 +11178,7 @@ ion-fab-list[side=right] {
 @media (min-width: 768px) {
   [col-sm] {
     padding: 5px;
+
   }
 }
 
@@ -13783,6 +13794,7 @@ ion-icon[small] {
 
 .icon-md-secondary {
   color: #32db64;
+
 }
 
 .icon-md-danger {
@@ -14558,6 +14570,7 @@ ion-item-options {
   font-size: 14px;
   visibility: hidden;
 }
+
 
 [dir="rtl"] ion-item-options {
   right: auto;
@@ -27456,58 +27469,166 @@ ion-navbar.toolbar {
 }
 
 page-home * {
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
   box-sizing: border-box;
 }
 
+page-home header {
+  width: 100%;
+  height: 50px;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+page-home .contenedor {
+  width: 98%;
+  margin: auto;
+}
+
+page-home #menu-bar {
+  display: none;
+}
+
+page-home header label {
+  float: right;
+  font-size: 28px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+page-home .menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.9);
+  transition: all 0.5s;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+page-home header .contenedor {
+  display: table;
+}
+
+page-home .menu button {
+  display: block;
+  color: #FFF;
+  height: 50px;
+  text-decoration: none;
+  padding: 15px;
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+  width: 100%;
+  transition: color 0.5s;
+  border-radius: 0;
+  margin: 0 auto; 
+  font-weight:bold;
+}
+
+page-home .menu button .linea{
+	display:block;
+	width:0%;
+	height:2px;
+	background-color:#EA3925;
+    transition: all 0.2s;
+    position: absolute;
+    left: 0;
+	bottom: 0;
+}
+
+page-home .menu button:hover {
+  /*background: rgba(255, 255, 255, 0.3) !important;*/
+  background-color: transparent;
+  color:#EA3925;
+  
+}
+
+page-home .menu button:hover .linea{
+	width:100%;
+}
+
+page-home #menu-bar:checked ~ .menu {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+page-home .footerP {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  color: #8b898c;
+  text-align: center;
+}
+
 page-home #slide-image {
-  width: 100% !important;
+  /* margin-top: 80px !important; */
+  /* height: 70%; */
+  width: 100%;
 }
 
-page-home .navBtn {
-  width: 18%;
+page-home .thumb-img {
+  padding: 15px;
+  margin: auto;
+  display: block;
 }
 
-page-home textarea {
-  width: 100% !important;
+page-home .title {
+  margin-top: 80px;
+  text-align: center;
 }
 
-page-home ion-navbar {
-  height: 90px !important;
+page-home .description {
+  text-align: center;
 }
 
-page-home .navBtn2 {
+page-home #map {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 15px;
   display: block;
 }
 
 page-home #logo {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  height: 60px;
-  width: 60px;
-}
-
-page-home #instIcon {
-  position: absolute;
-  height: 20%;
-  width: 20%;
-}
-
-page-home #logo2 {
-  height: 100%;
-  width: 100%;
-}
-
-page-home #btnLogo2 {
-  width: 160px;
   height: 100px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 0%;
 }
 
-page-home .linajeImg {
-  width: 330px;
-  height: 330px;
-  margin: 0 auto;
-  padding: 10px;
+page-home .divContenido {
+	margin-top: 50px;
+}
+  
+@media (min-width: 1024px) {
+  page-home .menu {
+    position: static;
+    width: auto;
+    height: 50px;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    float: right;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  page-home .menu a {
+    border: none;
+  }
+  page-home header label {
+    display: none;
+  }
+  page-home .linajeImg {
+    margin-top: 100px;
+    width: 330px;
+    height: 330px;
+    padding: 10px;
+  }
+
 }
