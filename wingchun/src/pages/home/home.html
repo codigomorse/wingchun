@@ -52,7 +52,7 @@
       </ion-grid>
     </div>
     
-    <div *ngIf="showVingTsung" class="divContenido">
+    <div *ngIf="showVingTsung" class="divContenido vingtsun">
       <ion-grid>
         <ion-row>
           <ion-col col-12>
@@ -274,17 +274,21 @@
           </ion-col>
         </ion-row>
       </ion-grid>
-    </div>
+    </div> 
+    
+    <!-- Linaje -->
+    
     <div *ngIf="showLinage" class="divContenido">
-        <ion-row justify-content-center>
+        <ion-row justify-content-center> 
             <ion-col col-10 text-center>
-                <img src="assets/img/ipMan.jpg" (click)="showIpMan()" class="linajeImg"/>
-                <img src="assets/img/lunKai.jpg" (click)="showLunKai()" class="linajeImg"/>
-                <img src="assets/img/neldo.jpg" (click)="showNeldo()" class="linajeImg"/>
-                <img src="assets/img/sifu.jpg" (click)="showSifu()" class="linajeImg"/>
+                <img [attr.active]="ipManImg ? true : null" src="assets/img/ipMan.jpg" (click)="showIpMan()" class="linajeImg"/>
+                <img [attr.active]="lunKaiImg ? true : null"  src="assets/img/lunKai.jpg" (click)="showLunKai()" class="linajeImg"/>
+                <img [attr.active]="neldoImg ? true : null" src="assets/img/neldo.jpg" (click)="showNeldo()" class="linajeImg"/>
+                <img [attr.active]="sifuImg ? true : null" src="assets/img/sifu.jpg" (click)="showSifu()" class="linajeImg"/>
             </ion-col>
         </ion-row>
-    
+ 	 <ion-row justify-content-center>	   
+      <ion-col col-10 text-justify text-lg-left text-md-left>
       <div *ngIf="ipMan">
         <h3>Gran Maestro Yip Man (1894-1972)</h3>
         <p>Yip Man (Ye Wen) -Yip Gai Man (Yi Jiwen)- nació en una familia adinerada de comerciantes, en Foshan en 1894. Comenzó
@@ -352,7 +356,10 @@
           Yip Man en su ciudad natal (Foshan). Neldo Sacomani es el introductor (oficial) de esta línea para Sudamérica,
           debidamente certificado por su Maestro y la Asociación Atlética Ching Wu de Foshan.</p>
       </div>
+      </ion-col>
+      </ion-row>
     </div>
+    
     <div *ngIf="showContacto" class="divContenido">
       <h1>Contacto</h1>
       <p>Sifu Jorge combina entrenamiento tradicional y filosofía oriental en un ambiente relajado y familiar, fomentando la

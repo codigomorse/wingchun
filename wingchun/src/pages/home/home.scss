@@ -27618,7 +27618,28 @@ page-home #logo {
 page-home .divContenido {
 	margin-top: 50px;
 }
-  
+
+page-home .divContenido.vingtsun button{
+	width:100%;
+	margin:0;
+	color:#EA3925;
+	padding:20px auto;
+}
+ 
+.linajeImg{
+	opacity:0.5;
+	transition:all 0.5s;
+	cursor:pointer;
+}
+.linajeImg:hover{
+	opacity:1;
+}
+
+
+.linajeImg[active="true"]{
+	opacity:1;
+}
+
 @media (min-width: 1024px) {
   page-home .menu {
     position: static;
