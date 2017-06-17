@@ -7,7 +7,9 @@
         <button ion-button class="navBtn" clear id="primerBtn" (click)="goHome()"><div class="linea"></div>Inicio</button>
         <button ion-button class="navBtn" clear (click)="goVT()"><div class="linea"></div>Ving Tsun</button>
         <button ion-button class="navBtn" clear (click)="goLinage()"><div class="linea"></div>Linage</button>
+        <button ion-button class="navBtn" clear (click)="goGaleria()"><div class="linea"></div>Galeria</button>
         <button ion-button class="navBtn" clear (click)="goContacto()"><div class="linea"></div>Contacto</button>
+        <button ion-button class="navBtn" clear (click)="goAmigos()"><div class="linea"></div>Amigos</button>
         <A HREF="https://www.instagram.com/vingtsunuruguay/" target="_blank"><button ion-button clear><ion-icon name="logo-instagram" id="instIcon"></ion-icon></button></A>
         <A HREF="https://www.youtube.com/channel/UCbSCyPkCqETToYkP34pXdxA" target="_blank"><button ion-button clear><ion-icon name="logo-youtube" id="instIcon"></ion-icon></button></A>
         <A HREF="https://www.facebook.com/yipmanvingtsun/" target="_blank"><button ion-button clear><ion-icon name="logo-facebook" id="instIcon"></ion-icon></button></A>
@@ -24,7 +26,7 @@
       <ion-grid>
         <ion-row>
           <ion-col col-md></ion-col>
-          
+
           <ion-col col-12 col-lg-5 text-justify text-md-left text-lg-left text-sm-justify text-xs-justify>
             <h1>Bienvenidos</h1>
             <p>WING CHUN URUGUAY es la primera escuela de Ving Tsun de nuestro país, es dirigida por Sifu Jorge Quiñones quien
@@ -54,17 +56,8 @@
         </ion-row>
       </ion-grid>
       <div class="fb-comments" data-href="http://wingchunuy.esy.es/" data-width="100%" data-numposts="5"></div>
-      <div class="fb-post"  data-href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" data-width="100%" data-show-text="true"><blockquote cite="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" class="fb-xfbml-parse-ignore"><p>HISTORIA DEL WING CHUN
-
-La antepasada del sistema Wing Chun, la desaparecida se&#xf1;orita Yim Wing Chun, era nativa de la...</p>Posted by <a href="https://www.facebook.com/yipmanvingtsun/">Ving Tsun Uruguay</a> on&nbsp;<a href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0">lunes, 18 de marzo de 2013</a></blockquote></div>
-      <div class="fb-post" data-href="https://www.facebook.com/yipmanvingtsun/photos/a.513898971985832.1073741827.511414748900921/1604686676240384/?type=3&amp;theater" data-width="100%" data-show-text="true"><blockquote cite="https://www.facebook.com/yipmanvingtsun/posts/1604686676240384:0" class="fb-xfbml-parse-ignore"><p>El Ving Tsun es un din&#xe1;mico sistema de combate proveniente del Sur de China, por lo que se encuentra clasificado dentro...</p>Posted by <a href="https://www.facebook.com/yipmanvingtsun/">Ving Tsun Uruguay</a> on&nbsp;<a href="https://www.facebook.com/yipmanvingtsun/posts/1604686676240384:0">miércoles, 14 de junio de 2017</a></blockquote></div>
-      <div class="fb-post" data-href="https://www.facebook.com/yipmanvingtsun/photos/a.513898971985832.1073741827.511414748900921/1584395201602865/?type=3&amp;theater" data-width="100%" data-show-text="true"><blockquote cite="https://www.facebook.com/yipmanvingtsun/posts/1584395201602865:0" class="fb-xfbml-parse-ignore"><p>Aut&#xe9;ntico Yip Man Foshan Ving Tsun .
-El m&#xe1;s alto nivel en defensa personal.
-Sifu Jorge Qui&#xf1;ones Sistema Completo.
-
-*...</p>Posted by <a href="https://www.facebook.com/yipmanvingtsun/">Ving Tsun Uruguay</a> on&nbsp;<a href="https://www.facebook.com/yipmanvingtsun/posts/1584395201602865:0">lunes, 29 de mayo de 2017</a></blockquote></div>
+      <!--<div class="fb-post"  data-href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" data-width="100%" data-show-text="true"><blockquote cite="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" class="fb-xfbml-parse-ignore"><p>HISTORIA DEL WING CHUN La antepasada del sistema Wing Chun, la desaparecida se&#xf1;orita Yim Wing Chun, era nativa de la...</p>Posted by <a href="https://www.facebook.com/yipmanvingtsun/">Ving Tsun Uruguay</a> on&nbsp;<a href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0">lunes, 18 de marzo de 2013</a></blockquote></div>  -->
     </div>
-    
     <div *ngIf="showVingTsung" class="divContenido">
       <ion-grid>
         <ion-row>
@@ -300,6 +293,12 @@ Sifu Jorge Qui&#xf1;ones Sistema Completo.
       <p>
         <ion-icon name="md-alarm"></ion-icon> Lunes y Miércoles de 20.00 a 21.00 Hs</p>
       </div>
+    </div>
+    <div *ngIf="showAmigos" class="divContenido">
+          <A HREF="http://www.wuhsingchuan.com.ar/" target="_blank"><button ion-button clear id="btnLogo2"><img src="assets/img/Logo-Wu-Hsing-Chuan-Blanco.png" id="logo2"/></button></A>
+    </div>
+    <div *ngIf="showGaleria" class="divContenido" >
+      <iframe src="https://www.powr.io/plugins/instagram-feed/view?unique_label=e593de12_1497732754&external_type=iframe" width="100%" height="3000" frameborder="0"></iframe>
     </div>
   </section>
 </ion-content>

@@ -22,6 +22,8 @@ export class HomePage {
   private sifu = false;
   private showCaracteristicas = false;
   private showSistema = false;
+  private showAmigos = false;
+  private showGaleria = false;
 
   @ViewChild(Slides) slides: Slides;
   constructor(public navCtrl: NavController) {
@@ -43,12 +45,22 @@ export class HomePage {
     this.showVingTsung = false;
     this.showLinage = false;
     this.showContacto = false;
+    this.showAmigos = false;
+    this.showGaleria = false;
     document.getElementById("menu-bar").click();
     window.scroll(0,0);
+  }
+  goGaleria(){
+    this.hideAll();
+    this.showGaleria = true;
   }
   goHome() {
     this.hideAll();
     this.showStart = true;
+  }
+  goAmigos(){
+    this.hideAll();
+    this.showAmigos = true;
   }
   goVT() {
     this.hideAll();
