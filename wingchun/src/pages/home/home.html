@@ -1,4 +1,3 @@
-
 <ion-content>
   <header>
     <div class="contenedor" id="logo">
@@ -52,6 +51,7 @@
         </ion-row>
       </ion-grid>
     </div>
+    
     <div *ngIf="showVingTsung" class="divContenido">
       <ion-grid>
         <ion-row>
@@ -276,10 +276,15 @@
       </ion-grid>
     </div>
     <div *ngIf="showLinage" class="divContenido">
-      <img src="assets/img/ipMan.jpg" (click)="showIpMan()" class="linajeImg" />
-      <img src="assets/img/lunKai.jpg" (click)="showLunKai()" class="linajeImg" />
-      <img src="assets/img/neldo.jpg" (click)="showNeldo()" class="linajeImg" />
-      <img src="assets/img/sifu.jpg" (click)="showSifu()" class="linajeImg" />
+        <ion-row justify-content-center>
+            <ion-col col-10 text-center>
+                <img src="assets/img/ipMan.jpg" (click)="showIpMan()" class="linajeImg"/>
+                <img src="assets/img/lunKai.jpg" (click)="showLunKai()" class="linajeImg"/>
+                <img src="assets/img/neldo.jpg" (click)="showNeldo()" class="linajeImg"/>
+                <img src="assets/img/sifu.jpg" (click)="showSifu()" class="linajeImg"/>
+            </ion-col>
+        </ion-row>
+    
       <div *ngIf="ipMan">
         <h3>Gran Maestro Yip Man (1894-1972)</h3>
         <p>Yip Man (Ye Wen) -Yip Gai Man (Yi Jiwen)- nació en una familia adinerada de comerciantes, en Foshan en 1894. Comenzó
@@ -365,6 +370,5 @@
         width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </section>
-
 
 </ion-content>
