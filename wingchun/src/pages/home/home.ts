@@ -20,6 +20,8 @@ export class HomePage {
   private lunKai = false;
   private neldo = false;
   private sifu = false;
+  private showCaracteristicas = false;
+  private showSistema = false;
 
   @ViewChild(Slides) slides: Slides;
   constructor(public navCtrl: NavController) {
@@ -42,6 +44,7 @@ export class HomePage {
     this.showLinage = false;
     this.showContacto = false;
     document.getElementById("menu-bar").click();
+    window.scroll(0,0);
   }
   goHome() {
     this.hideAll();
@@ -64,6 +67,8 @@ export class HomePage {
     this.showCF = false;
     this.showL = false;
     this.showHistoria = false;
+    this.showCaracteristicas = false;
+    this.showSistema = false;
   }
   goVTDetails() {
     if (this.showVT) {
@@ -97,11 +102,28 @@ export class HomePage {
       this.showHistoria = !this.showHistoria;
     }
   }
+  goCaracteristicas(){
+    if (this.showCaracteristicas) {
+      this.hideVT();
+    } else {
+      this.hideVT();
+      this.showCaracteristicas = !this.showCaracteristicas;
+    }
+  }
+  goSistema(){
+    if (this.showSistema) {
+      this.hideVT();
+    } else {
+      this.hideVT();
+      this.showSistema = !this.showSistema;
+    }    
+  }
   hideLinaje() {
     this.ipMan = false;
     this.lunKai = false;
     this.neldo = false;
     this.sifu = false;
+    this.toBottom();
   }
   showIpMan() {
     this.hideLinaje();
@@ -118,5 +140,9 @@ export class HomePage {
   showSifu() {
     this.hideLinaje();
     this.sifu = true;
+  }
+   toBottom(){
+    //alert("Scrolling to bottom ...");
+    window.scrollTo(0,document.body.scrollHeight);
   }
 }

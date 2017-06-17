@@ -27509,7 +27509,7 @@ page-home #menu-bar {
 }
 
 page-home header label {
-  float: right;
+  float: left;
   font-size: 28px;
   margin: 6px 0;
   cursor: pointer;
@@ -27519,7 +27519,7 @@ page-home .menu {
   position: absolute;
   top: 50px;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100vh;
   background: rgba(51, 51, 51, 0.9);
   transition: all 0.5s;
@@ -27614,11 +27614,20 @@ page-home #logo {
   background-position: right;
   background-position-x: 0%;
 }
-
+page-home .linajeImg {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
 page-home .divContenido {
 	margin-top: 50px;
 }
-  
+page-home #footer{
+    padding: 10;
+    margin: 20;
+    text-align: center;
+} 
 @media (min-width: 1024px) {
   page-home .menu {
     position: static;
