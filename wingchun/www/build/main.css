@@ -1,3 +1,4 @@
+
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -553,6 +554,7 @@
 .ion-ios-clipboard:before {
   content: "\f14c";
 }
+
 
 .ion-ios-clipboard-outline:before {
   content: "\f14b";
@@ -1119,6 +1121,7 @@
 }
 
 .ion-ios-heart:before {
+
   content: "\f443";
 }
 
@@ -5199,6 +5202,7 @@ h6 {
   margin-bottom: 1rem;
   font-weight: 500;
   line-height: 1.2;
+  color:#ED742F;
 }
 
 [padding] h1:first-child,
@@ -5240,6 +5244,13 @@ h5 {
 
 h6 {
   font-size: 1.6rem;
+}
+
+p{
+	font-size:1.2em;
+	line-height:1.8;
+	margin-bottom:2em;
+	color:#333;
 }
 
 small {
@@ -11168,6 +11179,7 @@ ion-fab-list[side=right] {
 @media (min-width: 768px) {
   [col-sm] {
     padding: 5px;
+
   }
 }
 
@@ -13783,6 +13795,7 @@ ion-icon[small] {
 
 .icon-md-secondary {
   color: #32db64;
+
 }
 
 .icon-md-danger {
@@ -14558,6 +14571,7 @@ ion-item-options {
   font-size: 14px;
   visibility: hidden;
 }
+
 
 [dir="rtl"] ion-item-options {
   right: auto;
@@ -27456,7 +27470,7 @@ ion-navbar.toolbar {
 }
 
 page-home * {
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
   box-sizing: border-box;
 }
@@ -27506,16 +27520,38 @@ page-home header .contenedor {
 
 page-home .menu button {
   display: block;
-  color: #fff;
+  color: #FFF;
   height: 50px;
   text-decoration: none;
   padding: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
   width: 100%;
+  transition: color 0.5s;
+  border-radius: 0;
+  margin: 0 auto; 
+  font-weight:bold;
+}
+
+page-home .menu button .linea{
+	display:block;
+	width:0%;
+	height:2px;
+	background-color:#EA3925;
+    transition: all 0.2s;
+    position: absolute;
+    left: 0;
+	bottom: 0;
 }
 
 page-home .menu button:hover {
-  background: rgba(255, 255, 255, 0.3);
+  /*background: rgba(255, 255, 255, 0.3) !important;*/
+  background-color: transparent;
+  color:#EA3925;
+  
+}
+
+page-home .menu button:hover .linea{
+	width:100%;
 }
 
 page-home #menu-bar:checked ~ .menu {
@@ -27531,9 +27567,9 @@ page-home .footerP {
 }
 
 page-home #slide-image {
-  margin-top: 80px !important;
-  height: 70%;
-  width: 70%;
+  /* margin-top: 80px !important; */
+  /* height: 70%; */
+  width: 100%;
 }
 
 page-home .thumb-img {
@@ -27567,6 +27603,10 @@ page-home #logo {
   background-position-x: 0%;
 }
 
+page-home .divContenido {
+	margin-top: 50px;
+}
+  
 @media (min-width: 1024px) {
   page-home .menu {
     position: static;
@@ -27591,7 +27631,5 @@ page-home #logo {
     height: 330px;
     padding: 10px;
   }
-  page-home .divContenido {
-    margin-top: 100px;
-  }
+
 }

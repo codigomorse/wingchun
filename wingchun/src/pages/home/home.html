@@ -1,13 +1,14 @@
+
 <ion-content>
   <header>
     <div class="contenedor" id="logo">
       <input type="checkbox" id="menu-bar">
       <label for="menu-bar"><ion-icon name="md-menu"></ion-icon></label>
       <nav class="menu" id="menu">
-        <button ion-button class="navBtn" clear id="primerBtn" (click)="goHome()">Inicio</button>
-        <button ion-button class="navBtn" clear (click)="goVT()">Ving Tsung</button>
-        <button ion-button class="navBtn" clear (click)="goLinage()">Linage</button>
-        <button ion-button class="navBtn" clear (click)="goContacto()">Contacto</button>
+        <button ion-button class="navBtn" clear id="primerBtn" (click)="goHome()"><div class="linea"></div>Inicio</button>
+        <button ion-button class="navBtn" clear (click)="goVT()"><div class="linea"></div>Ving Tsung</button>
+        <button ion-button class="navBtn" clear (click)="goLinage()"><div class="linea"></div>Linage</button>
+        <button ion-button class="navBtn" clear (click)="goContacto()"><div class="linea"></div>Contacto</button>
       </nav>
     </div>
   </header>
@@ -20,7 +21,9 @@
       </ion-slides>
       <ion-grid>
         <ion-row>
-          <ion-col col-5>
+          <ion-col col-md></ion-col>
+          
+          <ion-col col-12 col-lg-5 text-justify text-md-left text-lg-left text-sm-justify text-xs-justify>
             <h1>Bienvenidos</h1>
             <p>WING CHUN URUGUAY es la primera escuela de Ving Tsun de nuestro país, es dirigida por Sifu Jorge Quiñones quien
               es el introductor del sistema Ving Tsun al Uruguay. Sifu Jorge Quiñones es discípulo directo del Maestro Neldo
@@ -30,8 +33,10 @@
               como Presidente de la Asociacion Uruguaya de Artes Marciales Chinas Tradicionales y Director de la escuela
               WING CHUN URUGUAY.</p>
           </ion-col>
-          <ion-col col-2></ion-col>
-          <ion-col col-5>
+          
+          <ion-col col-md></ion-col>
+          
+          <ion-col col-12 col-lg-5 text-justify text-md-left text-lg-left text-sm-justify text-xs-justify>
             <h2>Misión y Vision</h2>
             <p>Nuestra misión comprende la difusión, el desarrollo, y la practica continua y profunda de este sistema de combate.
               A su vez buscamos que todas las personas sin importar su sexo ni condición física, puedan tener acceso a este
@@ -42,6 +47,8 @@
               de las habilidades que conforman este sistema. Buscamos difundir el sistema Wing Chun Ip Man en todo el territorio
               nacional. Formar Instructores calificados para transmitir el Wing Chun de forma efectiva y tradicional.</p>
           </ion-col>
+          
+          <ion-col col-md></ion-col>
         </ion-row>
       </ion-grid>
     </div>
@@ -358,5 +365,6 @@
         width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </section>
+
 
 </ion-content>
