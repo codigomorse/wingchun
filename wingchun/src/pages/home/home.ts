@@ -20,10 +20,15 @@ export class HomePage {
   private lunKai = false;
   private neldo = false;
   private sifu = false;
+  private ipManImg = true;
+  private lunKaiImg = false;
+  private neldoImg = false;
+  private sifuImg = false;  
   private showCaracteristicas = false;
   private showSistema = false;
   private showAmigos = false;
   private showGaleria = false;
+  
 
   @ViewChild(Slides) slides: Slides;
   constructor(public navCtrl: NavController) {
@@ -135,23 +140,35 @@ export class HomePage {
     this.lunKai = false;
     this.neldo = false;
     this.sifu = false;
+    this.ipManImg = false;
+    this.lunKaiImg = false;
+    this.neldoImg = false;
+    this.sifuImg = false;
     this.toBottom();
+						   
+						  
+						 
+
   }
   showIpMan() {
     this.hideLinaje();
     this.ipMan = true;
+	this.ipManImg = true;				  
   }
   showLunKai() {
     this.hideLinaje();
     this.lunKai = true;
+	this.lunKaiImg = true;				   
   }
   showNeldo() {
     this.hideLinaje();
     this.neldo = true;
+	this.neldoImg = true;				  
   }
   showSifu() {
     this.hideLinaje();
     this.sifu = true;
+	this.sifuImg = true;
   }
    toBottom(){
     //alert("Scrolling to bottom ...");
