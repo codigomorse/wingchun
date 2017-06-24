@@ -214,9 +214,8 @@ page-home .linajeImg {
   transition: opacity 0.5s;
 }
 
-page-home .linajeImg:hover, page-home .linajeImg.active {
+page-home .linajeImg:hover, page-home .linajeImg.active{
   opacity: 1;
-  background-color: #F3B03F;
 }
 
 .red-bg, .orange-bg {
@@ -288,6 +287,80 @@ page-home .tit h1{
 	text-transform:uppercase;
 }
 
+.btn-exp ion-item{
+    color: #EA3925;
+    height: 3.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+	cursor:pointer;
+}
+
+.btn-exp ion-card-content{
+	padding:0 !important;
+	display:none;
+	opacity:0;
+	transition: all .7s ease;
+
+}
+
+
+.btn-exp ion-card-content p{
+	margin:0;
+	padding: 16px!important;
+}
+
+.btn-exp ion-avatar .ico{
+	transition:all .3s;
+	transform: scale(1, 1);
+	opacity:1;
+}
+
+.btn-exp ion-avatar.zoom .ico{
+	transform: scale(3, 3);
+	opacity:0;
+}
+
+.btn-exp ion-avatar .logo{
+	display:none;
+}
+
+.btn-exp ion-avatar.zoom .logo{
+	display:block;
+	margin-top:-40px;
+}
+
+.btn-exp ion-item:hover, .btn-exp.active ion-item{
+    color: #FFF;
+    background-color:#EA3925
+}
+
+.btn-exp ion-item ion-icon{
+	transition: all .7s ease;
+	transform: rotate(0deg);
+    margin-top: 5px !important;
+    float: right;
+    color: inherit;	
+}
+
+.btn-exp.active ion-item ion-icon{
+	transform: rotate(180deg);
+}
+
+.btn-exp.active ion-card-content{
+	opacity:1;
+	display:block;
+}
+
+
+.amigos ion-card ion-item{
+	color:#EA3925;
+}
+
+.amigos ion-card .imgMain{
+	max-width:80%;
+	margin:10px auto;
+}
 
 @media (min-width: 1024px) {
   page-home .menu {
@@ -307,6 +380,19 @@ page-home .tit h1{
   page-home header label {
     display: none;
   }
+  
+  page-home .item-block{
+  	min-height: 8.8rem;
+  }
+  
+   page-home .item-md ion-avatar ion-img, page-home .item-md ion-avatar img{
+	width: 80px;
+    height: 80px;
+  }
+  
+  .btn-exp ion-avatar.zoom .logo{
+  	margin-top:-80px;
+  } 
 }
 
 @media (max-width: 960px) {
@@ -323,3 +409,39 @@ page-home .tit h1{
 }
 
 
+/*Ioinic Xtended by Alex*/
+
+@media (min-width: 0px) {
+	[xs-hide]{
+		display:none;
+	}
+	
+	[xs-show]{
+		display:block;
+	}	
+}
+
+
+@media (min-width: 0px) and (max-width: 575px) {
+  [sm-hide] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  [md-hide] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  [lg-hide] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  [xl-hide] {
+    display: none !important;
+  }
+}
