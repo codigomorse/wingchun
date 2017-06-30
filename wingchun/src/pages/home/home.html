@@ -16,13 +16,11 @@
         <button ion-button class="navBtn" clear (click)="goGaleria()"><div class="linea"></div>Galeria</button>
         <button ion-button class="navBtn" clear (click)="goContacto()"><div class="linea"></div>Contacto</button>
         <button ion-button class="navBtn" clear (click)="goAmigos()"><div class="linea"></div>Amigos</button>
-        <A HREF="https://www.instagram.com/vingtsunuruguay/" target="_blank"><button ion-button clear><ion-icon name="logo-instagram" id="instIcon"></ion-icon></button></A>
-        <A HREF="https://www.youtube.com/channel/UCbSCyPkCqETToYkP34pXdxA" target="_blank"><button ion-button clear><ion-icon name="logo-youtube" id="instIcon"></ion-icon></button></A>
-        <A HREF="https://www.facebook.com/yipmanvingtsun/" target="_blank"><button ion-button clear><ion-icon name="logo-facebook" id="instIcon"></ion-icon></button></A>
       </nav>
     </div>
   </header>
   <section id="body" (click)="showMenu()">
+    <div id="bk"></div>
     <div *ngIf="showStart" class="divContenido">
       <ion-slides autoplay="5000" loop="true" speed="3000" pager>
         <ion-slide *ngFor="let slide of slides2">
@@ -600,6 +598,10 @@
     <div *ngIf="showGaleria" class="divContenido" >
       <iframe src="https://www.powr.io/plugins/instagram-feed/view?unique_label=e593de12_1497732754&external_type=iframe" width="100%" height="3000" frameborder="0"></iframe>
     </div>
-    
+    <div id="social">
+      <A HREF="https://www.instagram.com/vingtsunuruguay/" target="_blank"><button ion-button clear><ion-icon name="logo-instagram" id="instIcon"></ion-icon></button></A>
+      <A HREF="https://www.youtube.com/channel/UCbSCyPkCqETToYkP34pXdxA" target="_blank"><button ion-button clear><ion-icon name="logo-youtube" id="instIcon"></ion-icon></button></A>
+      <A HREF="https://www.facebook.com/yipmanvingtsun/" target="_blank"><button ion-button clear><ion-icon name="logo-facebook" id="instIcon"></ion-icon></button></A>
+    </div>
   </section>
 </ion-content>
