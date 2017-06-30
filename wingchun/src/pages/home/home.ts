@@ -24,6 +24,7 @@ export class HomePage {
   private showSistema = false;
   private showAmigos = false;
   private showGaleria = false;
+  private menuOpen = false;
 
   @ViewChild(Slides) slides: Slides;
   constructor(public navCtrl: NavController) {
@@ -156,5 +157,13 @@ export class HomePage {
    toBottom(){
     //alert("Scrolling to bottom ...");
     window.scrollTo(0,document.body.scrollHeight);
+  }
+  setMenu(){
+    this.menuOpen = !this.menuOpen;
+  }
+  showMenu(){
+    if(this.menuOpen){
+      document.getElementById("menu-bar").click();
+    }
   }
 }
