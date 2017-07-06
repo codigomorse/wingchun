@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 page-home * {
   /* margin: 0; */
   padding: 0;
   box-sizing: border-box;
+}
+page-home #bk{
+  height: 100% !important;
+  width: 100% !important;
+  left:0 !important;
+  top:50px !important;
+  position: fixed !important;
+  background-color: rgba(0,0,0,0.65) !important;
+  display: none;
+  z-index: 100;
 }
 
 page-home header {
@@ -16,9 +27,11 @@ page-home header {
   left: 0;
   z-index: 100;
 }
-
+#social{
+  
+}
 page-home h1, page-home h2, page-home h3, page-home h4, page-home h5, page-home h6{
-	font-family:'Montserrat', sans-serif;
+	font-family:'Raleway', sans-serif;
 	color:#EA3925;
 	font-weight:800;
 }
@@ -88,11 +101,13 @@ page-home .menu {
   top: 50px;
   left: 0;
   width: 50%;
+  min-width:250px;
   height: 100vh;
   background: rgba(51, 51, 51, 0.9);
   transition: all 0.5s;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
+  z-index:120;
 }
 
 page-home header .contenedor {
@@ -116,7 +131,6 @@ page-home .menu button {
 page-home .menu button .linea {
   display: block;
   width: 0%;
-  height: 2px;
   background-color: #EA3925;
   transition: all 0.2s;
   position: absolute;
@@ -130,13 +144,20 @@ page-home .menu button:hover, page-home .menu button.active {
   color: #EA3925;
 }
 
-page-home .menu button:hover .linea, , page-home .menu button.active .linea {
-  width: 100%;
+
+page-home .menu button:hover .linea, page-home .menu button.active .linea {
+  width:5px;
+  height:100%;
 }
+
 
 page-home #menu-bar:checked ~ .menu {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
+}
+
+page-home #menu-bar:checked ~ div#bk {
+  display: block;
 }
 
 page-home #menu-bar:checked ~ label .menu-btn #line-1 {
@@ -208,14 +229,15 @@ page-home .linajeImg {
   width: auto;
   max-width: 200px;
   height: auto;
-  min-height: 200px;
-  padding: 10px;
+  min-height:50px;
+  padding: 5px;
   opacity: 0.7;
   transition: opacity 0.5s;
 }
 
 page-home .linajeImg:hover, page-home .linajeImg.active{
   opacity: 1;
+  background-color:#efefef;
 }
 
 .red-bg, .orange-bg {
@@ -327,7 +349,7 @@ page-home .tit h1{
 
 .btn-exp ion-avatar.zoom .logo{
 	display:block;
-	margin-top:-40px;
+	margin-top:-36px;
 }
 
 .btn-exp ion-item:hover, .btn-exp.active ion-item{
@@ -362,7 +384,79 @@ page-home .tit h1{
 	margin:10px auto;
 }
 
+  .button-inner{
+	justify-content:initial;
+  }
+
+#logoWC {
+  margin: 15px auto;
+}
+
+#logoWC ion-item, #logoWC ion-item .item-inner{
+  background-color:transparent;
+  border:0;
+  color:#FFF;
+  font-size:1em;
+}
+
+#logoWC ion-item ion-avatar img{
+  width:40px;
+  height:40px;
+  margin-left: 13px;
+}
+
+#logoWC h2 {
+    margin: 0 0 0 15px;
+    float:left;
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+
+#logoWC p{
+  color:#FFF;
+  float:left;
+  width: 50%;
+  padding:5px;
+}
+
+#menu ion-fab button{
+	background-color:transparent;
+	color:#FFF;
+	box-shadow:none;
+	border-radius:50%;
+}
+
+#menu ion-fab-list{
+	margin-left:40px;
+}
+
+#menu ion-fab a{
+	background-color:transparent;
+	color:#FFF;
+	box-shadow:none;
+	border-radius:50%;
+}
+
+#menu ion-fab button:hover, #menu ion-fab a:hover{
+	color:#EA3925;
+	opacity:initial;
+}
+
+
+page-home .menu button{
+	padding-left:28px;
+}
+
 @media (min-width: 1024px) {
+
+  
+  .button-inner{
+	justify-content:center;
+  }
+  
   page-home .menu {
     position: static;
     width: auto;
@@ -373,7 +467,24 @@ page-home .tit h1{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+	z-index:120;
   }
+page-home .menu button{
+	padding-left:15px;
+}
+
+page-home .menu button:hover .linea,  page-home .menu button.active .linea {
+  width: 100%;
+  height: 2px;
+
+}
+
+
+  #logoWC, #bk, #menu ion-fab{
+  	display:none !important;
+  }
+  
+  
   page-home .menu a {
     border: none;
   }
@@ -397,8 +508,7 @@ page-home .tit h1{
 
 @media (max-width: 960px) {
   page-home .linajeImg {
-    width: 100%;
-    max-width: 100%;
+    width: 24%;
     min-height: auto;
     height: auto;
   }
@@ -426,6 +536,7 @@ page-home .tit h1{
   [sm-hide] {
     display: none !important;
   }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -438,6 +549,9 @@ page-home .tit h1{
   [lg-hide] {
     display: none !important;
   }
+
+
+
 }
 
 @media (min-width: 992px) {
@@ -445,3 +559,6 @@ page-home .tit h1{
     display: none !important;
   }
 }
+
+
+
