@@ -11,12 +11,12 @@ page-home #bk{
   width: 100% !important;
   left:0 !important;
   top:50px !important;
+
   position: fixed !important;
   background-color: rgba(0,0,0,0.65) !important;
   display: none;
   z-index: 100;
 }
-
 page-home header {
   width: 100%;
   height: 50px;
@@ -145,9 +145,11 @@ page-home .menu button:hover, page-home .menu button.active {
 }
 
 
+
 page-home .menu button:hover .linea, page-home .menu button.active .linea {
   width:5px;
   height:100%;
+
 }
 
 
@@ -159,6 +161,7 @@ page-home #menu-bar:checked ~ .menu {
 page-home #menu-bar:checked ~ div#bk {
   display: block;
 }
+
 
 page-home #menu-bar:checked ~ label .menu-btn #line-1 {
   -webkit-transform: rotate(-45deg);
@@ -559,6 +562,4 @@ page-home .menu button:hover .linea,  page-home .menu button.active .linea {
     display: none !important;
   }
 }
-
-
 

@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, Content } from 'ionic-angular';
 import { Slides } from 'ionic-angular';
 
 @Component({
@@ -7,6 +7,7 @@ import { Slides } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
+  @ViewChild(Content) content: Content;
   private slides2 = [];
   private showStart = true;
   private showVingTsung = false;
@@ -24,6 +25,7 @@ export class HomePage {
   private showSistema = false;
   private showAmigos = false;
   private showGaleria = false;
+  private menuOpen = false;
 
   @ViewChild(Slides) slides: Slides;
   constructor(public navCtrl: NavController) {
@@ -48,7 +50,7 @@ export class HomePage {
     this.showAmigos = false;
     this.showGaleria = false;
     document.getElementById("menu-bar").click();
-    window.scroll(0,0);
+    this.scollUp();
   }
   goGaleria(){
     this.hideAll();
@@ -135,7 +137,6 @@ export class HomePage {
     this.lunKai = false;
     this.neldo = false;
     this.sifu = false;
-    this.toBottom();
   }
   showIpMan() {
     this.hideLinaje();
@@ -153,8 +154,15 @@ export class HomePage {
     this.hideLinaje();
     this.sifu = true;
   }
-   toBottom(){
-    //alert("Scrolling to bottom ...");
-    window.scrollTo(0,document.body.scrollHeight);
+  scollUp(){
+    this.content.scrollToTop();
+  }
+  setMenu(){
+    this.menuOpen = !this.menuOpen;
+  }
+  showMenu(){
+    if(this.menuOpen){
+      document.getElementById("menu-bar").click();
+    }
   }
 }
