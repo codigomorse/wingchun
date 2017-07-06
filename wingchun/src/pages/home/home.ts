@@ -26,6 +26,7 @@ export class HomePage {
   private showAmigos = false;
   private showGaleria = false;
   private menuOpen = false;
+  private activePage = "Inicio";
 
   @ViewChild(Slides) slides: Slides;
   constructor(public navCtrl: NavController) {
@@ -55,26 +56,32 @@ export class HomePage {
   goGaleria(){
     this.hideAll();
     this.showGaleria = true;
+    this.activePage = "Galeria";
   }
   goHome() {
     this.hideAll();
     this.showStart = true;
+    this.activePage = "Inicio";
   }
   goAmigos(){
     this.hideAll();
     this.showAmigos = true;
+    this.activePage = "Amigos";
   }
   goVT() {
     this.hideAll();
     this.showVingTsung = true;
+    this.activePage = "Ving Tsun";
   }
   goLinage() {
     this.hideAll();
     this.showLinage = true;
+    this.activePage = "Linaje";
   }
   goContacto() {
     this.hideAll();
     this.showContacto = true;
+    this.activePage = "Contacto";
   }
   hideVT() {
     this.showVT = false;
