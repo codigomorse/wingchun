@@ -1,3 +1,4 @@
+
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Content } from 'ionic-angular';
 import { Slides } from 'ionic-angular';
