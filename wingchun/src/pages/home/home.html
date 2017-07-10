@@ -151,7 +151,7 @@
           <ion-col col-12>
             <ion-card [ngClass]="{'btn-exp': true, 'active' : showCaracteristicas}">
             
-              <ion-item (click)="goCaracteristicas();">
+              <ion-item (click)="goCaracteristicas();" id="caracteristicasD">
                 <ion-avatar item-start [ngClass]="{'zoom' : showCaracteristicas}">
                   <img src="assets/img/caract_ico.jpg" class="ico">
                   <img src="assets/img/logoWC.png" class="logo">
@@ -287,7 +287,7 @@
             
              <ion-card [ngClass]="{'btn-exp': true, 'active' : showL}">
             
-              <ion-item (click)="goL()">
+              <ion-item (click)="goL()" id="L">
                 <ion-avatar item-start [ngClass]="{'zoom' : showL}">
                   <img src="assets/img/filosofia_ico.jpg" class="ico">
                   <img src="assets/img/logoWC.png" class="logo">

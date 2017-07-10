@@ -99,7 +99,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showVT = !this.showVT;
-      this.content.scrollToTop();
+      this.content.scrollTo(0,50);
     }
   }
   goCF() {
@@ -108,7 +108,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showCF = !this.showCF;
-      this.content.scrollToTop();
+      this.content.scrollTo(0,280);
     }
   }
   goL() {
@@ -118,6 +118,7 @@ export class HomePage {
       this.hideVT();
       this.showL = !this.showL;
       this.content.scrollToTop();
+      this.content.scrollTo(0,350);
     }
   }
   goH() {
@@ -126,7 +127,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showHistoria = !this.showHistoria;
-      this.content.scrollToTop();
+      this.content.scrollTo(0,420);
     }
   }
   goCaracteristicas(){
@@ -135,7 +136,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showCaracteristicas = !this.showCaracteristicas;
-      this.content.scrollToTop();
+      this.content.scrollTo(0,120);
     }
 	
   }
@@ -145,7 +146,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showSistema = !this.showSistema;
-      this.content.scrollToTop();
+      this.content.scrollTo(0,200);
     }    
   }
   hideLinaje() {

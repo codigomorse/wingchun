@@ -27805,7 +27805,7 @@ page-home .tit h1 {
 
 .btn-exp ion-avatar.zoom .logo {
   display: block;
-  margin-top: -36px;
+  margin-top: -40px;
 }
 
 .btn-exp ion-item:hover, .btn-exp.active ion-item {
@@ -27908,6 +27908,22 @@ page-home .menu button {
   padding-left: 28px;
 }
 
+page-home #pageName {
+  margin: 0 !important;
+  line-height: 50px;
+  float: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: default;
+  color: #EA3925;
+  padding-left: 25px;
+  font-size: 1.5em;
+}
+
+page-home .amigos a {
+  text-decoration: none;
+}
+
 @media (min-width: 1024px) {
   .button-inner {
     -webkit-justify-content: center;
@@ -28000,6 +28016,12 @@ page-home .menu button {
   }
 }
 
-page-home #pageName {
-  margin-left: 80px !important;
+.inner-page {
+  padding-top: 50px;
+}
+
+@media (max-width: 400px) {
+  page-home #pageName {
+    font-size: 1.2em;
+  }
 }
