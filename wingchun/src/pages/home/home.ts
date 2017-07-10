@@ -1,3 +1,4 @@
+
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Content } from 'ionic-angular';
 import { Slides } from 'ionic-angular';
@@ -6,6 +7,7 @@ import { Slides } from 'ionic-angular';
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
 export class HomePage {
   @ViewChild(Content) content: Content;
   private slides2 = [];
@@ -97,6 +99,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showVT = !this.showVT;
+      this.content.scrollToTop();
     }
   }
   goCF() {
@@ -105,6 +108,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showCF = !this.showCF;
+      this.content.scrollToTop();
     }
   }
   goL() {
@@ -113,6 +117,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showL = !this.showL;
+      this.content.scrollToTop();
     }
   }
   goH() {
@@ -121,6 +126,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showHistoria = !this.showHistoria;
+      this.content.scrollToTop();
     }
   }
   goCaracteristicas(){
@@ -129,7 +135,9 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showCaracteristicas = !this.showCaracteristicas;
+      this.content.scrollToTop();
     }
+	
   }
   goSistema(){
     if (this.showSistema) {
@@ -137,6 +145,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showSistema = !this.showSistema;
+      this.content.scrollToTop();
     }    
   }
   hideLinaje() {
@@ -172,4 +181,11 @@ export class HomePage {
       document.getElementById("menu-bar").click();
     }
   }
+  
+ hideMenu(e){
+	if(this.menuOpen && e.direction==2){
+	  document.getElementById("menu-bar").click();
+	}
+  } 
 }
+
