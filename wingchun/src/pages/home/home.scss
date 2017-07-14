@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
+
+/* The animation code */
+@keyframes shake {
+    /*0%   {transform:rotate(2deg)}
+    25%  {transform:rotate(-4deg)}
+    50%  {transform:rotate(4deg)}
+    100% {transform:rotate(-2deg)}*/
+	0%{transform:translateX(1%)}
+	25%{transform:translateX(-2%)}
+	50%{transform:translateX(2%)}
+	75%{transform:translateX(-2%)}
+	100%{transform:translateX(1%)}
+}
+
 page-home * {
   /* margin: 0; */
   padding: 0;
@@ -232,16 +246,23 @@ page-home .linajeImg {
   width: auto;
   max-width: 200px;
   height: auto;
-  min-height:50px;
+  min-height: 50px;
   padding: 5px;
-  opacity: 0.7;
+  opacity: 0.5;
   transition: opacity 0.5s;
 }
 
 page-home .linajeImg:hover, page-home .linajeImg.active{
   opacity: 1;
-  background-color:#efefef;
+  background-color: #efefef;
+  outline: 5px solid #efefef;
 }
+
+page-home .linajeImg.active, page-home .linajeImg:active{
+  animation-name: shake;
+  animation-duration: .4s;
+}
+
 
 .red-bg, .orange-bg {
   padding: 25px 55px;
@@ -353,6 +374,11 @@ page-home .tit h1{
 .btn-exp ion-avatar.zoom .logo{
 	display:block;
 	margin-top:-40px;
+}
+
+.platform-ios .btn-exp ion-avatar.zoom .logo{
+	display:block;
+	margin-top:-36px;
 }
 
 .btn-exp ion-item:hover, .btn-exp.active ion-item{
@@ -523,6 +549,7 @@ page-home .menu button:hover .linea,  page-home .menu button.active .linea {
   .btn-exp ion-avatar.zoom .logo{
   	margin-top:-80px;
   } 
+  
 }
 
 @media (max-width: 960px) {

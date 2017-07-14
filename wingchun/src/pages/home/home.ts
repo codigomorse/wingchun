@@ -41,7 +41,12 @@ export class HomePage {
       {
         //title: "Welcome to the Docs!",
         //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-        image: "assets/img/vt1.png",
+        image: "assets/img/banner-1.jpg",
+      },
+      {
+        //title: "Welcome to the Docs!",
+        //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
+        image: "assets/img/banner-5-2.jpg",
       }
     ];
   }
@@ -99,6 +104,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showVT = !this.showVT;
+      this.content.scrollTo(0,50);
     }
   }
   goCF() {
@@ -107,6 +113,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showCF = !this.showCF;
+      this.content.scrollTo(0,280);
     }
   }
   goL() {
@@ -115,6 +122,8 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showL = !this.showL;
+      this.content.scrollToTop();
+      this.content.scrollTo(0,350);
     }
   }
   goH() {
@@ -123,6 +132,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showHistoria = !this.showHistoria;
+      this.content.scrollTo(0,420);
     }
   }
   goCaracteristicas(){
@@ -131,6 +141,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showCaracteristicas = !this.showCaracteristicas;
+      this.content.scrollTo(0,120);
     }
 	
   }
@@ -140,6 +151,7 @@ export class HomePage {
     } else {
       this.hideVT();
       this.showSistema = !this.showSistema;
+      this.content.scrollTo(0,200);
     }    
   }
   hideLinaje() {
