@@ -34,7 +34,7 @@ page-home #bk{
 page-home header {
   width: 100%;
   height: 50px;
-  background: #333;
+  background: #000;
   color: #fff;
   position: fixed;
   top: 0;
@@ -50,10 +50,35 @@ page-home h1, page-home h2, page-home h3, page-home h4, page-home h5, page-home 
 	font-weight:800;
 }
 
+page-home .grid{ padding:0;}
+
+[caja]{
+	padding:10px 25px !important;
+}
+
+[bg-gris]{
+	background-color:#efefef;
+}
+
+[bg-roja]{
+	background-color:#EA3925;
+	color:#000;
+}
+
+[bg-negra]{
+	background-color:#333;
+	color:#FFF;
+}
+
+[bg-amarilla]{
+	background-color:#F3B03F;
+	color:#333;
+}
+
 page-home p{
 	color:#333;
 	font-size:1.2em;
-	line-height:1.8;
+	line-height:1.5;
 }
 
 page-home .contenedor {
@@ -117,7 +142,7 @@ page-home .menu {
   width: 50%;
   min-width:250px;
   height: 100vh;
-  background: rgba(51, 51, 51, 0.9);
+  background: #222;
   transition: all 0.5s;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
@@ -507,6 +532,7 @@ page-home .amigos a{
     position: static;
     width: auto;
     height: 50px;
+	background-color:#000;
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     float: right;
