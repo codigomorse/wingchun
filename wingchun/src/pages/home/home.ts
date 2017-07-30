@@ -2,7 +2,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Content } from 'ionic-angular';
 import { Slides } from 'ionic-angular';
-import { Vibration } from '@ionic-native/vibration';
 
 
 
@@ -35,7 +34,7 @@ export class HomePage {
   private activePage = "Inicio";
 
   @ViewChild(Slides) slides: Slides;
-  constructor(public navCtrl: NavController, private vibration :Vibration) {
+  constructor(public navCtrl: NavController) {
     this.slides2 = [
       {
         //title: "Welcome to the Docs!",
@@ -67,11 +66,6 @@ export class HomePage {
     document.getElementById("menu-bar").click();
     this.scollUp();
   }
-
-  vibra() {
-	this.vibration.vibrate(500);
-  }
-
 
   goGaleria(){
     this.hideAll();
@@ -176,22 +170,18 @@ export class HomePage {
   showIpMan() {
     this.hideLinaje();
     this.ipMan = true;
-	this.vibra();
   }
   showLunKai() {
     this.hideLinaje();
     this.lunKai = true;
-	this.vibra();
   }
   showNeldo() {
     this.hideLinaje();
     this.neldo = true;
-	this.vibra();
   }
   showSifu() {
     this.hideLinaje();
     this.sifu = true;
-	this.vibra();
   }
   scollUp(){
     this.content.scrollToTop();

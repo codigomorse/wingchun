@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "build/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 259);
+/******/ 	return __webpack_require__(__webpack_require__.s = 260);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -73,11 +73,11 @@
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_merge__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_merge__ = __webpack_require__(248);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_merge__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_share__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_share__ = __webpack_require__(254);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_share__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
 /* unused harmony export Class */
 /* unused harmony export createPlatform */
@@ -6152,7 +6152,7 @@ var SystemJsNgModuleLoader = (function () {
         if (exportName === undefined) {
             exportName = 'default';
         }
-        return __webpack_require__(98)(module)
+        return __webpack_require__(99)(module)
             .then(function (module) { return module[exportName]; })
             .then(function (type) { return checkNotEmpty(type, module, exportName); })
             .then(function (type) { return _this._compiler.compileModuleAsync(type); });
@@ -6168,7 +6168,7 @@ var SystemJsNgModuleLoader = (function () {
             exportName = 'default';
             factoryClassSuffix = '';
         }
-        return __webpack_require__(98)(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
+        return __webpack_require__(99)(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
             .then(function (module) { return module[exportName + factoryClassSuffix]; })
             .then(function (factory) { return checkNotEmpty(factory, module, exportName); });
     };
@@ -15202,7 +15202,7 @@ function requestIonicCallback(functionToLazy) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_dom__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__query_params__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__query_params__ = __webpack_require__(228);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Platform; });
 /* harmony export (immutable) */ __webpack_exports__["b"] = setupPlatform;
@@ -17351,9 +17351,9 @@ var /** @type {?} */ DEFAULT_CSS_CLASS = 'ion-page';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_nav_util__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__menu_controller__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transitions_transition_ios__ = __webpack_require__(229);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__transitions_transition_md__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__transitions_transition_wp__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transitions_transition_ios__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__transitions_transition_md__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__transitions_transition_wp__ = __webpack_require__(232);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return App; });
 
 
@@ -19789,7 +19789,7 @@ var /** @type {?} */ ANIMATION_TRANSITION_END_FALLBACK_PADDING_MS = 400;
 "use strict";
 
 var root_1 = __webpack_require__(30);
-var toSubscriber_1 = __webpack_require__(258);
+var toSubscriber_1 = __webpack_require__(259);
 var observable_1 = __webpack_require__(186);
 /**
  * A representation of any set of values over any amount of time. This the most basic building block
@@ -20199,11 +20199,11 @@ var /** @type {?} */ CLS = {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__ = __webpack_require__(245);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(27);
 /* unused harmony export AbstractControlDirective */
@@ -26889,10 +26889,10 @@ function NavParams_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_form__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_icon__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_icon__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__label_label__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__item_reorder__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__label_label__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__item_reorder__ = __webpack_require__(61);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Item; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -35348,10 +35348,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isFunction_1 = __webpack_require__(97);
+var isFunction_1 = __webpack_require__(98);
 var Subscription_1 = __webpack_require__(36);
 var Observer_1 = __webpack_require__(183);
-var rxSubscriber_1 = __webpack_require__(94);
+var rxSubscriber_1 = __webpack_require__(95);
 /**
  * Implements the {@link Observer} interface and extends the
  * {@link Subscription} class. While the {@link Observer} is the public API for
@@ -36972,12 +36972,12 @@ function Haptic_tsickle_Closure_declarations() {
 
 "use strict";
 
-var isArray_1 = __webpack_require__(96);
+var isArray_1 = __webpack_require__(97);
 var isObject_1 = __webpack_require__(187);
-var isFunction_1 = __webpack_require__(97);
+var isFunction_1 = __webpack_require__(98);
 var tryCatch_1 = __webpack_require__(190);
-var errorObject_1 = __webpack_require__(95);
-var UnsubscriptionError_1 = __webpack_require__(256);
+var errorObject_1 = __webpack_require__(96);
+var UnsubscriptionError_1 = __webpack_require__(257);
 /**
  * Represents a disposable resource, such as the execution of an Observable. A
  * Subscription has one important method, `unsubscribe`, that takes no argument
@@ -41311,7 +41311,7 @@ function FabButton_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_classes__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_classes__ = __webpack_require__(82);
 /* harmony export (immutable) */ __webpack_exports__["a"] = updateActiveIndex;
 /* harmony export (immutable) */ __webpack_exports__["b"] = updateRealIndex;
 
@@ -41448,13 +41448,13 @@ function updateSlidesProgress(s, translate) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_classes__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_classes__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_parallax__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_index__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_effects__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swiper_pagination__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_effects__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swiper_pagination__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_zoom__ = __webpack_require__(153);
 /* harmony export (immutable) */ __webpack_exports__["a"] = initSwiper;
 /* harmony export (immutable) */ __webpack_exports__["f"] = startAutoplay;
@@ -42587,7 +42587,7 @@ function Toolbar_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__recognizers__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__recognizers__ = __webpack_require__(224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ui_event_manager__ = __webpack_require__(20);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PanGesture; });
@@ -42831,27 +42831,27 @@ function PanGesture_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__ = __webpack_require__(53);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_app_menu_controller__ = __webpack_require__(23);
 /* unused harmony reexport MenuController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_action_sheet_action_sheet__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_action_sheet_action_sheet__ = __webpack_require__(50);
 /* unused harmony reexport ActionSheet */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_action_sheet_action_sheet_controller__ = __webpack_require__(104);
 /* unused harmony reexport ActionSheetController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_action_sheet_component__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_action_sheet_component__ = __webpack_require__(49);
 /* unused harmony reexport ActionSheetCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_alert_alert__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_alert_alert__ = __webpack_require__(52);
 /* unused harmony reexport Alert */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_alert_alert_controller__ = __webpack_require__(105);
 /* unused harmony reexport AlertController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_alert_alert_component__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_alert_alert_component__ = __webpack_require__(51);
 /* unused harmony reexport AlertCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_app_app__ = __webpack_require__(6);
 /* unused harmony reexport App */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_avatar_avatar__ = __webpack_require__(107);
 /* unused harmony reexport Avatar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_backdrop_backdrop__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_backdrop_backdrop__ = __webpack_require__(54);
 /* unused harmony reexport Backdrop */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_badge_badge__ = __webpack_require__(108);
 /* unused harmony reexport Badge */
@@ -42877,7 +42877,7 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport FabButton */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_fab_fab_container__ = __webpack_require__(116);
 /* unused harmony reexport FabContainer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_fab_fab_list__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_fab_fab_list__ = __webpack_require__(55);
 /* unused harmony reexport FabList */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_grid_col__ = __webpack_require__(117);
 /* unused harmony reexport Col */
@@ -42887,11 +42887,11 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport Row */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_ion__ = __webpack_require__(4);
 /* unused harmony reexport Ion */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_icon_icon__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_icon_icon__ = __webpack_require__(56);
 /* unused harmony reexport Icon */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_img_img__ = __webpack_require__(120);
 /* unused harmony reexport Img */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_infinite_scroll_infinite_scroll__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_infinite_scroll_infinite_scroll__ = __webpack_require__(57);
 /* unused harmony reexport InfiniteScroll */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(121);
 /* unused harmony reexport InfiniteScrollContent */
@@ -42905,25 +42905,25 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport ItemDivider */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_item_item_group__ = __webpack_require__(125);
 /* unused harmony reexport ItemGroup */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_item_item_options__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_item_item_options__ = __webpack_require__(60);
 /* unused harmony reexport ItemOptions */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_item_item_reorder__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_item_item_reorder__ = __webpack_require__(61);
 /* unused harmony reexport ItemReorder */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_item_item_sliding__ = __webpack_require__(127);
 /* unused harmony reexport ItemSliding */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_item_reorder__ = __webpack_require__(128);
 /* unused harmony reexport Reorder */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_label_label__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_label_label__ = __webpack_require__(62);
 /* unused harmony reexport Label */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_list_list__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_list_list__ = __webpack_require__(64);
 /* unused harmony reexport List */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_list_list_header__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_list_list_header__ = __webpack_require__(63);
 /* unused harmony reexport ListHeader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_loading_loading__ = __webpack_require__(130);
 /* unused harmony reexport Loading */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__ = __webpack_require__(129);
 /* unused harmony reexport LoadingController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(65);
 /* unused harmony reexport LoadingCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_menu_menu__ = __webpack_require__(133);
 /* unused harmony reexport Menu */
@@ -42931,55 +42931,55 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport MenuClose */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_menu_menu_toggle__ = __webpack_require__(132);
 /* unused harmony reexport MenuToggle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_menu_menu_types__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_menu_menu_types__ = __webpack_require__(208);
 /* unused harmony reexport MenuType */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_modal_modal__ = __webpack_require__(135);
 /* unused harmony reexport Modal */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(66);
 /* unused harmony reexport ModalCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_modal_modal_controller__ = __webpack_require__(134);
 /* unused harmony reexport ModalController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(69);
 /* unused harmony reexport Nav */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_nav_nav_pop__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_nav_nav_pop__ = __webpack_require__(67);
 /* unused harmony reexport NavPop */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_nav_nav_pop_anchor__ = __webpack_require__(136);
 /* unused harmony reexport NavPopAnchor */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_nav_nav_push__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_nav_nav_push__ = __webpack_require__(68);
 /* unused harmony reexport NavPush */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_nav_nav_push_anchor__ = __webpack_require__(137);
 /* unused harmony reexport NavPushAnchor */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_input_native_input__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_input_native_input__ = __webpack_require__(58);
 /* unused harmony reexport NativeInput */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_input_next_input__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_input_next_input__ = __webpack_require__(59);
 /* unused harmony reexport NextInput */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_note_note__ = __webpack_require__(138);
 /* unused harmony reexport Note */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_option_option__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_option_option__ = __webpack_require__(70);
 /* unused harmony reexport Option */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_picker_picker__ = __webpack_require__(139);
 /* unused harmony reexport Picker */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_picker_picker_component__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_picker_picker_component__ = __webpack_require__(72);
 /* unused harmony reexport PickerCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_picker_picker_column__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_picker_picker_column__ = __webpack_require__(71);
 /* unused harmony reexport PickerColumnCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_picker_picker_controller__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_picker_picker_controller__ = __webpack_require__(73);
 /* unused harmony reexport PickerController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_popover_popover__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_popover_popover__ = __webpack_require__(75);
 /* unused harmony reexport Popover */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_popover_popover_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_popover_popover_component__ = __webpack_require__(74);
 /* unused harmony reexport PopoverCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_popover_popover_controller__ = __webpack_require__(140);
 /* unused harmony reexport PopoverController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_radio_radio_button__ = __webpack_require__(141);
 /* unused harmony reexport RadioButton */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_radio_radio_group__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_radio_radio_group__ = __webpack_require__(76);
 /* unused harmony reexport RadioGroup */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__components_range_range__ = __webpack_require__(143);
 /* unused harmony reexport Range */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_range_range_knob__ = __webpack_require__(142);
 /* unused harmony reexport RangeKnob */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_refresher_refresher__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_refresher_refresher__ = __webpack_require__(77);
 /* unused harmony reexport Refresher */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_refresher_refresher_content__ = __webpack_require__(144);
 /* unused harmony reexport RefresherContent */
@@ -42989,21 +42989,21 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport Searchbar */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_segment_segment__ = __webpack_require__(147);
 /* unused harmony reexport Segment */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_segment_segment_button__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_segment_segment_button__ = __webpack_require__(78);
 /* unused harmony reexport SegmentButton */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_select_select__ = __webpack_require__(148);
 /* unused harmony reexport Select */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_select_select_popover_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_select_select_popover_component__ = __webpack_require__(79);
 /* unused harmony reexport SelectPopover */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_show_hide_when_show_when__ = __webpack_require__(150);
 /* unused harmony reexport ShowWhen */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_show_hide_when_display_when__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_show_hide_when_display_when__ = __webpack_require__(80);
 /* unused harmony reexport DisplayWhen */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__components_show_hide_when_hide_when__ = __webpack_require__(149);
 /* unused harmony reexport HideWhen */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_slides_slide__ = __webpack_require__(151);
 /* unused harmony reexport Slide */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_slides_slides__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_slides_slides__ = __webpack_require__(81);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_86__components_slides_slides__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__components_spinner_spinner__ = __webpack_require__(154);
 /* unused harmony reexport Spinner */
@@ -43014,13 +43014,13 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport Tab */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__components_tabs_tab_button__ = __webpack_require__(155);
 /* unused harmony reexport TabButton */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_tabs_tab_highlight__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_tabs_tab_highlight__ = __webpack_require__(86);
 /* unused harmony reexport TabHighlight */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_tabs_tabs__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_tabs_tabs__ = __webpack_require__(87);
 /* unused harmony reexport Tabs */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_toast_toast__ = __webpack_require__(159);
 /* unused harmony reexport Toast */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_toast_toast_component__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_toast_toast_component__ = __webpack_require__(88);
 /* unused harmony reexport ToastCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_toast_toast_controller__ = __webpack_require__(158);
 /* unused harmony reexport ToastController */
@@ -43042,11 +43042,11 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport Thumbnail */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_104__components_typography_typography__ = __webpack_require__(166);
 /* unused harmony reexport Typography */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_virtual_scroll_virtual_footer__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_virtual_scroll_virtual_footer__ = __webpack_require__(89);
 /* unused harmony reexport VirtualFooter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_virtual_scroll_virtual_header__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_virtual_scroll_virtual_header__ = __webpack_require__(90);
 /* unused harmony reexport VirtualHeader */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_virtual_scroll_virtual_item__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_virtual_scroll_virtual_item__ = __webpack_require__(91);
 /* unused harmony reexport VirtualItem */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_virtual_scroll_virtual_scroll__ = __webpack_require__(167);
 /* unused harmony reexport VirtualScroll */
@@ -43063,7 +43063,7 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport Haptic */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_113__navigation_deep_linker__ = __webpack_require__(14);
 /* unused harmony reexport DeepLinker */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__navigation_ionic_page__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__navigation_ionic_page__ = __webpack_require__(226);
 /* unused harmony reexport IonicPage */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_115__navigation_nav_controller__ = __webpack_require__(19);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_115__navigation_nav_controller__["a"]; });
@@ -43085,9 +43085,9 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport ViewController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_122__gestures_pan_gesture__ = __webpack_require__(43);
 /* unused harmony reexport PanGesture */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_123__gestures_gesture__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_123__gestures_gesture__ = __webpack_require__(222);
 /* unused harmony reexport Gesture */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_124__gestures_slide_edge_gesture__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_124__gestures_slide_edge_gesture__ = __webpack_require__(92);
 /* unused harmony reexport SlideEdgeGesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_125__gestures_slide_gesture__ = __webpack_require__(171);
 /* unused harmony reexport SlideGesture */
@@ -43105,7 +43105,7 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport Events */
 /* unused harmony reexport setupEvents */
 /* unused harmony reexport setupProvideEvents */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_128__util_ionic_error_handler__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_128__util_ionic_error_handler__ = __webpack_require__(234);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_128__util_ionic_error_handler__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_129__platform_keyboard__ = __webpack_require__(24);
 /* unused harmony reexport Keyboard */
@@ -43128,7 +43128,7 @@ function PanGesture_tsickle_Closure_declarations() {
 /* unused harmony reexport registerModeConfigs */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_137__gestures_gesture_config__ = __webpack_require__(169);
 /* unused harmony reexport IonicGestureConfig */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_138__module__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_138__module__ = __webpack_require__(225);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_138__module__["a"]; });
 /* unused harmony reexport IonicPageModule */
 /* unused harmony reexport provideLocationStrategy */
@@ -43291,7 +43291,7 @@ function PanGesture_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__nav_controller__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nav_params__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swipe_back__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swipe_back__ = __webpack_require__(227);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavControllerBase; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -44764,6 +44764,27 @@ function TransitionController_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(101);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__decorators__ = __webpack_require__(198);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(48);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__ = __webpack_require__(199);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__["a"]; });
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* unused harmony export get */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return getPromise; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return getPlugin; });
@@ -44837,7 +44858,7 @@ var cordovaWarn = function (pluginName, method) {
 //# sourceMappingURL=util.js.map
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45088,12 +45109,12 @@ var /** @type {?} */ actionSheetIds = -1;
 //# sourceMappingURL=action-sheet-component.js.map
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheet; });
@@ -45190,7 +45211,7 @@ function ActionSheet_tsickle_Closure_declarations() {
 //# sourceMappingURL=action-sheet.js.map
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45594,12 +45615,12 @@ var /** @type {?} */ alertIds = -1;
 //# sourceMappingURL=alert-component.js.map
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert_component__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert_transitions__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert_component__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert_transitions__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Alert; });
@@ -45729,7 +45750,7 @@ function Alert_tsickle_Closure_declarations() {
 //# sourceMappingURL=alert.js.map
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45976,7 +45997,7 @@ function IonicApp_tsickle_Closure_declarations() {
 //# sourceMappingURL=app-root.js.map
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46045,7 +46066,7 @@ function Backdrop_tsickle_Closure_declarations() {
 //# sourceMappingURL=backdrop.js.map
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46196,7 +46217,7 @@ function FabList_tsickle_Closure_declarations() {
 //# sourceMappingURL=fab-list.js.map
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46497,7 +46518,7 @@ function Icon_tsickle_Closure_declarations() {
 //# sourceMappingURL=icon.js.map
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46989,7 +47010,7 @@ var /** @type {?} */ POSITION_BOTTOM = 'bottom';
 //# sourceMappingURL=infinite-scroll.js.map
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47328,7 +47349,7 @@ function removeClone(plt, srcNativeInputEle) {
 //# sourceMappingURL=native-input.js.map
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47381,7 +47402,7 @@ function NextInput_tsickle_Closure_declarations() {
 //# sourceMappingURL=next-input.js.map
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47488,7 +47509,7 @@ function ItemOptions_tsickle_Closure_declarations() {
 //# sourceMappingURL=item-options.js.map
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47496,7 +47517,7 @@ function ItemOptions_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_content__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_platform__ = __webpack_require__(3);
 /* unused harmony export ReorderIndexes */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemReorder; });
@@ -47898,7 +47919,7 @@ function ItemReorder_tsickle_Closure_declarations() {
 //# sourceMappingURL=item-reorder.js.map
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48059,7 +48080,7 @@ function Label_tsickle_Closure_declarations() {
 //# sourceMappingURL=label.js.map
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48145,7 +48166,7 @@ function ListHeader_tsickle_Closure_declarations() {
 //# sourceMappingURL=list-header.js.map
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48155,7 +48176,7 @@ function ListHeader_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return List; });
 var __extends = (this && this.__extends) || (function () {
@@ -48335,7 +48356,7 @@ function List_tsickle_Closure_declarations() {
 //# sourceMappingURL=list.js.map
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48499,7 +48520,7 @@ var /** @type {?} */ loadingIds = -1;
 //# sourceMappingURL=loading-component.js.map
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48508,7 +48529,7 @@ var /** @type {?} */ loadingIds = -1;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navigation_nav_params__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_module_loader__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_module_loader__ = __webpack_require__(93);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalCmp; });
 
 
@@ -48685,7 +48706,7 @@ function ModalCmp_tsickle_Closure_declarations() {
 //# sourceMappingURL=modal-component.js.map
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48771,7 +48792,7 @@ function NavPop_tsickle_Closure_declarations() {
 //# sourceMappingURL=nav-pop.js.map
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48889,7 +48910,7 @@ function NavPush_tsickle_Closure_declarations() {
 //# sourceMappingURL=nav-push.js.map
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49148,7 +49169,7 @@ function Nav_tsickle_Closure_declarations() {
 //# sourceMappingURL=nav.js.map
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49292,7 +49313,7 @@ function Option_tsickle_Closure_declarations() {
 //# sourceMappingURL=option.js.map
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49301,7 +49322,7 @@ function Option_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tap_click_haptic__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__picker_options__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__picker_options__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_dom__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__gestures_ui_event_manager__ = __webpack_require__(20);
@@ -49787,7 +49808,7 @@ function PickerColumnCmp_tsickle_Closure_declarations() {
 //# sourceMappingURL=picker-column.js.map
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49799,7 +49820,7 @@ function PickerColumnCmp_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__picker_column__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__picker_column__ = __webpack_require__(71);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerCmp; });
 
 
@@ -50078,7 +50099,7 @@ var /** @type {?} */ pickerIds = -1;
 //# sourceMappingURL=picker-component.js.map
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50144,7 +50165,7 @@ function PickerController_tsickle_Closure_declarations() {
 //# sourceMappingURL=picker-controller.js.map
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50155,7 +50176,7 @@ function PickerController_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_view_controller__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_module_loader__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_module_loader__ = __webpack_require__(93);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverCmp; });
 
 
@@ -50349,12 +50370,12 @@ var /** @type {?} */ popoverIds = -1;
 //# sourceMappingURL=popover-component.js.map
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navigation_overlay_proxy__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_impl__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_impl__ = __webpack_require__(213);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Popover; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -50409,13 +50430,13 @@ function Popover_tsickle_Closure_declarations() {
 //# sourceMappingURL=popover.js.map
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_list_header__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_list_header__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioGroup; });
 
@@ -50759,7 +50780,7 @@ var /** @type {?} */ radioGroupIds = -1;
 //# sourceMappingURL=radio-group.js.map
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51408,7 +51429,7 @@ var /** @type {?} */ STATE_COMPLETING = 'completing';
 //# sourceMappingURL=refresher.js.map
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51555,7 +51576,7 @@ function SegmentButton_tsickle_Closure_declarations() {
 //# sourceMappingURL=segment-button.js.map
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51639,7 +51660,7 @@ function SelectPopover_tsickle_Closure_declarations() {
 //# sourceMappingURL=select-popover-component.js.map
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51714,20 +51735,20 @@ function DisplayWhen_tsickle_Closure_declarations() {
 //# sourceMappingURL=display-when.js.map
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_swiper_keyboard__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_swiper_keyboard__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_swiper_events__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_swiper_events__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_swiper_zoom__ = __webpack_require__(153);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_swiper__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__swiper_swiper_effects__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__swiper_swiper_effects__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slides; });
 var __extends = (this && this.__extends) || (function () {
@@ -53502,13 +53523,13 @@ var /** @type {?} */ slidesId = -1;
 //# sourceMappingURL=slides.js.map
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_a11y__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_a11y__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_pagination__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_pagination__ = __webpack_require__(84);
 /* harmony export (immutable) */ __webpack_exports__["a"] = updateClasses;
 
 
@@ -53600,7 +53621,7 @@ function updateClasses(s) {
 //# sourceMappingURL=swiper-classes.js.map
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53904,7 +53925,7 @@ var /** @type {?} */ SWIPER_EFFECTS = {
 //# sourceMappingURL=swiper-effects.js.map
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54006,7 +54027,7 @@ function updatePaginationClasses(s) {
 //# sourceMappingURL=swiper-pagination.js.map
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54014,8 +54035,8 @@ function updatePaginationClasses(s) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_parallax__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_index__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_controller__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_effects__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_controller__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_effects__ = __webpack_require__(83);
 /* harmony export (immutable) */ __webpack_exports__["a"] = setWrapperTranslate;
 /* harmony export (immutable) */ __webpack_exports__["c"] = getTranslate;
 /* harmony export (immutable) */ __webpack_exports__["d"] = getWrapperTranslate;
@@ -54178,7 +54199,7 @@ function setWrapperTransition(s, plt, duration, byController) {
 //# sourceMappingURL=swiper-transition.js.map
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54254,7 +54275,7 @@ function TabHighlight_tsickle_Closure_declarations() {
 //# sourceMappingURL=tab-highlight.js.map
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54268,7 +54289,7 @@ function TabHighlight_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_util__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__split_pane_split_pane__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tab_highlight__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tab_highlight__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tabs; });
 var __extends = (this && this.__extends) || (function () {
@@ -54938,7 +54959,7 @@ var /** @type {?} */ tabIds = -1;
 //# sourceMappingURL=tabs.js.map
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55089,7 +55110,7 @@ var /** @type {?} */ toastIds = -1;
 //# sourceMappingURL=toast-component.js.map
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55132,7 +55153,7 @@ function VirtualFooter_tsickle_Closure_declarations() {
 //# sourceMappingURL=virtual-footer.js.map
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55175,7 +55196,7 @@ function VirtualHeader_tsickle_Closure_declarations() {
 //# sourceMappingURL=virtual-header.js.map
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55223,7 +55244,7 @@ function VirtualItem_tsickle_Closure_declarations() {
 //# sourceMappingURL=virtual-item.js.map
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55333,7 +55354,7 @@ function SlideEdgeGesture_tsickle_Closure_declarations() {
 //# sourceMappingURL=slide-edge-gesture.js.map
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55487,7 +55508,7 @@ function setupPreloading(config, deepLinkConfig, moduleLoader, ngZone) {
 //# sourceMappingURL=module-loader.js.map
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55500,9 +55521,9 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Observable_1 = __webpack_require__(11);
 var Subscriber_1 = __webpack_require__(29);
 var Subscription_1 = __webpack_require__(36);
-var ObjectUnsubscribedError_1 = __webpack_require__(255);
-var SubjectSubscription_1 = __webpack_require__(235);
-var rxSubscriber_1 = __webpack_require__(94);
+var ObjectUnsubscribedError_1 = __webpack_require__(256);
+var SubjectSubscription_1 = __webpack_require__(236);
+var rxSubscriber_1 = __webpack_require__(95);
 /**
  * @class SubjectSubscriber<T>
  */
@@ -55661,7 +55682,7 @@ exports.AnonymousSubject = AnonymousSubject;
 //# sourceMappingURL=Subject.js.map
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55673,7 +55694,7 @@ exports.$$rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 
 //# sourceMappingURL=rxSubscriber.js.map
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55683,7 +55704,7 @@ exports.errorObject = { e: {} };
 //# sourceMappingURL=errorObject.js.map
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55692,7 +55713,7 @@ exports.isArray = Array.isArray || (function (x) { return x && typeof x.length =
 //# sourceMappingURL=isArray.js.map
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55704,7 +55725,7 @@ exports.isFunction = isFunction;
 //# sourceMappingURL=isFunction.js.map
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -55713,11 +55734,11 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 98;
+webpackEmptyContext.id = 99;
 
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55767,7 +55788,12 @@ var HomePage = (function () {
             {
                 //title: "Welcome to the Docs!",
                 //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-                image: "assets/img/vt1.png",
+                image: "assets/img/banner-1.jpg",
+            },
+            {
+                //title: "Welcome to the Docs!",
+                //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
+                image: "assets/img/banner-5-2.jpg",
             }
         ];
     }
@@ -55826,7 +55852,7 @@ var HomePage = (function () {
         else {
             this.hideVT();
             this.showVT = !this.showVT;
-            this.content.scrollToTop();
+            this.content.scrollTo(0, 50);
         }
     };
     HomePage.prototype.goCF = function () {
@@ -55836,7 +55862,7 @@ var HomePage = (function () {
         else {
             this.hideVT();
             this.showCF = !this.showCF;
-            this.content.scrollToTop();
+            this.content.scrollTo(0, 280);
         }
     };
     HomePage.prototype.goL = function () {
@@ -55847,6 +55873,7 @@ var HomePage = (function () {
             this.hideVT();
             this.showL = !this.showL;
             this.content.scrollToTop();
+            this.content.scrollTo(0, 350);
         }
     };
     HomePage.prototype.goH = function () {
@@ -55856,7 +55883,7 @@ var HomePage = (function () {
         else {
             this.hideVT();
             this.showHistoria = !this.showHistoria;
-            this.content.scrollToTop();
+            this.content.scrollTo(0, 420);
         }
     };
     HomePage.prototype.goCaracteristicas = function () {
@@ -55866,7 +55893,7 @@ var HomePage = (function () {
         else {
             this.hideVT();
             this.showCaracteristicas = !this.showCaracteristicas;
-            this.content.scrollToTop();
+            this.content.scrollTo(0, 120);
         }
     };
     HomePage.prototype.goSistema = function () {
@@ -55876,7 +55903,7 @@ var HomePage = (function () {
         else {
             this.hideVT();
             this.showSistema = !this.showSistema;
-            this.content.scrollToTop();
+            this.content.scrollTo(0, 200);
         }
     };
     HomePage.prototype.hideLinaje = function () {
@@ -55929,7 +55956,7 @@ __decorate([
 ], HomePage.prototype, "slides", void 0);
 HomePage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/codigo/Documents/workspace-wingchun/wingchun/src/pages/home/home.html"*/'<ion-content>\n\n      <header>\n\n    <div class="contenedor" id="logo">\n\n      <input type="checkbox" id="menu-bar" (click)="setMenu()">\n\n      <label for="menu-bar">\n\n      <div class="menu-btn">\n\n      	<div id="line-1" class="line"></div>\n\n        <div id="line-2" class="line"></div>\n\n        <div id="line-3" class="line"></div>\n\n      </div>      \n\n      </label>\n\n      <h2 id="pageName">{{activePage!=\'Inicio\' ? activePage : \'Yip Man Foshan Ving Tsun\'}}</h2>\n\n      <nav class="menu" id="menu">\n\n\n\n        <div  id="logoWC">\n\n                <ion-item>\n\n                    <ion-avatar item-start>\n\n                      <img src="assets/img/logoWC.jpg"/>\n\n                    </ion-avatar>\n\n                Yip Man Foshan<br/>Ving Tsun\n\n                </ion-item>        \n\n        </div>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showStart}" clear id="primerBtn" (click)="goHome()"><div class="linea"></div>Inicio</button>\n\n		<button ion-button class="navBtn" [ngClass]="{\'active\' : showVingTsung}" clear (click)="goVT()"><div class="linea"></div>Ving Tsun</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showLinage}" clear (click)="goLinage()"><div class="linea"></div>Linage</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showGaleria}" clear (click)="goGaleria()"><div class="linea"></div>Galeria</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showContacto}" clear (click)="goContacto()"><div class="linea"></div>Contacto</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showAmigos}" clear (click)="goAmigos()"><div class="linea"></div>Amigos</button>\n\n        <ion-fab> \n\n            <button ion-fab><ion-icon name="md-share"></ion-icon></button>\n\n            <ion-fab-list side="right">\n\n              <a ion-fab href="https://www.facebook.com/yipmanvingtsun/"><ion-icon name="logo-facebook"></ion-icon></a>\n\n              <a ion-fab href="https://www.youtube.com/channel/UCbSCyPkCqETToYkP34pXdxA"><ion-icon name="logo-youtube"></ion-icon></a>\n\n              <a ion-fab href="https://www.instagram.com/vingtsunuruguay/"><ion-icon name="logo-instagram"></ion-icon></a>\n\n            </ion-fab-list>\n\n          </ion-fab>        \n\n      </nav> \n\n      <div id="bk" (pan)="hideMenu($event)" (click)="showMenu()"></div>\n\n    </div>\n\n     \n\n  </header>\n\n  <section id="body" [ngClass]="{\'inner-page\' : activePage!=\'Inicio\'}">\n\n    <div *ngIf="showStart" class="divContenido">\n\n      <ion-slides autoplay="5000" loop="true" speed="3000" pager>\n\n        <ion-slide *ngFor="let slide of slides2"> \n\n          <img [src]="slide.image" id="slide-image" /> \n\n        </ion-slide>\n\n      </ion-slides>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col col-md></ion-col>\n\n          \n\n          <ion-col col-12 col-lg-5 text-justify text-md-left text-lg-left text-sm-justify text-xs-justify> \n\n            <h1>Bienvenidos</h1>\n\n            <p>Ving Tsun (Wing Chun) URUGUAY es la primera escuela de Ving Tsun de nuestro país, es dirigida por Sifu Jorge Quiñones quien\n\n              es el introductor del sistema Ving Tsun al Uruguay. Sifu Jorge Quiñones es discípulo directo del Maestro Neldo\n\n              Sacomani representante oficial de la Linea Yip Man Foshan Ving Tsun para Sudamerica. En la actualidad representa\n\n              a la rama Yip Man Foshan Ving Tsun y la Wu Hsing Chuan Athletic Association, posee el sitema COMPLETO y se\n\n              encuentra debidamente certificado y respaldado por su Maestro y la Asociación Wu Hsing Chuan, a su vez se desempeña\n\n              como Presidente de la Asociacion Uruguaya de Artes Marciales Chinas Tradicionales y Director de la escuela\n\n              Ving Tsun (Wing Chun) URUGUAY.</p>\n\n          </ion-col>\n\n          \n\n          <ion-col col-md></ion-col>\n\n          \n\n          <ion-col col-12 col-lg-5 text-justify text-md-left text-lg-left text-sm-justify text-xs-justify>\n\n            <h2>Misión y Vision</h2>\n\n            <p>Nuestra misión comprende la difusión, el desarrollo, y la practica continua y profunda de este sistema de combate.\n\n              A su vez buscamos que todas las personas sin importar su sexo ni condición física, puedan tener acceso a este\n\n              contundente sistema de combate basado en principios físicos, matemáticos y geométricos que sostiene habilidades\n\n              características tales como la sensibilidad táctil, la estructura corporal el posicionamiento, la coordinación\n\n              y un especifico sistema de defensa activa perimetral. Para lograrlo contamos con instructores altamente calificados\n\n              y reconocidos a nivel internacional, y programas de entrenamiento diseñados para obtener un desarrollo progresivo\n\n              de las habilidades que conforman este sistema. Buscamos difundir el sistema Ving Tsun (Wing Chun) Ip Man en todo el territorio\n\n              nacional. Formar Instructores calificados para transmitir el Ving Tsun (Wing Chun) de forma efectiva y tradicional.</p>\n\n          </ion-col>\n\n          \n\n          <ion-col col-md></ion-col>\n\n          <ion-col col-12 col-lg-5 text-justify text-md-left text-lg-left text-sm-justify text-xs-justify>\n\n          <h2>Yip Man Foshan Ving Tsun</h2>\n\n<p>El más alto nivel en defensa personal.</p> \n\n\n\n<p>Estés donde estés puedes recibir formación de primer nivel  bajo la supervisión directa de Sifu Jorge Quiñones (Sistema Completo)</p>\n\n<ul style="list-style-type:disc">\n\n<li>Introductor del Sistema Ving Tsun al Uruguay.</li>\n\n\n\n<li>Tercera generación en línea directa del G.M Yip Man.</li>\n\n\n\n<li>Jefe de Instructores de Wu Hsing Chuan Athletic Association.</li>\n\n \n\n<li>Presidente de la Asociación Uruguaya de Artes Marciales Chinas Tradicionales</li>\n\n</ul>\n\n<p>Eligiendo la modalidad que mejor se adapte a tus necesidades</p>\n\n<ul style="list-style-type:disc">\n\n<li>Clases Regulares</li>\n\n<li>Clases Privadas</li>\n\n<li>Seminarios</li>\n\n<li>Incorporación de Escuelas</li>\n\n<li>Formación de Instructores</li>\n\n<li>Formación de Líderes de Grupo en Latinoamérica.</li>\n\n</ul>\n\n<p>Contáctanos</p>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n      \n\n      <div class="fb-comments" data-href="http://wingchunuy.esy.es/" data-width="100%" data-numposts="5"></div>\n\n																																																																						  \n\n\n\n      <!--<div class="fb-post"  data-href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" data-width="100%" data-show-text="true"><blockquote cite="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" class="fb-xfbml-parse-ignore"><p>HISTORIA DEL Ving Tsun (Wing Chun) La antepasada del sistema Ving Tsun (Wing Chun), la desaparecida se&#xf1;orita Yim Wing Chun, era nativa de la...</p>Posted by <a href="https://www.facebook.com/yipmanvingtsun/">Ving Tsun Uruguay</a> on&nbsp;<a href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0">lunes, 18 de marzo de 2013</a></blockquote></div>  -->\n\n																																																																																																																																																																									\n\n																																																																																											  \n\n										   \n\n										  \n\n\n\n																																																							  \n\n    </div>\n\n   \n\n    <div *ngIf="showVingTsung" class="divContenido vingtsun">\n\n\n\n      \n\n\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col col-12>            \n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showVT}">\n\n            \n\n              <ion-item (click)="goVTDetails()">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showVT}">\n\n                  <img src="assets/img/quees_ico.jpg"class="ico">\n\n                  <img src="assets/img/logoWC.png" class="logo">\n\n                </ion-avatar>\n\n                ¿Que es Ving Tsun?\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content>\n\n              	<img src="assets/img/quees.jpg">\n\n            	<p>El Ving Tsun (Wing Chun) o Ving Tsun es un potente y dinámico sistema de combate proveniente del Sur de China, por lo que\n\n              se encuentra clasificado dentro del Kung Fu como un estilo de boxeo corto, rectilíneo y sureño. Significado\n\n              Ving Tsun (Wing Chun) significa literalmente canto de primavera. Fue llamado de esta forma en honor a la primera sucesora\n\n              del sistema Yim Wing Chun. Este nombre también hace alusión a un eterno proceso cíclico de refinamiento, renovación,\n\n              adaptación y perfección.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>            \n\n            \n\n            \n\n\n\n          </ion-col>\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showCaracteristicas}">\n\n            \n\n              <ion-item (click)="goCaracteristicas();">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showCaracteristicas}">\n\n                  <img src="assets/img/caract_ico.jpg" class="ico">\n\n                  <img src="assets/img/logoWC.png" class="logo">\n\n                </ion-avatar>\n\n                Características\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content>\n\n              	<img src="assets/img/caract.jpg">\n\n            	<p>Sus características de mayor relevancia son los golpes cortos rápidos\n\n              y explosivos, combinados con una guardia cerrada, desplazamientos rápidos utilizando posturas sólidas y reducidas,\n\n              reacciones fulminantes con defensa y ataque simultáneo y la utilización de la estructura corporal, sensibilidad\n\n              táctil, fuerza interior y defensa activa perimetral. <br/><br/>\n\n              <strong>Método</strong><br/><br/> El entrenamiento del Ving Tsun (Wing Chun) esta destinado a\n\n              ayudarnos a comprender un grupo de conceptos de combate y desarrollar habilidades que le brindaran al sistema\n\n              una aprobada efectividad en su aplicación y No al desarrollo de atributos físicos como sucede en la mayoría\n\n              de las Artes Marciales.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>          \n\n          </ion-col>\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showSistema}">\n\n            \n\n              <ion-item (click)="goSistema()">\n\n                <ion-avatar item-start  [ngClass]="{\'zoom\' : showSistema}">\n\n                  <img src="assets/img/sistema_ico.jpg"class="ico">\n\n                  <img src="assets/img/logoWC.png" class="logo">\n\n                </ion-avatar>\n\n                Sistema\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content>\n\n              	<img src="assets/img/sistema.jpg">\n\n            	<p><strong>Formas</strong><br/> El sistema Ving Tsun (Wing Chun) posee seis formas 3 de mano y 3 formas de especialización.\n\n              Las formas son secuencias de movimientos encadenados, en otras artes marciales las formas pretenden ser una\n\n              especie de combate simulado donde se mejora la técnica, en el Ving Tsun (Wing Chun) tienen el objetivo de ayudar a comprender\n\n              en profundidad los conceptos básicos del sistema y desarrollar habilidades tales como la raíz, la coordinación,\n\n              la mecánica corporal, la relajación, la estructura, el desarrollo de la energía y el poder explosivo.<br/><br/> \n\n              <strong>Primera Trilogía</strong><br/> La primera trilogía esta orientada a la introducción del estudiante en el sistema y sus conceptos\n\n              al igual que el desarrollo de las habilidades antes mencionadas. \n\n              <br/><br/><strong>Siu Nim Tao</strong> 小念頭:<br/>Forma de la idea esencial\n\n              <br/><br/><strong>Cham Kiu</strong> 尋橋:<br/>Brazos puente\n\n              <br/><br/><strong>Biu Jee</strong> 標指:<br/>Dedos penetrantes.<br/><br/>\n\n              <strong>Segunda Trilogía</strong><br/> La segunda Trilogía esta compuesta\n\n              por el trabajo en el muñeco de madera y dos formas de armas. Es una etapa superior en donde se busca trabajar\n\n              el más alto refinamiento del sistema. Para acceder al entrenamiento con estos accesorios uno debe haber alcanzado\n\n              los dominios de la primera trilogía del sistema \n\n              <br/><br/><strong>Mok Jan Chong</strong> 木人樁:<br/>Forma con el muñeco de madera \n\n              <br/><br/><strong>Luk Dim Bun Gwan</strong> 六點半棍 :<br/>Bastón de los Seis puntos y medio \n\n              <br/><br/><strong>Bart Cham Dao</strong> 八斬刀 :<br/>Forma con cuchillos de 8 cortes.<br/><br/>\n\n              <strong>Ejercicios complementarios</strong><br/>\n\n              En Ving Tsun (Wing Chun) los niveles se encuentran determinados por las formas y ejercicios complementarios\n\n              diseñados para desarrollar habilidades que las formas no pueden brindarnos y mejora de Factores de Monitorización\n\n              del Sistema, a su ves nos ayudan a poder llevar a la practica lo aprendido en la forma. Existen habilidades\n\n              como la sensibilidad táctil que se desarrollan con ejercicios en pareja, como es el caso de ejercicios LAP\n\n              SAO y CHI SAO para las manos y CHI GERK para las piernas. \n\n              <br/><br/><strong>Lap Sao</strong> \n\n              <br/><br/><strong>Chi Sao</strong> \n\n              <br/><br/><strong>Chi Jerk</strong><br/><br/> \n\n              Por otra parte el desarrollo de la potencia la reacción y el timing se obtienen mediante el trabajo de: \n\n              <br /><br /><strong>Saco de pared</strong>\n\n              <br /><br /><strong>Saco pesado</strong>\n\n              <br /><br /><strong>Focos</strong>\n\n              <br /><br /><strong>Caminatas</strong> \n\n              <br /><br /><strong>Sparring</strong> \n\n              <br /><br />El trabajo de esta serie de ejercicios entrena también las aplicaciones técnicas, los desplazamientos\n\n              y el posicionamiento.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>          \n\n          </ion-col>\n\n\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showCF}">\n\n            \n\n              <ion-item (click)="goCF()">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showCF}">\n\n                  <img src="assets/img/conceptos_ico.jpg" class="ico">\n\n                  <img src="assets/img/logoWC.png" class="logo">\n\n                </ion-avatar>\n\n                Conceptos Fundamentales\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content>\n\n              	<img src="assets/img/conceptos.jpg">\n\n            	<p>\n\n                <strong>Si el camino está libre, avanza</strong>\n\n                <br/><br/>Cuando alguien nos ataca salimos de inmediato a atacarlo. Para que nuestro ataque\n\n              tenga éxito utilizamos un especifico sistema de defensa activa perimetral que consiste en esperar a que nuestro\n\n              oponente invada la distancia de ataque es decir que se encuentre en la distancia propicia para ser alcanzado\n\n              de forma efectiva por nuestros golpes. El Gran Maestro Yip Man tenia un aforismo para describir esta función,\n\n              el decía “Cuando un oponente comienza su ataque, es como si un amigo abriera la puerta de entrada de tu casa,\n\n              tu tienes la obligación de salir a encontrarlo “. En el Ving Tsun (Wing Chun) si un oponente inicia su ataque debemos interceptarlo,\n\n              nosotros debemos trazar un perímetro alrededor nuestro que al momento en que nuestro atacante lo atraviese\n\n              y represente su proximidad una amenaza para nuestra integridad, debemos salir de inmediato a su encuentro.\n\n              Cualquier ataque por muy fuerte que sea siempre será anulado, siempre y cuando nuestra acción intercepte su\n\n              trayectoria en el comienzo del ataque.<br/><br/> \n\n              \n\n              <strong>Si chocas con algo, pégate Si hay contacto con el oponente, mantente adherido a él</strong> \n\n              <br/><br/>\n\n              La adherencia es un principio que se encuentra directamente relacionado al Ving Tsun (Wing Chun) a través\n\n              de la practica del chi sao y el combate, desde el momento que uno ha establecido contacto con nuestro oponente,\n\n              tenemos que pegarnos a él de manera de no dar espacio a que nos contraataque, controlamos sus movimientos,\n\n              presionando sus extremidades contra el, de manera que no pueda generar energía ni desplazarse libremente. En\n\n              el momento en que busque liberarse de nuestra energía nos ira entregando los espacios, para desequilibrar y\n\n              golpear, en conclusión los ataques del Ving Tsun (Wing Chun) una vez que comienzan no terminan hasta que nuestro oponente\n\n              este fuera de combate. <br/><br/>\n\n              <strong>Si su ataque es más fuerte, sede</strong>\n\n              <br/><br/>Siempre que sentimos que nuestro oponente genera una\n\n              presión superior a la podemos contener con facilidad utilizando la estructura corporal o bien nos ataca cedemos.\n\n              El Ving Tsun (Wing Chun) posee un amplio arsenal de defensa que funciona correctamente utilizando el principio de ceder\n\n              ante la fuerza bruta generando un vacío en el punto de presión de nuestro oponente y atacamos directamente\n\n              por los flancos vulnerables de nuestro oponente ocupando la línea central aprovechando las puertas que deja\n\n              abiertas al atacarnos. En ocasiones este principio no solo se ve sustentado por las técnicas defensivas utilizadas\n\n              con este fin sino también por el reposicionamiento. <br/><br/>\n\n              <strong>Si el oponente retrocede, síguelo sin detenerte hasta el fin</strong><br/><br/> \n\n              Cuando el oponente siente el efecto que generan los principios antes explicados, busca retroceder para\n\n              poder recuperar su centro de equilibrio y rearmar su estructura corporal para poder contraatacar, por lo que\n\n              debemos seguirlo indefectiblemente golpeando los espacios abiertos que nos deje hasta que quede fuera de combate.</p>\n\n              <br/><br/>\n\n              <p style="text-align:right;">Auto: Yip Man</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>            \n\n          </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-12>\n\n            \n\n             <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showL}">\n\n            \n\n              <ion-item (click)="goL()">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showL}">\n\n                  <img src="assets/img/filosofia_ico.jpg" class="ico">\n\n                  <img src="assets/img/logoWC.png" class="logo">\n\n                </ion-avatar>\n\n                Filosofía\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content>\n\n              	<img src="assets/img/filosofia.jpg">\n\n            	<p>Este es un tema muy interesante para tratar y debatir, ya que el Ving Tsun (Wing Chun) posee una filosofía propia que extrae distintos conceptos de la trilogía filosófica china conformada por <strong>Budismo Chan</strong>, <strong>Taoísmo</strong> y <strong>Confucionismo</strong>. Esto no debería llamarnos demasiado la atención ya que estas tres corrientes diferenciadas con facilidad en el pasado en la actualidad China se han amalgamado y creado una filosofía popular. A continuación, realizaré una breve reseña sobre las características de cada una de las filosofías para posteriormente estar en condiciones de comprender el origen del Tao del Ving Tsun (Wing Chun). Es importante tener en claro que Tao, significa "camino" o "sendero" (recto o virtuoso) que conduce a la meta. No obstante, cuando en el Taoísmo se refieren al Tao se refieren a una fuerza omnipresente indescriptible, intangible e incontenible cuya forma de comprenderlo no es invadirlo mediante el estudio formal sino vaciarse para poder ser invadido por el. </p>\n\n\n\n<p><strong>Confucionismo</strong><br/><br/>\n\n Los primeros Confucionistas estudiaban los Seis Libros Clásicos y el Ceremonial, que incluían las responsabilidades sociales, el respeto a los ancianos, la práctica de las grandes virtudes humanas. Para él, todo debía funcionar armónicamente mediante “las cinco relaciones sociales” entre el soberano y el súbdito entre un padre y un hijo entre el hermano mayor y el hermano menor entre esposa y esposo entre amigo y amigo Confucio resumió la doctrina de la rectitud en la “frase de oro” del Evangelio, quinientos años antes de que la predicara el Nazareno. En formato positivo: “Haced a los demás lo que queráis que os hagan”. Y en formato también negativo, para explicar, no sólo la rectitud, sino también el altruismo: “No hagáis a los demás lo que no queréis que os hagan”. “Quien se ejercita en la rectitud y el altruismo no está lejos del Tao”. Pero es necesario cambiar para ir adaptándose más y más a ese estilo de ser. “sólo no cambian los grandes sabios y los grandes idiotas”. Propio del hombre es cambiar y adaptarse y, si es a mejor, adquiriendo mayor cultura, la naturaleza humana será más digna de confianza. Se cuenta que cuando estaba cerca su muerte, un discípulo suyo le pidió permiso para orar por el. A lo cual el maestro respondió: “Mi plegaria es mi vida”.</p>\n\n\n\n<p><strong>Taoísmo</strong><br/><br/>\n\nEl Taoísmo establece la existencia de tres fuerzas: una pasiva, otra activa y una tercera, conciliadora. Las dos primeras se oponen y complementan simultáneamente entre sí, es decir que son interdependientes de manera absoluta y funcionan como una unidad. Son el Yin (fuerza pasiva/sutil, femenina, húmeda...) y el Yang (fuerza activa/concreta, masculina, seca...). La tercera fuerza es el Tao, o fuerza superior que las contiene. El significado más antiguo que existe sobre el Tao dice: "Yi Yin, Yi Yang, Zhè Wei Tao", es decir, "un aspecto Yin, un aspecto Yang, eso es tao". "Yang" literalmente significa ladera luminosa (soleada) de la montaña "Yin" ladera oscura (sombría) de la montaña; "Yin" ladera oscura (sombría) de la montaña; entiéndase la idea de montaña como símbolo de "unidad" así, aunque representan dos fuerzas aparentemente opuestas, forman parte de una única naturaleza. La igualdad entre las dos primeras fuerzas entraña la igualdad de sus manifestaciones consideradas en abstracto. Por ello el taoísta no considera superior la vida sobre la muerte, no otorga supremacía a la construcción sobre la destrucción, ni a lo positivo sobre lo negativo, ni a la afirmación sobre la negación. El gran taoísta Lin An define así "el camino de la felicidad": La gran mayoría de las personas que vacía y mal se siente, porque usa las cosas para deleitar su corazón, en lugar de usar su corazón para disfrutar de las cosas. El Tao "es" como el espacio vacío para que se manifieste el todo. "Existía antes del Cielo y de la Tierra", no es posible decir de dónde proviene. Es madre de la creación y fuente de todos los seres. El tao engendró la unidad. La unidad dió origen a las dos facetas las cuales dieron el ser a la triada y la triada produjo los diez mil seres. El Tao tampoco es temporal o limitado; Es la fuente primaria cósmica de la que proviene la Creación. Es el principio de todos, la raíz del Cielo y de la Tierra, la "madre" de todas las cosas más, si intentamos definirlo, mirarlo u oírlo, no sería posible el Tao regresa al No-Ser, ahí donde es insondable, inalcanzable y eterno. Todas las cosas bajo el Cielo gozan de lo que es, lo que es surge de lo que no es y retorna al No-Ser, con el que nunca deja de estar ligado. El taoísmo excluye el concepto de ley y lo sustituye por el de orden. Es decir, las cosas son de determinada manera debido a que su posición en un universo en permanente movimiento les confiere una naturaleza que las obliga a ese comportamiento. Tao es el nombre global que se da al orden natural. El objetivo del Tao es enseñar al hombre a integrarse en la naturaleza, enseñarle a fluir, a integrarse en sí mismo en concordancia y armonía. Enseñar a compenetrarse con esta naturaleza y armonía de tal modo que llegue a experimentar en su propio cuerpo sus ritmos vitales. Sintonizándose el cuerpo humano mediante una serie de ejercicios con estos ritmos, ganando así serenidad mental y energía física. A principios del siglo IV a. C. los filósofos chinos escribían sobre el yin y el yang en términos relacionados con la naturaleza. Observando de la perspectiva del Tao, se ve cómo todas las cosas se elevan, se vuelven grandes y luego retornan a su raíz. Vivir y morir es simplemente entrar y salir. Las fuerzas de la mente no tienen poder sobre quien sigue el Tao. El camino del No- Ser lleva a la quietud y la observación, y conduce de lo múltiple al Uno. Para poder recorrer ese camino hace falta preparación interna. Mediante la práctica espiritual, la perseverancia, el recogimiento y el silencio se llega a un estado de relajación que debe ser tan sereno que posibilita la contemplación del Ser interior, el alma, y así se logra ver lo invisible, escuchar lo inaudible, sentir lo inalcanzable. El taoísmo influyó en numerosas áreas del conocimiento como la medicina y ciertas escuelas de meditación, e incluso las Artes Marciales. Al llegar el Buddhismo a China se produjo una muy interesante "síncresis", la interrelación entre el budismo y el taoísmo produjo entre otros efectos la escuela religiosa y filosófica budista Cha\'ang (sintetización de la palabra sánscrita dhyana, que significa: meditación) y , ésta, al pasar a Japón originó el zen. </p>\n\n\n\n<p><strong>Budismo Cha´ang</strong><br/><br/>\n\nEl Budismo Chan es la filosofía que se originó hace 1500 años en el Templo Siu Lam (Shao lin) de China y que hoy se ha convertido en la filosofía general del 90% de las Artes Marciales de nuestro tiempo. Como toda escuela budista, tiene sus orígenes en India. La palabra china Chan , es a su vez una transcripción del término sánscrito dhyāna, traducido normalmente como "meditación". El desarrollo del Zen parte pues de una noción doctrinal en los sutras budistas del mahayana en donde se afirma la preeminencia del cultivo de la meditación como la vía preferente para conseguir la iluminación o estado de sabiduría absoluta. El budismo primigenio observaba una progresión en distintos estados de la meditación que suceden en un cultivo gradual del practicante. En este contexto, el Chan afirmará la existencia de un acceso directo y espontáneo al último y superior de todos ellos - aquel que precede inmediatamente a la experiencia de la iluminación sin necesidad de experimentar los anteriores, mediante vías de acceso espontáneas y que son ajenas a la intelectualización de lo aprendido o a una noción de crecimiento gradual en el perfeccionamiento espiritual. El Chan es la tradición budista de la intuición y la espontaneidad. Estatua a la entrada del monasterio Shaolin de Henan, donde se inició el budismo Chan. Aunque la práctica Zen incluye el estudio de los sūtras y otros textos, el carácter directo e intuitivo de este tipo de tradición budista los sitúa en un segundo plano, se anima al discípulo a mantener su atención en el momento presente, confiando en la sabiduría innata de todo ser humano para realizar todo su potencial. Por lo tanto, este nuevo tipo de budismo se centra en el cultivo de la mente o meditación, cuya traducción china es la palabra Chan. En chino, a esta escuela se la llama directamente "Escuela de meditación" (Escuela del Chan). El resto de escuelas dedicaban buena parte de su tiempo al estudio de textos, ya que consideraban que su lectura entrañaba la acumulación de méritos para el despertar. </p>\n\n\n\n<p><strong>Biografía del Buda</strong><br/><br/>\n\nTa Mo Bodhidharma (en chino: Damó pronunciado Tamó) fue un monje de origen indio, el vigésimo octavo patriarca del budismo y el primer patriarca legendario y fundador la forma de budismo Chán. Proveniente del Sur de la India, llegó a China bajo el reino del emperador Wu del Liang (502-549 d.c). Antes de llegar a China, Boddidharma o Da Mo ya había realizado tres periodos de meditación intensa. Al llegar a China, Da Mo pasó por Guangzhou (Cantón) y después fue a Nanjing (Colina Dorada). Da Mo después de un tiempo decidió dirigirse hacia el norte para encontrar un lugar donde establecerse y comenzar a transmitir su enseñanza. El día que decidió dejar Nanjing y cruzar el río Changjiang (Yangtze o río Azul) para dirigirse al norte, las personas del lugar hicieron, deliberadamente, zarpar todas las naves con la intención de poner a prueba al monje extranjero. Cuando Da Mo llegó al río y observó que no había un solo bote disponible, pero que ambos lados del río se había reunido gran cantidad de personas que habían venido a verlo cruzar. Da Mo intuyendo lo que estaba pasando miró a su alrededor y vio a una anciana que sostenía un junco; Da Mo se acerco a ella y juntando sus manos se inclinó en señal de reverencia y pidió prestado el junco a la señora explicándole que deseaba cruzar el río de 400 metros de ancho. Cuando la mujer le  dió la caña, Da Mo caminó hasta la orilla y colocó el junco en las aguas del Changjiang, puso sus manos juntas, su mente en calma y su mirada dentro de sí, colocó ambos pies en el junco y comenzó a cruzar el enorme río impulsado suavemente por la brisa del sudeste mientras hacia una reverencia despidiéndose de la anciana. Hoy construida frente al salón de los héroes enjoyados hay una tablilla de piedra en la cual esta grabada la figura de un monje; tiene cejas pobladas, ojos grandes, pómulos prominentes, cara afilada, con barba y bigote poblados, grandes aretes en sus oídos, y sus pies descalzos apoyados en un junco, mientras cruza un río. Al llegar a Songshan (la montaña central de China) Da Mo se estableció en Shaolin para iniciar con su enseñanza. Hacia el norte del monasterio a medio camino hacia la montaña de los cinco animales, hay una pequeña cueva, del tamaño de un cuarto pequeño, la cual mira directamente hacia el sol. Al inicio de su vida en Shaolin, Da Mo solía escalar la montaña durante el día y sentarse en la cueva frente a la pared en estado de chana (meditación chan) y durante las tardes bajaba al monasterio a conversar de budismo con los otros monjes. Pero después de un tiempo ya no bajó al monasterio, sino que se quedó sentado frente a la pared, concentrado en lo fundamental. Así pasaron los años, y cuando se cansaba se ponía de pie, y comenzaba a hacer ejercicios, algunos imitando a los movimientos y estrategias de defensa de los animales que observaba a su alrededor, desarrollando lo que después se conocería como Kung Fu Shaolin; una vez que el entumecimiento había desaparecido, volvía a la cueva, se sentaba, se deshacía de todo pensamiento y guardaba silencio. Un hombre puede tolerar meditar durante primavera y otoño, pero en verano, cuando enjambres de mosquitos y todo tipo de insectos lo devoran se convierte en algo intolerable. Había años en los que la cara de Da Mo tenía tantas picaduras que se veía hinchada y deforme; pero el se mantenía inalterable, inmerso en su silencio. La región de Shaolin es muy montañosa, rodeada por valles profundos; en el invierno se pueden escuchar lobos, tigres y panteras. En una ocasión un joven monje subió a la cueva para llevarle algo de comida a Da Mo y encontró a un lobo que apoyando sus patas en los hombros de Da Mo acercaba su hocico jadeante al cuello del maestro; el joven monje grito con todas sus fuerzas, el lobo aulló y salió corriendo mientras Da Mo seguía inmutable. Durante un invierno ventoso y seco, durante el cual el helado aire del norte soplaba por toda la montaña y ni nieve ni lluvia habían caído; el pasto seco prendió en llamas y en poco tiempo toda la montaña estaba envuelta en fuego. Desde el monasterio todos podían ver como el fuego había llegado a la entrada de la cueva, así que varios monjes subieron entre las llamas batallando con el fuerte viento; pero al llegar a la cueva encontraron a Da Mo de cara a la piedra sin señal de movimiento alguno. Da Mo meditó durante un total de nueve años. Se dice que después de tres mil días mirando la pared su sombra se marcó en la piedra y en ésta se puede ver a la figura de un hombre sentado con las piernas cruzadas y las manos al frente juntas en meditación. Después de nueve años de meditación en el lugar la gente comenzó a llamar a la cueva "la cueva de Da Mo". Hoy en día la cueva se puede visitar en el interior del monasterio Shaolin, y frente a ésta se encuentra un arco de piedra en el que en su lado sur se encuentran grabadas las palabras "Mo Xuan Chu" - "El lugar de profundo silencio" frase compuesta por Hu Bin, un oficial del gobierno que vivió durante la dinastía Song; y en el lado norte están grabadas las palabras "Dong Lai Zhao Ji" "La marca del principio del este" escritas por Jin Xi de Yandu, durante la dinastía Ming. Afuera de la cueva, en la pared oeste está escrito un poema de cuatro versos escrito durante la dinastía Ming por Su Minwang de Changdan que dice: \'"¿Quién puede dominar la gran sabiduría del oeste? Nueve años de entrenamiento en la montaña de cinco animales. Si el verdadero entendimiento se puede alcanzar en el mundo de los hombres. Entonces es Da Mo quien ha alcanzado ese fin." En sus últimos años a pesar de estar enfermo visito el monasterio de Qianwang en LUOYANG para realizar una ceremonia budista. Cuando Da Mo dejó este mundo, los otros monjes en el monasterio Shaolin, como una manera de recordarlo retiraron la piedra de la pared donde solía meditar. Esta roca ahora se encuentra dentro del monasterio para que todos puedan admirarla. El famoso poeta XiaoYuanji, compuso, en memoria de la piedra, un poema que dice: "Una piedra en Shaolin, todos dicen que es un hombre. Claramente es un hombre, claramente es una piedra. ¿Qué piedra? La piedra de meditación. ¿Qué hombre? El hombre meditativo. El Buda meditativo, hijo de un rey, sentado por nueve años. Hecho del buda, un cuerpo vacío, el cuerpo impreso en el espíritu de la roca. La forma de la roca por siempre controlando el destino de la escuela Shaolin." </p>\n\n\n\n<p><strong>El Tao del Ving Tsun (Wing Chun)</strong><br/><br/>\n\nComo podemos apreciar luego de dar rienda suelta a este interesante paseo filosófico muchos de los componentes de estas filosofas se encuentran amalgamados en silencio dentro del Tao del Ving Tsun (Wing Chun). El Ving Tsun (Wing Chun) adoptó la forma de realcionamiento jerárquico familiar del Confucionismo al igual que las normas morales (Wude), y los ritos a los ancestros. La relación Sitó que debe llevarse a cabo entre los hijos y los padres marciales Sifu maestro y Todai Estudiantes y los hermanos mayores y hermanos menores Sihing y Sidai practicantes más viejos y más nuevos. La graduación en Ving Tsun básicamente se rige por lugares familiares y a los clanes dentro del Ving Tsun se les llaman familias. El verdadero Ving Tsun sólo puede ser practicado a través de la Vida-Kung Fu.En Chino llamada de “Sam Fa”. Sam Fa es el desarrollo que se logra a través del realcionamiento con todos los miembros de la Familia Kung Fu, que incluyen al maestro, los condiscípulos (hermanos Kung Fu) y al propio practicante. Es una forma de convivencia que no se limita solo al Mo-Gun lugar de practica, sino también fuera de ella. La Vida-Kung Fu, nos brinda la posibilidad de aplicar los principios del Sistema en todos los ámbitos de su vida. Esta forma de relacionamiento familiar ayuda a que el estudiante capte la esencia del Ving Tsun (Wing Chun) de forma natural y espontánea. Por otra parte el código moral Wu De es una simplificación de los códigos morales extraídos del Confucionismo, es una guía para aquellos estudiantes que carecen de una comprensión ética y la moral elevada y deben reencausarse mediante el estudio de las mismas, cuando el orden no es natural el confucionismo lo recupera por medio de reglas de comportamiento. Código Moral del Ving Tsun (Wing Chun) "Sé disciplinado – condúcete éticamente como artista marcial". "Practica la cortesía y la rectitud/justicia – sirve a la sociedad y respeta a tus mayores". "Ama a tus estudiantes – estad unidos y evitad los conflictos". "Limita tus deseos y la búsqueda de placeres corporales – preserva el espíritu verdadero". "Entrena diligentemente – mantén tu destreza". "Aprende a desarrollar la tranquilidad espiritual – abstente de discusiones y disputas". "Participa en la sociedad – sé moderado y gentil en tus maneras". "Ayuda al débil y al más joven – usa las técnicas marciales para el bien de la humanidad". "Transmite la tradición – preserva este arte chino y las reglas de conducta". La influencia del Taoísmo se hace presente en la técnica del sistema, vive en silencio en cada movimiento, en cada concepto. Tomar siempre el camino de menor resistencia, utilizar los opuestos complementarios, si mi oponente es más fuerte sedo, si el camino está libre, ataco, me adapto de forma natural y continua a cada movimiento que realiza mi adversario, no lucho contra mi oponente sino con mi oponente me mantengo vacío y en calma, si se mueve, me muevo, no pienso en lo que voy a hacer, fluyo como el agua y reacciono naturalmente. El sistema no es rígido ni estático, se adapta a las virtudes naturales de cada practicante. Gran parte de estos principios los puedo aplicar para resolver conflictos del diario vivir lo que los convierte en una filosofía practica. Origen Budista El sistema Ving Tsun tiene sus raíces en el Monasterio Siu Lam (Shao Lin) donde vivió y alcanzó la más alta reputación el Buda Ta Mo este ultimo Influencio las practicas y técnicas del monasterio y por consiguiente el Ving Tsun (Wing Chun) las heredó de forma indirecta. Se pueden ver algunas de estas técnicas meditativas y métodos de respiración propios de las prácticas Budistas Chan dentro de Siu Nim Tao y una serie de ejercicios complementarios llamados Hei Kung destinados a preparar nuestro cuerpo para resistir cierto tipo de exigencias o bien mejorar nuestra salud. Por todas estas connotaciones decimos que el Tao del Ving Tsun es un Tao propio basto y maravilloso que nos alimenta con la filosofía necesaria para un debido desarrollo marcial y familiar aportándonos los componentes necesarios para una vida social y espiritual plena. Cada estudiante posee las herramientas necesarias para llevar a cabo esta evolución si presta atención y busca debajo de lo visible del arte a la silenciosa filosofía del Ving Tsun.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>            \n\n\n\n		  </ion-col>			\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showHistoria}">\n\n            \n\n              <ion-item (click)="goH()">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showHistoria}">\n\n                  <img src="assets/img/historia_ico.jpg" class="ico">\n\n                  <img src="assets/img/logoWC.png" class="logo">\n\n                </ion-avatar>\n\n                Historia del Ving Tsun\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content>\n\n			<img src="assets/img/historia.jpg">\n\n            <p>La antepasada del sistema Ving Tsun (Wing Chun), la desaparecida señorita Yim Wing Chun, era nativa de la provincia de Kwangtung\n\n              en China. Como chica joven, era lista y activa y se destacó por su fuerte personalidad. Estaba prometida al\n\n              señor Leung Bok Chau, un mercante de sal de la provincia de Fukien. Poco tiempo después su madre murió. Su\n\n              padre, Yim Yee, fue acusado de un cargo de falsificación. De modo que su padre se escapó con ella, antes de\n\n              correr el peligro de ser encarcelado. Finalmente se asentó al pie de la montaña Tai Leung, en los limites de\n\n              las provincias de Yunan y Szechwan, en donde aprendieron a vivir como vendedores en una tienda de judías. Fue\n\n              durante el reinado de K´angshi, de la dinastía Ching, cuando los seguidores del estilo Siu Lun, de Kung Fu,\n\n              ganaron una envidiable reputación por su progreso en el arte de la lucha, incluso sus destrezas llegaron a\n\n              comprometer al gobierno Ching, quien decidió borrar la secta y destruir su monasterio, localizado en la montaña\n\n              Shung, en la provincia de Honan, en la China central. Los soldados fueron enviados con orden de destruir el\n\n              monasterio y eliminar la secta. Pero los monjes del monasterio Siu Lam y sus seguidores opusieron una gran\n\n              resistencia y su monasterio quedó sin daño después de una gran lucha. Chan Man Wai, el primer graduado del\n\n              servicio civil del año, fue quien preparó un gran plan con el fin de ganar cierto reconocimiento por el gobierno.\n\n              Creó un plan junto con algunos monjes del templo, especialmente con uno llamado, Ma Ning Yee, quien fue convencido\n\n              de traicionar al resto de sus compañeros prendiendo fuego el monasterio a sus espaldas. De esta manera, el\n\n              templo fue virtualmente quemado; los monjes y discípulos fueron repartidos por diversos sitios. Entre los supervivientes,\n\n              los más destacados fueron la Monja Budista Ng Mui, el Maestro Chi Shin, el Maestro Pak Mei, el Maestro Fung\n\n              To Tak y el Maestro Miu Hi. Todos ellos escaparon y lograron esconderse. La monja budista Ng Mui se refugió\n\n              en el templo de la Grulla Blanca, en la ladera de la montaña Tai Leung, también conocida por montaña Chai Har.\n\n              Fue allí en donde entabló amistad con Yim Yee y su hija Ving Tsun (Wing Chun), de quien habitualmente compraba judías en\n\n              su camino de vuelta del mercado. A la edad de 15 años el pelo de Ving Tsun (Wing Chun) comenzó a rizarse y era costumbre\n\n              de aquellos días que entonces ya estaba lista para el matrimonio. Su belleza atrajo la atención del bruto local,\n\n              quien intentó forzarla para que se casara con él. Los tratos continuos que recibía por parte de aquel bruto\n\n              llegaron a preocupar a ella y a su padre. Las noticias llegaron hasta Ng Mui, quien tuvo pena de Ving Tsun (Wing Chun)\n\n              y decidió tomarla como su discípulo. Ng Mui prometió enseñarle el arte a Ving Tsun (Wing Chun), de forma que fuera capaz\n\n              de repeler a aquel bruto, y después de eso casarse con su prometido. Desde aquel día Ving Tsun (Wing Chun) siguió a Ng\n\n              Mui todos los días para la práctica del Kung Fu. Cuando Ving Tsun (Wing Chun) era capaz de dominar las técnicas que Ng\n\n              Mui le había enseñado, desafió y derrotó a aquel bruto local, quien le había dado ciertos problemas. Después\n\n              Ng Mui dejó a Ving Tsun (Wing Chun) y comenzó con sus variados viajes por el país, solo después de haber hecho prometer\n\n              a Ving Tsun (Wing Chun) que enseñaría el arte para ayudar a los patriotas a restaurar la Dinastía Ching y a derrocar a\n\n              la Dinastía Ming. De lo aquí expuesto, se puede decir que el sistema Ving Tsun fue originado por Ng Mui. Después\n\n              de que Ving Tsun (Wing Chun) se había casado, pasó el arte del estilo a su marido Leung Bok Chau, quien a su vez lo pasó\n\n              a Leung Lan Kwai. Leung Lan Kawai enseñó el arte a Wong Wah Bo, miembro de una "troupe" a bordo de un junco,\n\n              conocido como el "junco rojo". Entre los asociados de Wong Wah Bo, en el Junco Rojo, había uno llamado Leung\n\n              Yee Tei, quien había aprendido la técnica del Palo Largo de "seis puntos y medio" del cocinero del barco. Dio\n\n              la casualidad que el cocinero de aquel barco no era otro que el Maestro Chi Shin del monasterio Siu Lam, que\n\n              había sido quemado en al montaña Shung de la provincia de Honan, como ya se había mencionado. La estrecha amistad\n\n              de Wong Wah Bo con Leung Yee Tei dio como resultado que se pasaran sus mutuos conocimientos en Kung Fu, dando\n\n              como resultado la incorporación de las técnicas del Palo Largo al sistema de Ving Tsun (Wing Chun). Leung Yee Tei enseñó\n\n              el arte del Ving Tsun (Wing Chun) a Leung Jan, un muy conocido físico de la ciudad de Fatsan, en la provincia de Kwangtung,\n\n              quien dominó todos los secretos del arte y alcanzó un alto grado de habilidad. Fue desafiado muchas veces y\n\n              derrotó a todos sus oponentes, por lo que llegó a tener una gran fama. Más tarde pasó sus técnicas al reverendo\n\n              Maestro Chan Wah Shun, de quien mis hermanos mayores en Kung Fu: Ng Siu Lo, Chung So, Chan Yu Min, Lui Yu Chai,\n\n              y yo mismo aprendimos el arte durante las docenas de ańos en que le seguimos. Se puede decir que el arte pasó\n\n              a nosotros en una línea directa de sucesión desde su origen. Estoy escribiendo la historia del Ving Tsun (Wing Chun) Kung\n\n              Fu en memoria respetuosa de mi antepasado. Un hombre que siempre pensaba en el camino del agua cuando la vivía.\n\n              Un hombre al que estoy eternamente agradecido por pasarme los conocimientos y habilidades que poseo hoy día.\n\n              Tomo esta oportunidad para decir que estoy organizando una Asociación de compañerismo de Ving Tsun (Wing Chun), y que me\n\n              gustaría llamar el apoyo de mis antiguos compañeros, y por una buena respuesta de estudiantes y seguidores\n\n              del sistema Ving Tsun (Wing Chun). ¿No es esta la manera de promocionar el Kung Fu, y proyectar la imagen de nuestro país?</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n    </div>\n\n    <div *ngIf="showLinage" class="divContenido">\n\n\n\n       <div>\n\n       <ion-row>\n\n       	<ion-col col-12 text-center style="padding-bottom:0;"> \n\n                <img src="assets/img/ipMan.jpg" [ngClass]="{\'active\' : ipMan, \'linajeImg\': true}" (click)="showIpMan()"/> \n\n                <img src="assets/img/lunKai.jpg" [ngClass]="{\'active\' : lunKai, \'linajeImg\': true}" (click)="showLunKai()" class="linajeImg"/>\n\n                <img src="assets/img/neldo.jpg" [ngClass]="{\'active\' : neldo, \'linajeImg\': true}" (click)="showNeldo()" class="linajeImg"/>\n\n                <img src="assets/img/sifu.jpg" [ngClass]="{\'active\' : sifu, \'linajeImg\': true}" (click)="showSifu()" class="linajeImg"/>\n\n    	</ion-col>\n\n        <ion-col col-12 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1 class="p-col" style="padding-top:0;margin-top: -4px; background-color:#efefef;"> \n\n      <div *ngIf="ipMan" padding>\n\n        <h3>Gran Maestro Yip Man (1894-1972)</h3>\n\n        <p>Yip Man (Ye Wen) -Yip Gai Man (Yi Jiwen)- nació en una familia adinerada de comerciantes, en Foshan en 1894. Comenzó\n\n          aprendiendo el Ving Tsun (Wing Chun) Kuen entre 1906 y 1911 bajo la dirección del Maestro Chan Wah Shun. Luego aprendió con\n\n          su Tío marcial, Leung Bik, puliendo sus habilidades a un nivel muy avanzado. Algunos de los estudiantes de Yip\n\n          Man, sin embargo, mantienen y mencionan que él refinó sus habilidades a través del trabajo duro y la visión personal\n\n          en Foshan. En 1942, bajo la ocupación japonesa Yip Man tomó algunos estudiantes en Yongan, como Chow Ywong Yiu,\n\n          Kwok Fu y Lun Gai (Lun Jie). En noviembre del año 1949, Yip Man huyó del levantamiento comunista en China rumbo\n\n          a Macao. Luego se mudó a Hong Kong dónde, en el año 1950, empezó a enseñar nuevamente el Ving Tsun (Wing Chun) Kuen a los miembros\n\n          de la Unión de Obreros de Restaurantes. Muchos de sus estudiantes, por su naturaleza amistosa y su conducta, lo\n\n          llamaron \'Man Suk\' (el Joven Tío Man) en los primeros años, y con el correr de los años lo llamaban \'Man Gung\'\n\n          (Abuelo Man). Gracias a Yip Man el Ving Tsun (Wing Chun) Kung Fu se extendió alrededor de todo el mundo.</p>\n\n      </div>\n\n      <div *ngIf="lunKai" padding>\n\n        <h3>Gran Maestro Lun Kai (1928-2014)</h3>\n\n        <p>El Gran Maestro Lun Kai nació en Cantón el 6 de noviembre de 1928 y murió el 5 de enero de 2014. Lun Kai junto a\n\n          su amigo Kwok Fu fueron unos de los primeros estudiantes del Gran Maestro Yip Man en Foshan su ciudad natal. Lun\n\n          Kai estudio con el Maestro Yip Man desde los catorce años, el Gran Maestro Yip Man tenía alrededor de cuarenta\n\n          años en este momento. El grupo se reunía por las tardes y estaba formado por ocho estudiantes. Durante la ocupación\n\n          japonesa las clases se llevaron a cabo en forma intensiva y secreta. Se hizo gran hincapié en el estudio de la\n\n          forma Siu Nim Tau y en la práctica de la postura a caballo, mientras que cuando se practicaba Chi Sao el Gran Maestro\n\n          Yip se vendaba los ojos y practicaba con todos los alumnos. El método de enseñanza en este momento se llevaba a\n\n          cabo todas las noches e incluía el estudio de Siu Nim Tao, Chum Kiu, Biu Tze, Mok Yan Jong, Bart Cham Dao, y Luk\n\n          Dim Bun Gwuan. No había ninguna instrucción de cualquier otra forma de entrenar las manos, aparte de Seung Chi\n\n          Sao. Antes de abandonar China, el Gran Maestro Yip Man instruyó a sus estudiantes para que pudieran utilizar el\n\n          Ojo de Fénix método de perforación que Sifu Lun Kai practicó y enseñó a sus discípulos durante muchos años. El\n\n          G.M Lun Kai fue un referente para la difusión del Ving Tsun en la Foshan Chin Woo Athletic Association primera\n\n          Asociación de Artes Marciales Chinas. Lun Kai y su Hermano Mayor Kwok Fu, fueron los asesores del comité del Centro\n\n          de Actividades de Investigación del Ving Tsun Kuen, en lo que refiere a la Línea Yip Man y contaron con el total\n\n          apoyo de la comunidad del Ving Tsun Kuen de Foshan. El Centro de Actividades de Investigación del Ving Tsun Kuen,\n\n          estaba representado y compuesto por todas las líneas del Ving Tsun existentes y oriundas de Foshan. El G.M Lun\n\n          Kai fue el presidente del Club de Boxeo de Ving Tsun de Yip Man de Foshan junto a los Maestros Kwok Fu y Yip Chun\n\n          que lo acompañaron como presidentes honorarios. En Julio del año 2010, las artes marciales originales enseñadas\n\n          por GM LUN KAI Sifu se registraron por primera vez en calidad de Club de Boxeo de Ving Tsun de Yip Man de Foshan\n\n          (Club Cultural de Comunicaciones Co., Ltd). Corregistrado como Asociación Atlética Foshan Yip Man Ving Tsun. El\n\n          G.M Lun Kai enseñó en Foshan de forma tradicional durante toda su vida y pasó el legado del Gran Maestro Yip Man\n\n          a numerosos estudiantes y Discípulos, destacándose entre ellos el Maestro Neldo Sacomani introductor indiscutido\n\n          de esta línea y con el estilo completo en Sudamérica. Fuente: Neldo Sacomani</p>\n\n      </div>\n\n      <div *ngIf="sifu" padding>\n\n        <h3>Sifu Jorge Quiñones</h3>\n\n        <p>Sifu Jorge Quiñones es el introductor del sistema Ving Tsun moderno y tradicional a nuestro país, es el representante\n\n          oficial de la Linea Yip Man Foshan Ving Tsun y la Wu Hsing Chuan Athletic Association. Nacido en Montevideo, Uruguay\n\n          el 6 de Noviembre año 1975 e incursionó tempranamente en las artes marciales practicando Shao Lin Nan Chuan y Tai\n\n          Chi Chuan de la Familia Yang siendo certificado como instructor de ambos estilos. Sifu Jorge practica Ving Tsun\n\n          desde el año 2000 es Discípulo Directo bajo Ceremonia Bai Shi del Maestro Neldo Sacomani con quien aprendio y entreno\n\n          el SISTEMA COMPLETO Yip Man Foshan Ving Tsun, obteniendo el maximo grado de este estilo, siendo debidamente certificado\n\n          y respaldado por su Maestro, la Asociación Internacional Wu Hsing Chuan y la Embajada de la Republica popular China.\n\n          Actualmente se desempeña como: Director de la Academia Ving Tsun (Wing Chun) Uruguay Presidente de la Asociación Uruguaya de\n\n          Artes Marciales Chinas Tradicionales Miembro Activo y Representante Oficial de Wu Hsing Chuan Athletic Association\n\n          Sifu de Wu Hsing Chuan Athletic Association en Argentina</p>\n\n      </div>\n\n      <div *ngIf="neldo" padding>\n\n        <h3>Maestro Neldo Sacomani</h3>\n\n        <p>Sifu NELDO SACOMANI, de reconocida trayectoria en la práctica del Kung Fu es el director de la Escuela Internacional\n\n          WU HSING CHUAN, entidad con base en la ciudad de La Plata, Argentina. Su entrenamiento en las artes marciales clásicas\n\n          del Kung Fu Wu Su empezó en el año 1971. Es presidente de la Asociación de Artes Marciales Chinas Tradicionales\n\n          \'Wu Hsing Chuan\' de Wushu Kung Fu, desde el año 1983. Ha estudiado y desarrollado los estilos: Bak Siu Lam Kune,\n\n          Hung Chia Chuan, Baguazhang, Ving Tsun y Tai ji Quan (Yang Shi - Sun Shi). Estudió con grandes maestros del Kung\n\n          Fu de renombre internacional y no solamente con maestros en wushu sino también con doctores en la medicina tradicional\n\n          china y Chi Kung (Laoshi Dr. Tong Zhi Hua,Hui). Está acreditado como Juez Nacional de Combate y Juez en Formas\n\n          Tradicionales y continúa entrenando todos los años en CHINA. Sifu Neldo Sacomani estudió y entrenó el SISTEMA COMPLETO\n\n          Yip Man Foshan Ving Tsun directamente en la Cuna del Ving Tsun (Cantón/China Continental) con su Maestro, el Sr.\n\n          Lun Kai y con Sr. Kwok Wai Zhang (hijo del Maestro Kwok Fu), ambos, dos de los primeros discípulos del Gran Maestro\n\n          Yip Man en su ciudad natal (Foshan). Neldo Sacomani es el introductor (oficial) de esta línea para Sudamérica,\n\n          debidamente certificado por su Maestro y la Asociación Atlética Ching Wu de Foshan.</p>\n\n      </div>\n\n      	</ion-col>\n\n        </ion-row>\n\n        </div>\n\n\n\n                         \n\n      \n\n    </div>\n\n     <div *ngIf="showContacto" class="divContenido">\n\n      <div id="footer">\n\n\n\n        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.922845481352!2d-56.16552378459932!3d-34.90838568038172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a669514e7d%3A0x93c3df1fb71fe257!2sBulevar+General+Artigas+1168%2C+11300+Montevideo!5e0!3m2!1ses!2suy!4v1496360788602"\n\n        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>\n\n      	<ion-grid>\n\n        	<ion-row>\n\n            	<ion-col col-10 offset-1>\n\n                  <p>Sifu Jorge combina entrenamiento tradicional y filosofía oriental en un ambiente relajado y familiar, fomentando la\n\n                    relación Sito que se debe dar entre el Maestro (Si Fu) y los estudiantes (To Dai) necesaria para aprender Auténtico\n\n                    Kung Fu Ving Tsun</p>\n\n                  <p>\n\n                    <ion-icon name="phone-portrait"></ion-icon> Celular: <a href="tel:092781471">092 781 471</a></p>\n\n                  <p>\n\n                    <ion-icon name="md-mail"></ion-icon> Email: <a href="mailto:wingchunuruguay@gmail.com">wingchunuruguay@gmail.com</a></p>\n\n                  <p>\n\n                    <ion-icon name="ios-pin"></ion-icon> EQUILIBRIO, Instituto Superior de Artes Humanas: Bvar. Gral. Artigas 1168 / 1172</p>\n\n                  <p>\n\n                    <ion-icon name="md-alarm"></ion-icon> Lunes y Miércoles de 20.00 a 21.00 Hs</p>\n\n                </ion-col>\n\n            </ion-row>\n\n        </ion-grid>\n\n      </div>\n\n    </div>\n\n    <div *ngIf="showAmigos" class="divContenido amigos">\n\n         <ion-row>\n\n            <ion-col col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                <a href="http://www.wuhsingchuan.com.ar/" target="_blank">\n\n                  <ion-item>\n\n                    Wu Hsing Chuan Argentina\n\n                  </ion-item>\n\n                \n\n                  <img src="assets/img/logo-wu-hsing-chuan.jpg" class="imgMain"/>\n\n                \n\n                  <ion-card-content text-left>\n\n                    <p>Escuela de kung fu tradicional Wu Hsing Chuan Argentina dirigida por el Sifu Neldo Sacomani.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.wuhsingchuan.com.ar/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n            <ion-col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                	<a href="http://www.taichi.com.uy/" target="_blank">\n\n                  <ion-item>\n\n                    Tai Chi Yang Uruguay\n\n                  </ion-item>\n\n                \n\n                  <img src="assets/img/taichi-logo.jpg"  class="imgMain"/>\n\n                \n\n                  <ion-card-content>\n\n                    <p>El verdadero Tai Chi Chuan estilo Yang sin deformaciones, bajo la supervisión de los dos primeros Instructores autorizados, capacitados y respaldados por la International Yang Style Tai Chi Chuan Association en Uruguay, Carolina Alegre y Jorge Quiñones. Clases regulares, instructorados y seminarios.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.taichi.com.uy/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n          <ion-col col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                <a href="http://www.hunggarargentina.com.ar/" target="_blank">\n\n                  <ion-item>\n\n                    Hung Gar Argentina\n\n                  </ion-item>\n\n                \n\n                  <img src="assets/img/logo-hung.png" class="imgMain"/>\n\n                \n\n                  <ion-card-content text-left>\n\n                    <p>La Asociación Wu Hsing Chuan, es una entidad dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservándolas para las generaciones futuras.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.hunggarargentina.com.ar/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n            <ion-col col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                <a href="http://www.kungfutiechuan.com.ar/" target="_blank">\n\n                  <ion-item>\n\n                    Tie Chuan\n\n                  </ion-item>\n\n                \n\n                  <img src="assets/img/logo-wu-hsing-chuan.jpg" class="imgMain"/>\n\n                \n\n                  <ion-card-content text-left>\n\n                    <p>Escuela de kung fu tradicional Tie Chuan.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.kungfutiechuan.com.ar/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n\n\n    	</ion-row>\n\n    </div>\n\n    <div *ngIf="showGaleria" class="divContenido" >\n\n      <iframe src="https://www.powr.io/plugins/instagram-feed/view?unique_label=e593de12_1497732754&external_type=iframe" width="100%" height="3000" frameborder="0"></iframe>\n\n    </div>\n\n  </section>\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/codigo/Documents/workspace-wingchun/wingchun/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/codigo/Documents/workspace-wingchun/wingchun/wingchun/src/pages/home/home.html"*/'<ion-content> \n\n      <header>\n\n    	<div class="logo">\n\n    		<img src="assets/img/logo-color-icon.png" />   \n\n      		<h1>Yip Man Foshan Ving Tsun</h1>\n\n        </div>\n\n    <div class="contenedor" id="logo">\n\n\n\n      <input type="checkbox" id="menu-bar" (click)="setMenu()">\n\n      <label for="menu-bar">\n\n      <div class="menu-btn">\n\n      	<div id="line-1" class="line"></div>\n\n        <div id="line-2" class="line"></div>\n\n        <div id="line-3" class="line"></div>\n\n      </div>      \n\n      </label>\n\n      <img src="assets/img/logo-color-icon.png" class="menu-icon"/>\n\n      <h2 id="pageName">{{activePage!=\'Inicio\' ? activePage : \'Yip Man Foshan Ving Tsun\'}}</h2>\n\n      <nav class="menu" id="menu">\n\n\n\n        <div  id="logoWC">\n\n                <ion-item>\n\n                    <ion-avatar item-start>\n\n                      <img src="assets/img/logo-color-icon.png"/>\n\n                    </ion-avatar>\n\n                Yip Man Foshan<br/>Ving Tsun\n\n                </ion-item>        \n\n        </div>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showStart}" clear id="primerBtn" (click)="goHome()"><div class="linea"></div>Inicio</button>\n\n		<button ion-button class="navBtn" [ngClass]="{\'active\' : showVingTsung}" clear (click)="goVT()"><div class="linea"></div>Ving Tsun</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showLinage}" clear (click)="goLinage()"><div class="linea"></div>Linage</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showGaleria}" clear (click)="goGaleria()"><div class="linea"></div>Galeria</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showContacto}" clear (click)="goContacto()"><div class="linea"></div>Contacto</button>\n\n        <button ion-button class="navBtn" [ngClass]="{\'active\' : showAmigos}" clear (click)="goAmigos()"><div class="linea"></div>Amigos</button>\n\n        <ion-fab> \n\n            <button ion-fab><ion-icon name="md-share"></ion-icon></button>\n\n            <ion-fab-list side="right">\n\n              <a ion-fab href="https://www.facebook.com/yipmanvingtsun/"><ion-icon name="logo-facebook"></ion-icon></a>\n\n              <a ion-fab href="https://www.youtube.com/channel/UCbSCyPkCqETToYkP34pXdxA"><ion-icon name="logo-youtube"></ion-icon></a>\n\n              <a ion-fab href="https://www.instagram.com/vingtsunuruguay/"><ion-icon name="logo-instagram"></ion-icon></a>\n\n            </ion-fab-list>\n\n          </ion-fab>        \n\n      </nav>  \n\n      <div id="bk" (pan)="hideMenu($event)" (click)="showMenu()"></div>\n\n    </div>\n\n     \n\n  </header>\n\n  <section id="body" [ngClass]="{\'inner-page\' : activePage!=\'Inicio\'}">\n\n    <div *ngIf="showStart" class="divContenido">\n\n      <ion-slides autoplay="5000" loop="true" speed="3000" pager>\n\n        <ion-slide *ngFor="let slide of slides2"> \n\n          <img [src]="slide.image" id="slide-image" /> \n\n        </ion-slide>\n\n      </ion-slides>\n\n      <ion-grid>\n\n        <ion-row>\n\n\n\n          <ion-col col-12 text-justify text-left caja> \n\n          	<div class="contenido">\n\n            <h1 text-center>¿Quienes somos?</h1>\n\n            <p>\n\n            <strong>Wu Hsing Chuan Athletic Association</strong><br />\n\n            La Asociación Wu Hsing Chuan, es una entidad Internacional dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservándolas para las generaciones futuras.<br /><br />\n\nPionera en la difusión del arte marcial tradicional, ha ganado su reconocimiento y reputación internacional, con una trayectoria de más de cuatro décadas, en una constante búsqueda de la excelencia, trayendo directamente de la cuna del kung fu, los conocimientos transmitidos por los Maestros de los linajes más directos y reconocidos a nivel mundial, en los cinco sistemas que se difunden en la institución.<br /><br />\n\n<strong>Sifu Jorge Quiñones</strong><br />\n\n<p>Sifu Jorge Quiñones es el introductor del sistema Ving Tsun en Uruguay y Representante Oficial de la línea Yip Man Foshan Ving Tsun, reconocido internacionalmente como tercera generación en línea sucesoria directa del G.M. Yip Man, posee la máxima graduación del estilo Yip Man Foshan Ving Tsun y se encuentra debidamente certificado y respaldado por su Maestro (G.M Neldo Sacomani, introductor de la línea en Sudamérica) y por Wu Hsing Chuan Athletic Association, razón por la cual fue seleccionado como Presidente de la Asociación Uruguaya de Artes Marciales Chinas Tradicionales y como Jefe de Instructores de Ving Tsun de Wu Hsing Chuan Athletic Association. A su vez, es Director de las escuelas Ving Tsun Uruguay y Ving Tsun Bariloche y se encuentra abocado a difundir y transmitir el auténtico Yip Man Foshan Ving Tsun de forma tradicional dictando clases regulares, clases particulares, seminarios, formación de líderes de grupo e instructores en el mundo entero.<br /><br />\n\n<strong>Ving Tsun Uruguay</strong><br />\n\nVing Tsun Uruguay es la primera y única escuela de nuestro país especializada exclusivamente en la difusión y transmisión de este sistema. Cuenta con más de 15 años de trayectoria ininterrumpida, la misma se encuentra afiliada a Wu Hsing Chuan Athletic Association y a la Asociación Uruguaya de Artes Marciales Chinas Tradicionales, tiene como objetivo principal difundir y transmitir auténtico Yip Man Foshan Ving Tsun en todo el territorio nacional.<br /><br /> \n\n<strong>Yip Man Foshan Ving Tsun</strong><br />\n\n Yip Man Foshan Ving Tsun es la línea de Ving Tsun desarrollada y practicada por el G.M Yip Man en su ciudad natal. Yip Man enseñó primeramente en Foshan a solo ocho alumnos entre los que se encontraban Lun Kai y Kwok Fu, dos de sus primeros Discípulos. En este periodo el G.M Yip Man transmitió un Ving Tsun  claramente diferente al sistema simplificado posteriormente enseñado en Hong Kong.<br/><br/>\n\n El sistema Yip Man Foshan Ving Tsun posee un  arsenal técnico más amplio y característico que incluye un trabajo de pasos diferenciado, palancas y formas de golpear así como la utilización de Fa Jing (poder explosivo) y el puño de perforación también conocido como ojo de fénix que fue transmitido a sus estudiantes antes de partir a Hong Kong en tiempos de la ocupación Japonesa.\n\n</p>\n\n			</div>\n\n          </ion-col>\n\n          <ion-col col-12 text-left caja bg-gris> \n\n			<div class="contenido">\n\n            <h1 text-center>Misión y Visión</h1>\n\n            <img src="assets/img/mv.png" class="f-img-right no-movil" style="margin-bottom:0;"/>\n\n            <p>Nuestra misión comprende la difusión, el desarrollo, y la practica continua y profunda de este sistema de combate. A su vez buscamos que todas las personas sin importar su sexo ni condición física, puedan tener acceso a este contundente sistema de combate basado en principios físicos, matemáticos y geométricos que sostiene habilidades características tales como la sensibilidad táctil, la estructura corporal, el posicionamiento, la coordinación y un específico sistema de defensa activa perimetral. Para lograrlo contamos con Instructores altamente calificados y reconocidos a nivel internacional, y programas de entrenamiento diseñados para obtener un desarrollo progresivo de las habilidades que conforman este sistema. Buscamos difundir el sistema YIP MAN FOSHAN VING TSUN formando Instructores calificados para transmitir el sistema Ving Tsun (Wing Chun) sin agregados ni modificaciones de forma efectiva y tradicional.</p>\n\n			</div>\n\n          </ion-col>\n\n          <ion-col col-12 text-left caja>\n\n			<div class="contenido">\n\n                <h1 text-center>Clases y Cursos</h1>\n\n                \n\n                <p><strong>Clases Regulares</strong><br/>\n\n                Son clases grupales de entrenamiento progresivo conformado por sub grupos de distintos niveles, formación en todos los niveles.<br/><br/>\n\n                <strong>Clases especiales</strong><br/>\n\n                Entrenamiento a puertas cerradas con un solo estudiante donde se profundiza en temáticas específicas del nivel que deba desarrollar el practicante, coordinar días y horarios vía e mail o telefónicamente. Todos los Niveles.<br/><br/>\n\n                <strong>Seminarios</strong><br/>\n\n                Seminarios de 4 horas de duración con una temática especifica general para todo un grupo, La propuesta contempla cualquier ciudad o país donde se solicite.<br/><br/>\n\n                <strong>Formación de Instructores y líderes de grupo</strong><br/>\n\n                Programas abalados y respaldados por Wu Hsing Chuan Athetic Association destinados a transmitir técnicas, estrategias y métodos de enseñanza necesarios para formar su propia escuela de Yip Man Foshan Ving Tsun y representar a Wu Hsing Chuan Athletic Association y a Sifu Jorge Quiñones en su ciudad o país.<br/>\n\n                Usted podrá formarse como Instructor dentro de Uruguay en nuestra Escuela.<br/>\n\n                Usted podrá formarse como Líder de Grupo en su ciudad o país de residencia.</p>          \n\n          	</div>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n      \n\n      <div class="fb-comments" data-href="http://wingchunuy.esy.es/" data-width="100%" data-numposts="5"></div> \n\n																																																																						  \n\n\n\n      <!--<div class="fb-post"  data-href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" data-width="100%" data-show-text="true"><blockquote cite="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0" class="fb-xfbml-parse-ignore"><p>HISTORIA DEL Ving Tsun (Wing Chun) La antepasada del sistema Ving Tsun (Wing Chun), la desaparecida se&#xf1;orita Yim Wing Chun, era nativa de la...</p>Posted by <a href="https://www.facebook.com/yipmanvingtsun/">Ving Tsun Uruguay</a> on&nbsp;<a href="https://www.facebook.com/yipmanvingtsun/posts/517332224975840:0">lunes, 18 de marzo de 2013</a></blockquote></div>  -->\n\n																																																																																																																																																																									\n\n																																																																																											  \n\n										   \n\n										  \n\n\n\n																																																							  \n\n    </div>\n\n   \n\n    <div *ngIf="showVingTsung" class="divContenido vingtsun">\n\n\n\n    <div class="no-movil">\n\n      \n\n        \n\n                      \n\n            <div caja>\n\n\n\n              <div class="contenido">\n\n              	<h2>¿Que es Ving Tsun?</h2>\n\n                <img src="assets/img/quees.jpg" class="img-50 f-img-right">\n\n            	<p>El Ving Tsun (Wing Chun) o Ving Tsun es un potente y dinámico sistema de combate proveniente del Sur de China, por lo que\n\n              se encuentra clasificado dentro del Kung Fu como un estilo de boxeo corto, rectilíneo y sureño. Significado\n\n              Ving Tsun (Wing Chun) significa literalmente canto de primavera. Fue llamado de esta forma en honor a la primera sucesora\n\n              del sistema Yim Wing Chun. Este nombre también hace alusión a un eterno proceso cíclico de refinamiento, renovación,\n\n              adaptación y perfección.</p>\n\n              </div>\n\n            \n\n            </div>            \n\n            \n\n            \n\n\n\n          \n\n          \n\n            <div caja bg-gris>\n\n\n\n              <div class="contenido">\n\n              	<h2>Características</h2>\n\n                <img src="assets/img/caract.jpg" class="img-50 f-img-left">\n\n            	<p>Sus características de mayor relevancia son los golpes cortos rápidos\n\n              y explosivos, combinados con una guardia cerrada, desplazamientos rápidos utilizando posturas sólidas y reducidas,\n\n              reacciones fulminantes con defensa y ataque simultáneo y la utilización de la estructura corporal, sensibilidad\n\n              táctil, fuerza interior y defensa activa perimetral. <br/><br/>\n\n              <strong>Método</strong><br/>\n\n              El entrenamiento del Ving Tsun (Wing Chun) esta destinado a\n\n              ayudarnos a comprender un grupo de conceptos de combate y desarrollar habilidades que le brindaran al sistema\n\n              una aprobada efectividad en su aplicación y No al desarrollo de atributos físicos como sucede en la mayoría\n\n              de las Artes Marciales.</p>\n\n              </div>\n\n            \n\n            </div>          \n\n          \n\n          \n\n            <div caja>\n\n\n\n              <div class="contenido">\n\n              <h2>Sistema</h2>\n\n              	<img src="assets/img/sistema.jpg" class="img-50 f-img-right">\n\n            	<p><strong>Formas</strong><br/> El sistema Ving Tsun (Wing Chun) posee seis formas 3 de mano y 3 formas de especialización.\n\n              Las formas son secuencias de movimientos encadenados, en otras artes marciales las formas pretenden ser una\n\n              especie de combate simulado donde se mejora la técnica, en el Ving Tsun (Wing Chun) tienen el objetivo de ayudar a comprender\n\n              en profundidad los conceptos básicos del sistema y desarrollar habilidades tales como la raíz, la coordinación,\n\n              la mecánica corporal, la relajación, la estructura, el desarrollo de la energía y el poder explosivo.<br/><br/> \n\n              <strong>Primera Trilogía</strong><br/> La primera trilogía esta orientada a la introducción del estudiante en el sistema y sus conceptos\n\n              al igual que el desarrollo de las habilidades antes mencionadas. \n\n              <br/><br/><strong>Siu Nim Tao</strong> 小念頭:<br/>Forma de la idea esencial\n\n              <br/><br/><strong>Cham Kiu</strong> 尋橋:<br/>Brazos puente\n\n              <br/><br/><strong>Biu Jee</strong> 標指:<br/>Dedos penetrantes.<br/><br/>\n\n              <strong>Segunda Trilogía</strong><br/> La segunda Trilogía esta compuesta\n\n              por el trabajo en el muñeco de madera y dos formas de armas. Es una etapa superior en donde se busca trabajar\n\n              el más alto refinamiento del sistema. Para acceder al entrenamiento con estos accesorios uno debe haber alcanzado\n\n              los dominios de la primera trilogía del sistema \n\n              <br/><br/><strong>Mok Jan Chong</strong> 木人樁:<br/>Forma con el muñeco de madera \n\n              <br/><br/><strong>Luk Dim Bun Gwan</strong> 六點半棍 :<br/>Bastón de los Seis puntos y medio \n\n              <br/><br/><strong>Bart Cham Dao</strong> 八斬刀 :<br/>Forma con cuchillos de 8 cortes.<br/><br/>\n\n              <strong>Ejercicios complementarios</strong><br/>\n\n              En Ving Tsun (Wing Chun) los niveles se encuentran determinados por las formas y ejercicios complementarios\n\n              diseñados para desarrollar habilidades que las formas no pueden brindarnos y mejora de Factores de Monitorización\n\n              del Sistema, a su ves nos ayudan a poder llevar a la practica lo aprendido en la forma. Existen habilidades\n\n              como la sensibilidad táctil que se desarrollan con ejercicios en pareja, como es el caso de ejercicios LAP\n\n              SAO y CHI SAO para las manos y CHI GERK para las piernas. \n\n              <br/><br/><strong>Lap Sao</strong> \n\n              <br/><br/><strong>Chi Sao</strong> \n\n              <br/><br/><strong>Chi Jerk</strong><br/><br/> \n\n              Por otra parte el desarrollo de la potencia la reacción y el timing se obtienen mediante el trabajo de: \n\n              <br /><br /><strong>Saco de pared</strong>\n\n              <br /><br /><strong>Saco pesado</strong>\n\n              <br /><br /><strong>Focos</strong>\n\n              <br /><br /><strong>Caminatas</strong> \n\n              <br /><br /><strong>Sparring</strong> \n\n              <br /><br />El trabajo de esta serie de ejercicios entrena también las aplicaciones técnicas, los desplazamientos\n\n              y el posicionamiento.</p>\n\n              </div>\n\n            \n\n            </div>          \n\n          \n\n\n\n          \n\n            <div caja bg-roja >\n\n\n\n              <div class="contenido">\n\n              	<h2>Conceptos Fundamentales</h2>\n\n                <img src="assets/img/conceptos.jpg" class="img-100 f-img-right">\n\n            	<p>\n\n                <strong>Si el camino está libre, avanza</strong>\n\n                <br/><br/>Cuando alguien nos ataca salimos de inmediato a atacarlo. Para que nuestro ataque\n\n              tenga éxito utilizamos un especifico sistema de defensa activa perimetral que consiste en esperar a que nuestro\n\n              oponente invada la distancia de ataque es decir que se encuentre en la distancia propicia para ser alcanzado\n\n              de forma efectiva por nuestros golpes. El Gran Maestro Yip Man tenia un aforismo para describir esta función,\n\n              el decía “Cuando un oponente comienza su ataque, es como si un amigo abriera la puerta de entrada de tu casa,\n\n              tu tienes la obligación de salir a encontrarlo “. En el Ving Tsun (Wing Chun) si un oponente inicia su ataque debemos interceptarlo,\n\n              nosotros debemos trazar un perímetro alrededor nuestro que al momento en que nuestro atacante lo atraviese\n\n              y represente su proximidad una amenaza para nuestra integridad, debemos salir de inmediato a su encuentro.\n\n              Cualquier ataque por muy fuerte que sea siempre será anulado, siempre y cuando nuestra acción intercepte su\n\n              trayectoria en el comienzo del ataque.<br/><br/> \n\n              \n\n              <strong>Si chocas con algo, pégate Si hay contacto con el oponente, mantente adherido a él</strong> \n\n              <br/><br/>\n\n              La adherencia es un principio que se encuentra directamente relacionado al Ving Tsun (Wing Chun) a través\n\n              de la practica del chi sao y el combate, desde el momento que uno ha establecido contacto con nuestro oponente,\n\n              tenemos que pegarnos a él de manera de no dar espacio a que nos contraataque, controlamos sus movimientos,\n\n              presionando sus extremidades contra el, de manera que no pueda generar energía ni desplazarse libremente. En\n\n              el momento en que busque liberarse de nuestra energía nos ira entregando los espacios, para desequilibrar y\n\n              golpear, en conclusión los ataques del Ving Tsun (Wing Chun) una vez que comienzan no terminan hasta que nuestro oponente\n\n              este fuera de combate. <br/><br/>\n\n              <strong>Si su ataque es más fuerte, sede</strong>\n\n              <br/><br/>Siempre que sentimos que nuestro oponente genera una\n\n              presión superior a la podemos contener con facilidad utilizando la estructura corporal o bien nos ataca cedemos.\n\n              El Ving Tsun (Wing Chun) posee un amplio arsenal de defensa que funciona correctamente utilizando el principio de ceder\n\n              ante la fuerza bruta generando un vacío en el punto de presión de nuestro oponente y atacamos directamente\n\n              por los flancos vulnerables de nuestro oponente ocupando la línea central aprovechando las puertas que deja\n\n              abiertas al atacarnos. En ocasiones este principio no solo se ve sustentado por las técnicas defensivas utilizadas\n\n              con este fin sino también por el reposicionamiento. <br/><br/>\n\n              <strong>Si el oponente retrocede, síguelo sin detenerte hasta el fin</strong><br/><br/> \n\n              Cuando el oponente siente el efecto que generan los principios antes explicados, busca retroceder para\n\n              poder recuperar su centro de equilibrio y rearmar su estructura corporal para poder contraatacar, por lo que\n\n              debemos seguirlo indefectiblemente golpeando los espacios abiertos que nos deje hasta que quede fuera de combate.</p>\n\n              <br/><br/>\n\n              <p style="text-align:right;">Autor: Yip Man</p>\n\n              </div>\n\n            \n\n            </div>            \n\n          \n\n        \n\n        \n\n          \n\n            \n\n             <div caja>\n\n\n\n              <div class="contenido">\n\n              	<h2>Filosofía</h2>\n\n                \n\n            	<p>Este es un tema muy interesante para tratar y debatir, ya que el Ving Tsun (Wing Chun) posee una filosofía propia que extrae distintos conceptos de la trilogía filosófica china conformada por <strong>Budismo Chan</strong>, <strong>Taoísmo</strong> y <strong>Confucionismo</strong>. Esto no debería llamarnos demasiado la atención ya que estas tres corrientes diferenciadas con facilidad en el pasado en la actualidad China se han amalgamado y creado una filosofía popular. A continuación, realizaré una breve reseña sobre las características de cada una de las filosofías para posteriormente estar en condiciones de comprender el origen del Tao del Ving Tsun (Wing Chun). Es importante tener en claro que Tao, significa "camino" o "sendero" (recto o virtuoso) que conduce a la meta. No obstante, cuando en el Taoísmo se refieren al Tao se refieren a una fuerza omnipresente indescriptible, intangible e incontenible cuya forma de comprenderlo no es invadirlo mediante el estudio formal sino vaciarse para poder ser invadido por el. </p>\n\n<img src="assets/img/filosofia.jpg" class="img-100 f-img-left">\n\n<p><strong>Confucionismo</strong><br/><br/>\n\n Los primeros Confucionistas estudiaban los Seis Libros Clásicos y el Ceremonial, que incluían las responsabilidades sociales, el respeto a los ancianos, la práctica de las grandes virtudes humanas. Para él, todo debía funcionar armónicamente mediante “las cinco relaciones sociales” entre el soberano y el súbdito entre un padre y un hijo entre el hermano mayor y el hermano menor entre esposa y esposo entre amigo y amigo Confucio resumió la doctrina de la rectitud en la “frase de oro” del Evangelio, quinientos años antes de que la predicara el Nazareno. En formato positivo: “Haced a los demás lo que queráis que os hagan”. Y en formato también negativo, para explicar, no sólo la rectitud, sino también el altruismo: “No hagáis a los demás lo que no queréis que os hagan”. “Quien se ejercita en la rectitud y el altruismo no está lejos del Tao”. Pero es necesario cambiar para ir adaptándose más y más a ese estilo de ser. “sólo no cambian los grandes sabios y los grandes idiotas”. Propio del hombre es cambiar y adaptarse y, si es a mejor, adquiriendo mayor cultura, la naturaleza humana será más digna de confianza. Se cuenta que cuando estaba cerca su muerte, un discípulo suyo le pidió permiso para orar por el. A lo cual el maestro respondió: “Mi plegaria es mi vida”.</p>\n\n\n\n<p><strong>Taoísmo</strong><br/><br/>\n\nEl Taoísmo establece la existencia de tres fuerzas: una pasiva, otra activa y una tercera, conciliadora. Las dos primeras se oponen y complementan simultáneamente entre sí, es decir que son interdependientes de manera absoluta y funcionan como una unidad. Son el Yin (fuerza pasiva/sutil, femenina, húmeda...) y el Yang (fuerza activa/concreta, masculina, seca...). La tercera fuerza es el Tao, o fuerza superior que las contiene. El significado más antiguo que existe sobre el Tao dice: "Yi Yin, Yi Yang, Zhè Wei Tao", es decir, "un aspecto Yin, un aspecto Yang, eso es tao". "Yang" literalmente significa ladera luminosa (soleada) de la montaña "Yin" ladera oscura (sombría) de la montaña; "Yin" ladera oscura (sombría) de la montaña; entiéndase la idea de montaña como símbolo de "unidad" así, aunque representan dos fuerzas aparentemente opuestas, forman parte de una única naturaleza. La igualdad entre las dos primeras fuerzas entraña la igualdad de sus manifestaciones consideradas en abstracto. Por ello el taoísta no considera superior la vida sobre la muerte, no otorga supremacía a la construcción sobre la destrucción, ni a lo positivo sobre lo negativo, ni a la afirmación sobre la negación. El gran taoísta Lin An define así "el camino de la felicidad": La gran mayoría de las personas que vacía y mal se siente, porque usa las cosas para deleitar su corazón, en lugar de usar su corazón para disfrutar de las cosas. El Tao "es" como el espacio vacío para que se manifieste el todo. "Existía antes del Cielo y de la Tierra", no es posible decir de dónde proviene. Es madre de la creación y fuente de todos los seres. El tao engendró la unidad. La unidad dió origen a las dos facetas las cuales dieron el ser a la triada y la triada produjo los diez mil seres. El Tao tampoco es temporal o limitado; Es la fuente primaria cósmica de la que proviene la Creación. Es el principio de todos, la raíz del Cielo y de la Tierra, la "madre" de todas las cosas más, si intentamos definirlo, mirarlo u oírlo, no sería posible el Tao regresa al No-Ser, ahí donde es insondable, inalcanzable y eterno. Todas las cosas bajo el Cielo gozan de lo que es, lo que es surge de lo que no es y retorna al No-Ser, con el que nunca deja de estar ligado. El taoísmo excluye el concepto de ley y lo sustituye por el de orden. Es decir, las cosas son de determinada manera debido a que su posición en un universo en permanente movimiento les confiere una naturaleza que las obliga a ese comportamiento. Tao es el nombre global que se da al orden natural. El objetivo del Tao es enseñar al hombre a integrarse en la naturaleza, enseñarle a fluir, a integrarse en sí mismo en concordancia y armonía. Enseñar a compenetrarse con esta naturaleza y armonía de tal modo que llegue a experimentar en su propio cuerpo sus ritmos vitales. Sintonizándose el cuerpo humano mediante una serie de ejercicios con estos ritmos, ganando así serenidad mental y energía física. A principios del siglo IV a. C. los filósofos chinos escribían sobre el yin y el yang en términos relacionados con la naturaleza. Observando de la perspectiva del Tao, se ve cómo todas las cosas se elevan, se vuelven grandes y luego retornan a su raíz. Vivir y morir es simplemente entrar y salir. Las fuerzas de la mente no tienen poder sobre quien sigue el Tao. El camino del No- Ser lleva a la quietud y la observación, y conduce de lo múltiple al Uno. Para poder recorrer ese camino hace falta preparación interna. Mediante la práctica espiritual, la perseverancia, el recogimiento y el silencio se llega a un estado de relajación que debe ser tan sereno que posibilita la contemplación del Ser interior, el alma, y así se logra ver lo invisible, escuchar lo inaudible, sentir lo inalcanzable. El taoísmo influyó en numerosas áreas del conocimiento como la medicina y ciertas escuelas de meditación, e incluso las Artes Marciales. Al llegar el Buddhismo a China se produjo una muy interesante "síncresis", la interrelación entre el budismo y el taoísmo produjo entre otros efectos la escuela religiosa y filosófica budista Cha\'ang (sintetización de la palabra sánscrita dhyana, que significa: meditación) y , ésta, al pasar a Japón originó el zen. </p>\n\n\n\n<p><strong>Budismo Cha´ang</strong><br/><br/>\n\nEl Budismo Chan es la filosofía que se originó hace 1500 años en el Templo Siu Lam (Shao lin) de China y que hoy se ha convertido en la filosofía general del 90% de las Artes Marciales de nuestro tiempo. Como toda escuela budista, tiene sus orígenes en India. La palabra china Chan , es a su vez una transcripción del término sánscrito dhyāna, traducido normalmente como "meditación". El desarrollo del Zen parte pues de una noción doctrinal en los sutras budistas del mahayana en donde se afirma la preeminencia del cultivo de la meditación como la vía preferente para conseguir la iluminación o estado de sabiduría absoluta. El budismo primigenio observaba una progresión en distintos estados de la meditación que suceden en un cultivo gradual del practicante. En este contexto, el Chan afirmará la existencia de un acceso directo y espontáneo al último y superior de todos ellos - aquel que precede inmediatamente a la experiencia de la iluminación sin necesidad de experimentar los anteriores, mediante vías de acceso espontáneas y que son ajenas a la intelectualización de lo aprendido o a una noción de crecimiento gradual en el perfeccionamiento espiritual. El Chan es la tradición budista de la intuición y la espontaneidad. Estatua a la entrada del monasterio Shaolin de Henan, donde se inició el budismo Chan. Aunque la práctica Zen incluye el estudio de los sūtras y otros textos, el carácter directo e intuitivo de este tipo de tradición budista los sitúa en un segundo plano, se anima al discípulo a mantener su atención en el momento presente, confiando en la sabiduría innata de todo ser humano para realizar todo su potencial. Por lo tanto, este nuevo tipo de budismo se centra en el cultivo de la mente o meditación, cuya traducción china es la palabra Chan. En chino, a esta escuela se la llama directamente "Escuela de meditación" (Escuela del Chan). El resto de escuelas dedicaban buena parte de su tiempo al estudio de textos, ya que consideraban que su lectura entrañaba la acumulación de méritos para el despertar. </p>\n\n\n\n<p><strong>Biografía del Buda</strong><br/><br/>\n\nTa Mo Bodhidharma (en chino: Damó pronunciado Tamó) fue un monje de origen indio, el vigésimo octavo patriarca del budismo y el primer patriarca legendario y fundador la forma de budismo Chán. Proveniente del Sur de la India, llegó a China bajo el reino del emperador Wu del Liang (502-549 d.c). Antes de llegar a China, Boddidharma o Da Mo ya había realizado tres periodos de meditación intensa. Al llegar a China, Da Mo pasó por Guangzhou (Cantón) y después fue a Nanjing (Colina Dorada). Da Mo después de un tiempo decidió dirigirse hacia el norte para encontrar un lugar donde establecerse y comenzar a transmitir su enseñanza. El día que decidió dejar Nanjing y cruzar el río Changjiang (Yangtze o río Azul) para dirigirse al norte, las personas del lugar hicieron, deliberadamente, zarpar todas las naves con la intención de poner a prueba al monje extranjero. Cuando Da Mo llegó al río y observó que no había un solo bote disponible, pero que ambos lados del río se había reunido gran cantidad de personas que habían venido a verlo cruzar. Da Mo intuyendo lo que estaba pasando miró a su alrededor y vio a una anciana que sostenía un junco; Da Mo se acerco a ella y juntando sus manos se inclinó en señal de reverencia y pidió prestado el junco a la señora explicándole que deseaba cruzar el río de 400 metros de ancho. Cuando la mujer le  dió la caña, Da Mo caminó hasta la orilla y colocó el junco en las aguas del Changjiang, puso sus manos juntas, su mente en calma y su mirada dentro de sí, colocó ambos pies en el junco y comenzó a cruzar el enorme río impulsado suavemente por la brisa del sudeste mientras hacia una reverencia despidiéndose de la anciana. Hoy construida frente al salón de los héroes enjoyados hay una tablilla de piedra en la cual esta grabada la figura de un monje; tiene cejas pobladas, ojos grandes, pómulos prominentes, cara afilada, con barba y bigote poblados, grandes aretes en sus oídos, y sus pies descalzos apoyados en un junco, mientras cruza un río. Al llegar a Songshan (la montaña central de China) Da Mo se estableció en Shaolin para iniciar con su enseñanza. Hacia el norte del monasterio a medio camino hacia la montaña de los cinco animales, hay una pequeña cueva, del tamaño de un cuarto pequeño, la cual mira directamente hacia el sol. Al inicio de su vida en Shaolin, Da Mo solía escalar la montaña durante el día y sentarse en la cueva frente a la pared en estado de chana (meditación chan) y durante las tardes bajaba al monasterio a conversar de budismo con los otros monjes. Pero después de un tiempo ya no bajó al monasterio, sino que se quedó sentado frente a la pared, concentrado en lo fundamental. Así pasaron los años, y cuando se cansaba se ponía de pie, y comenzaba a hacer ejercicios, algunos imitando a los movimientos y estrategias de defensa de los animales que observaba a su alrededor, desarrollando lo que después se conocería como Kung Fu Shaolin; una vez que el entumecimiento había desaparecido, volvía a la cueva, se sentaba, se deshacía de todo pensamiento y guardaba silencio. Un hombre puede tolerar meditar durante primavera y otoño, pero en verano, cuando enjambres de mosquitos y todo tipo de insectos lo devoran se convierte en algo intolerable. Había años en los que la cara de Da Mo tenía tantas picaduras que se veía hinchada y deforme; pero el se mantenía inalterable, inmerso en su silencio. La región de Shaolin es muy montañosa, rodeada por valles profundos; en el invierno se pueden escuchar lobos, tigres y panteras. En una ocasión un joven monje subió a la cueva para llevarle algo de comida a Da Mo y encontró a un lobo que apoyando sus patas en los hombros de Da Mo acercaba su hocico jadeante al cuello del maestro; el joven monje grito con todas sus fuerzas, el lobo aulló y salió corriendo mientras Da Mo seguía inmutable. Durante un invierno ventoso y seco, durante el cual el helado aire del norte soplaba por toda la montaña y ni nieve ni lluvia habían caído; el pasto seco prendió en llamas y en poco tiempo toda la montaña estaba envuelta en fuego. Desde el monasterio todos podían ver como el fuego había llegado a la entrada de la cueva, así que varios monjes subieron entre las llamas batallando con el fuerte viento; pero al llegar a la cueva encontraron a Da Mo de cara a la piedra sin señal de movimiento alguno. Da Mo meditó durante un total de nueve años. Se dice que después de tres mil días mirando la pared su sombra se marcó en la piedra y en ésta se puede ver a la figura de un hombre sentado con las piernas cruzadas y las manos al frente juntas en meditación. Después de nueve años de meditación en el lugar la gente comenzó a llamar a la cueva "la cueva de Da Mo". Hoy en día la cueva se puede visitar en el interior del monasterio Shaolin, y frente a ésta se encuentra un arco de piedra en el que en su lado sur se encuentran grabadas las palabras "Mo Xuan Chu" - "El lugar de profundo silencio" frase compuesta por Hu Bin, un oficial del gobierno que vivió durante la dinastía Song; y en el lado norte están grabadas las palabras "Dong Lai Zhao Ji" "La marca del principio del este" escritas por Jin Xi de Yandu, durante la dinastía Ming. Afuera de la cueva, en la pared oeste está escrito un poema de cuatro versos escrito durante la dinastía Ming por Su Minwang de Changdan que dice: \'"¿Quién puede dominar la gran sabiduría del oeste? Nueve años de entrenamiento en la montaña de cinco animales. Si el verdadero entendimiento se puede alcanzar en el mundo de los hombres. Entonces es Da Mo quien ha alcanzado ese fin." En sus últimos años a pesar de estar enfermo visito el monasterio de Qianwang en LUOYANG para realizar una ceremonia budista. Cuando Da Mo dejó este mundo, los otros monjes en el monasterio Shaolin, como una manera de recordarlo retiraron la piedra de la pared donde solía meditar. Esta roca ahora se encuentra dentro del monasterio para que todos puedan admirarla. El famoso poeta XiaoYuanji, compuso, en memoria de la piedra, un poema que dice: "Una piedra en Shaolin, todos dicen que es un hombre. Claramente es un hombre, claramente es una piedra. ¿Qué piedra? La piedra de meditación. ¿Qué hombre? El hombre meditativo. El Buda meditativo, hijo de un rey, sentado por nueve años. Hecho del buda, un cuerpo vacío, el cuerpo impreso en el espíritu de la roca. La forma de la roca por siempre controlando el destino de la escuela Shaolin." </p>\n\n\n\n<p><strong>El Tao del Ving Tsun (Wing Chun)</strong><br/><br/>\n\nComo podemos apreciar luego de dar rienda suelta a este interesante paseo filosófico muchos de los componentes de estas filosofas se encuentran amalgamados en silencio dentro del Tao del Ving Tsun (Wing Chun). El Ving Tsun (Wing Chun) adoptó la forma de realcionamiento jerárquico familiar del Confucionismo al igual que las normas morales (Wude), y los ritos a los ancestros. La relación Sitó que debe llevarse a cabo entre los hijos y los padres marciales Sifu maestro y Todai Estudiantes y los hermanos mayores y hermanos menores Sihing y Sidai practicantes más viejos y más nuevos. La graduación en Ving Tsun básicamente se rige por lugares familiares y a los clanes dentro del Ving Tsun se les llaman familias. El verdadero Ving Tsun sólo puede ser practicado a través de la Vida-Kung Fu.En Chino llamada de “Sam Fa”. Sam Fa es el desarrollo que se logra a través del realcionamiento con todos los miembros de la Familia Kung Fu, que incluyen al maestro, los condiscípulos (hermanos Kung Fu) y al propio practicante. Es una forma de convivencia que no se limita solo al Mo-Gun lugar de practica, sino también fuera de ella. La Vida-Kung Fu, nos brinda la posibilidad de aplicar los principios del Sistema en todos los ámbitos de su vida. Esta forma de relacionamiento familiar ayuda a que el estudiante capte la esencia del Ving Tsun (Wing Chun) de forma natural y espontánea. Por otra parte el código moral Wu De es una simplificación de los códigos morales extraídos del Confucionismo, es una guía para aquellos estudiantes que carecen de una comprensión ética y la moral elevada y deben reencausarse mediante el estudio de las mismas, cuando el orden no es natural el confucionismo lo recupera por medio de reglas de comportamiento. Código Moral del Ving Tsun (Wing Chun) "Sé disciplinado – condúcete éticamente como artista marcial". "Practica la cortesía y la rectitud/justicia – sirve a la sociedad y respeta a tus mayores". "Ama a tus estudiantes – estad unidos y evitad los conflictos". "Limita tus deseos y la búsqueda de placeres corporales – preserva el espíritu verdadero". "Entrena diligentemente – mantén tu destreza". "Aprende a desarrollar la tranquilidad espiritual – abstente de discusiones y disputas". "Participa en la sociedad – sé moderado y gentil en tus maneras". "Ayuda al débil y al más joven – usa las técnicas marciales para el bien de la humanidad". "Transmite la tradición – preserva este arte chino y las reglas de conducta". La influencia del Taoísmo se hace presente en la técnica del sistema, vive en silencio en cada movimiento, en cada concepto. Tomar siempre el camino de menor resistencia, utilizar los opuestos complementarios, si mi oponente es más fuerte sedo, si el camino está libre, ataco, me adapto de forma natural y continua a cada movimiento que realiza mi adversario, no lucho contra mi oponente sino con mi oponente me mantengo vacío y en calma, si se mueve, me muevo, no pienso en lo que voy a hacer, fluyo como el agua y reacciono naturalmente. El sistema no es rígido ni estático, se adapta a las virtudes naturales de cada practicante. Gran parte de estos principios los puedo aplicar para resolver conflictos del diario vivir lo que los convierte en una filosofía practica. Origen Budista El sistema Ving Tsun tiene sus raíces en el Monasterio Siu Lam (Shao Lin) donde vivió y alcanzó la más alta reputación el Buda Ta Mo este ultimo Influencio las practicas y técnicas del monasterio y por consiguiente el Ving Tsun (Wing Chun) las heredó de forma indirecta. Se pueden ver algunas de estas técnicas meditativas y métodos de respiración propios de las prácticas Budistas Chan dentro de Siu Nim Tao y una serie de ejercicios complementarios llamados Hei Kung destinados a preparar nuestro cuerpo para resistir cierto tipo de exigencias o bien mejorar nuestra salud. Por todas estas connotaciones decimos que el Tao del Ving Tsun es un Tao propio basto y maravilloso que nos alimenta con la filosofía necesaria para un debido desarrollo marcial y familiar aportándonos los componentes necesarios para una vida social y espiritual plena. Cada estudiante posee las herramientas necesarias para llevar a cabo esta evolución si presta atención y busca debajo de lo visible del arte a la silenciosa filosofía del Ving Tsun.</p>\n\n              </div>\n\n            \n\n            </div>            \n\n\n\n		  			\n\n          \n\n            <div caja bg-negra>\n\n              <div class="contenido">\n\n              <h2>Historia del Ving Tsun</h2>\n\n			<img src="assets/img/historia.jpg" class="img-50 f-img-right">\n\n            <p>La antepasada del sistema Ving Tsun (Wing Chun), la desaparecida señorita Yim Wing Chun, era nativa de la provincia de Kwangtung\n\n              en China. Como chica joven, era lista y activa y se destacó por su fuerte personalidad. Estaba prometida al\n\n              señor Leung Bok Chau, un mercante de sal de la provincia de Fukien. Poco tiempo después su madre murió. Su\n\n              padre, Yim Yee, fue acusado de un cargo de falsificación. De modo que su padre se escapó con ella, antes de\n\n              correr el peligro de ser encarcelado. Finalmente se asentó al pie de la montaña Tai Leung, en los limites de\n\n              las provincias de Yunan y Szechwan, en donde aprendieron a vivir como vendedores en una tienda de judías. Fue\n\n              durante el reinado de K´angshi, de la dinastía Ching, cuando los seguidores del estilo Siu Lun, de Kung Fu,\n\n              ganaron una envidiable reputación por su progreso en el arte de la lucha, incluso sus destrezas llegaron a\n\n              comprometer al gobierno Ching, quien decidió borrar la secta y destruir su monasterio, localizado en la montaña\n\n              Shung, en la provincia de Honan, en la China central. Los soldados fueron enviados con orden de destruir el\n\n              monasterio y eliminar la secta. Pero los monjes del monasterio Siu Lam y sus seguidores opusieron una gran\n\n              resistencia y su monasterio quedó sin daño después de una gran lucha. Chan Man Wai, el primer graduado del\n\n              servicio civil del año, fue quien preparó un gran plan con el fin de ganar cierto reconocimiento por el gobierno.\n\n              Creó un plan junto con algunos monjes del templo, especialmente con uno llamado, Ma Ning Yee, quien fue convencido\n\n              de traicionar al resto de sus compañeros prendiendo fuego el monasterio a sus espaldas. De esta manera, el\n\n              templo fue virtualmente quemado; los monjes y discípulos fueron repartidos por diversos sitios. Entre los supervivientes,\n\n              los más destacados fueron la Monja Budista Ng Mui, el Maestro Chi Shin, el Maestro Pak Mei, el Maestro Fung\n\n              To Tak y el Maestro Miu Hi. Todos ellos escaparon y lograron esconderse. La monja budista Ng Mui se refugió\n\n              en el templo de la Grulla Blanca, en la ladera de la montaña Tai Leung, también conocida por montaña Chai Har.\n\n              Fue allí en donde entabló amistad con Yim Yee y su hija Ving Tsun (Wing Chun), de quien habitualmente compraba judías en\n\n              su camino de vuelta del mercado. A la edad de 15 años el pelo de Ving Tsun (Wing Chun) comenzó a rizarse y era costumbre\n\n              de aquellos días que entonces ya estaba lista para el matrimonio. Su belleza atrajo la atención del bruto local,\n\n              quien intentó forzarla para que se casara con él. Los tratos continuos que recibía por parte de aquel bruto\n\n              llegaron a preocupar a ella y a su padre. Las noticias llegaron hasta Ng Mui, quien tuvo pena de Ving Tsun (Wing Chun)\n\n              y decidió tomarla como su discípulo. Ng Mui prometió enseñarle el arte a Ving Tsun (Wing Chun), de forma que fuera capaz\n\n              de repeler a aquel bruto, y después de eso casarse con su prometido. Desde aquel día Ving Tsun (Wing Chun) siguió a Ng\n\n              Mui todos los días para la práctica del Kung Fu. Cuando Ving Tsun (Wing Chun) era capaz de dominar las técnicas que Ng\n\n              Mui le había enseñado, desafió y derrotó a aquel bruto local, quien le había dado ciertos problemas. Después\n\n              Ng Mui dejó a Ving Tsun (Wing Chun) y comenzó con sus variados viajes por el país, solo después de haber hecho prometer\n\n              a Ving Tsun (Wing Chun) que enseñaría el arte para ayudar a los patriotas a restaurar la Dinastía Ching y a derrocar a\n\n              la Dinastía Ming. De lo aquí expuesto, se puede decir que el sistema Ving Tsun fue originado por Ng Mui. Después\n\n              de que Ving Tsun (Wing Chun) se había casado, pasó el arte del estilo a su marido Leung Bok Chau, quien a su vez lo pasó\n\n              a Leung Lan Kwai. Leung Lan Kawai enseñó el arte a Wong Wah Bo, miembro de una "troupe" a bordo de un junco,\n\n              conocido como el "junco rojo". Entre los asociados de Wong Wah Bo, en el Junco Rojo, había uno llamado Leung\n\n              Yee Tei, quien había aprendido la técnica del Palo Largo de "seis puntos y medio" del cocinero del barco. Dio\n\n              la casualidad que el cocinero de aquel barco no era otro que el Maestro Chi Shin del monasterio Siu Lam, que\n\n              había sido quemado en al montaña Shung de la provincia de Honan, como ya se había mencionado. La estrecha amistad\n\n              de Wong Wah Bo con Leung Yee Tei dio como resultado que se pasaran sus mutuos conocimientos en Kung Fu, dando\n\n              como resultado la incorporación de las técnicas del Palo Largo al sistema de Ving Tsun (Wing Chun). Leung Yee Tei enseñó\n\n              el arte del Ving Tsun (Wing Chun) a Leung Jan, un muy conocido físico de la ciudad de Fatsan, en la provincia de Kwangtung,\n\n              quien dominó todos los secretos del arte y alcanzó un alto grado de habilidad. Fue desafiado muchas veces y\n\n              derrotó a todos sus oponentes, por lo que llegó a tener una gran fama. Más tarde pasó sus técnicas al reverendo\n\n              Maestro Chan Wah Shun, de quien mis hermanos mayores en Kung Fu: Ng Siu Lo, Chung So, Chan Yu Min, Lui Yu Chai,\n\n              y yo mismo aprendimos el arte durante las docenas de ańos en que le seguimos. Se puede decir que el arte pasó\n\n              a nosotros en una línea directa de sucesión desde su origen. Estoy escribiendo la historia del Ving Tsun (Wing Chun) Kung\n\n              Fu en memoria respetuosa de mi antepasado. Un hombre que siempre pensaba en el camino del agua cuando la vivía.\n\n              Un hombre al que estoy eternamente agradecido por pasarme los conocimientos y habilidades que poseo hoy día.\n\n              Tomo esta oportunidad para decir que estoy organizando una Asociación de compañerismo de Ving Tsun (Wing Chun), y que me\n\n              gustaría llamar el apoyo de mis antiguos compañeros, y por una buena respuesta de estudiantes y seguidores\n\n              del sistema Ving Tsun (Wing Chun). ¿No es esta la manera de promocionar el Kung Fu, y proyectar la imagen de nuestro país?</p>\n\n              </div>\n\n            \n\n            </div>\n\n          \n\n        \n\n      \n\n    \n\n    </div>  \n\n	\n\n    <div xl-hide>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col col-12>            \n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showVT}">\n\n            \n\n              <ion-item (click)="goVTDetails()">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showVT}">\n\n                  <img src="assets/img/quees_ico.jpg"class="ico">\n\n                  <img src="assets/img/logo-color-icon.png" class="logo">\n\n                </ion-avatar>\n\n                ¿Que es Ving Tsun?\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content bg-gris>\n\n              	<img src="assets/img/quees.jpg">\n\n            	<p>El Ving Tsun (Wing Chun) o Ving Tsun es un potente y dinámico sistema de combate proveniente del Sur de China, por lo que\n\n              se encuentra clasificado dentro del Kung Fu como un estilo de boxeo corto, rectilíneo y sureño. Significado\n\n              Ving Tsun (Wing Chun) significa literalmente canto de primavera. Fue llamado de esta forma en honor a la primera sucesora\n\n              del sistema Yim Wing Chun. Este nombre también hace alusión a un eterno proceso cíclico de refinamiento, renovación,\n\n              adaptación y perfección.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>            \n\n            \n\n            \n\n\n\n          </ion-col>\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showCaracteristicas}">\n\n            \n\n              <ion-item (click)="goCaracteristicas();" id="caracteristicasD">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showCaracteristicas}">\n\n                  <img src="assets/img/caract_ico.jpg" class="ico">\n\n                  <img src="assets/img/logo-color-icon.png" class="logo">\n\n                </ion-avatar>\n\n                Características\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content bg-gris>\n\n              	<img src="assets/img/caract.jpg">\n\n            	<p>Sus características de mayor relevancia son los golpes cortos rápidos\n\n              y explosivos, combinados con una guardia cerrada, desplazamientos rápidos utilizando posturas sólidas y reducidas,\n\n              reacciones fulminantes con defensa y ataque simultáneo y la utilización de la estructura corporal, sensibilidad\n\n              táctil, fuerza interior y defensa activa perimetral. <br/><br/>\n\n              <strong>Método</strong><br/><br/> El entrenamiento del Ving Tsun (Wing Chun) esta destinado a\n\n              ayudarnos a comprender un grupo de conceptos de combate y desarrollar habilidades que le brindaran al sistema\n\n              una aprobada efectividad en su aplicación y No al desarrollo de atributos físicos como sucede en la mayoría\n\n              de las Artes Marciales.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>          \n\n          </ion-col>\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showSistema}">\n\n            \n\n              <ion-item (click)="goSistema()">\n\n                <ion-avatar item-start  [ngClass]="{\'zoom\' : showSistema}">\n\n                  <img src="assets/img/sistema_ico.jpg"class="ico">\n\n                  <img src="assets/img/logo-color-icon.png" class="logo">\n\n                </ion-avatar>\n\n                Sistema\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content bg-gris>\n\n              	<img src="assets/img/sistema.jpg">\n\n            	<p><strong>Formas</strong><br/> El sistema Ving Tsun (Wing Chun) posee seis formas 3 de mano y 3 formas de especialización.\n\n              Las formas son secuencias de movimientos encadenados, en otras artes marciales las formas pretenden ser una\n\n              especie de combate simulado donde se mejora la técnica, en el Ving Tsun (Wing Chun) tienen el objetivo de ayudar a comprender\n\n              en profundidad los conceptos básicos del sistema y desarrollar habilidades tales como la raíz, la coordinación,\n\n              la mecánica corporal, la relajación, la estructura, el desarrollo de la energía y el poder explosivo.<br/><br/> \n\n              <strong>Primera Trilogía</strong><br/> La primera trilogía esta orientada a la introducción del estudiante en el sistema y sus conceptos\n\n              al igual que el desarrollo de las habilidades antes mencionadas. \n\n              <br/><br/><strong>Siu Nim Tao</strong> 小念頭:<br/>Forma de la idea esencial\n\n              <br/><br/><strong>Cham Kiu</strong> 尋橋:<br/>Brazos puente\n\n              <br/><br/><strong>Biu Jee</strong> 標指:<br/>Dedos penetrantes.<br/><br/>\n\n              <strong>Segunda Trilogía</strong><br/> La segunda Trilogía esta compuesta\n\n              por el trabajo en el muñeco de madera y dos formas de armas. Es una etapa superior en donde se busca trabajar\n\n              el más alto refinamiento del sistema. Para acceder al entrenamiento con estos accesorios uno debe haber alcanzado\n\n              los dominios de la primera trilogía del sistema \n\n              <br/><br/><strong>Mok Jan Chong</strong> 木人樁:<br/>Forma con el muñeco de madera \n\n              <br/><br/><strong>Luk Dim Bun Gwan</strong> 六點半棍 :<br/>Bastón de los Seis puntos y medio \n\n              <br/><br/><strong>Bart Cham Dao</strong> 八斬刀 :<br/>Forma con cuchillos de 8 cortes.<br/><br/>\n\n              <strong>Ejercicios complementarios</strong><br/>\n\n              En Ving Tsun (Wing Chun) los niveles se encuentran determinados por las formas y ejercicios complementarios\n\n              diseñados para desarrollar habilidades que las formas no pueden brindarnos y mejora de Factores de Monitorización\n\n              del Sistema, a su ves nos ayudan a poder llevar a la practica lo aprendido en la forma. Existen habilidades\n\n              como la sensibilidad táctil que se desarrollan con ejercicios en pareja, como es el caso de ejercicios LAP\n\n              SAO y CHI SAO para las manos y CHI GERK para las piernas. \n\n              <br/><br/><strong>Lap Sao</strong> \n\n              <br/><br/><strong>Chi Sao</strong> \n\n              <br/><br/><strong>Chi Jerk</strong><br/><br/> \n\n              Por otra parte el desarrollo de la potencia la reacción y el timing se obtienen mediante el trabajo de: \n\n              <br /><br /><strong>Saco de pared</strong>\n\n              <br /><br /><strong>Saco pesado</strong>\n\n              <br /><br /><strong>Focos</strong>\n\n              <br /><br /><strong>Caminatas</strong> \n\n              <br /><br /><strong>Sparring</strong> \n\n              <br /><br />El trabajo de esta serie de ejercicios entrena también las aplicaciones técnicas, los desplazamientos\n\n              y el posicionamiento.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>          \n\n          </ion-col>\n\n\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showCF}">\n\n            \n\n              <ion-item (click)="goCF()">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showCF}">\n\n                  <img src="assets/img/conceptos_ico.jpg" class="ico">\n\n                  <img src="assets/img/logo-color-icon.png" class="logo">\n\n                </ion-avatar>\n\n                Conceptos Fundamentales\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content bg-gris>\n\n              	<img src="assets/img/conceptos.jpg">\n\n            	<p>\n\n                <strong>Si el camino está libre, avanza</strong>\n\n                <br/><br/>Cuando alguien nos ataca salimos de inmediato a atacarlo. Para que nuestro ataque\n\n              tenga éxito utilizamos un especifico sistema de defensa activa perimetral que consiste en esperar a que nuestro\n\n              oponente invada la distancia de ataque es decir que se encuentre en la distancia propicia para ser alcanzado\n\n              de forma efectiva por nuestros golpes. El Gran Maestro Yip Man tenia un aforismo para describir esta función,\n\n              el decía “Cuando un oponente comienza su ataque, es como si un amigo abriera la puerta de entrada de tu casa,\n\n              tu tienes la obligación de salir a encontrarlo “. En el Ving Tsun (Wing Chun) si un oponente inicia su ataque debemos interceptarlo,\n\n              nosotros debemos trazar un perímetro alrededor nuestro que al momento en que nuestro atacante lo atraviese\n\n              y represente su proximidad una amenaza para nuestra integridad, debemos salir de inmediato a su encuentro.\n\n              Cualquier ataque por muy fuerte que sea siempre será anulado, siempre y cuando nuestra acción intercepte su\n\n              trayectoria en el comienzo del ataque.<br/><br/> \n\n              \n\n              <strong>Si chocas con algo, pégate Si hay contacto con el oponente, mantente adherido a él</strong> \n\n              <br/><br/>\n\n              La adherencia es un principio que se encuentra directamente relacionado al Ving Tsun (Wing Chun) a través\n\n              de la practica del chi sao y el combate, desde el momento que uno ha establecido contacto con nuestro oponente,\n\n              tenemos que pegarnos a él de manera de no dar espacio a que nos contraataque, controlamos sus movimientos,\n\n              presionando sus extremidades contra el, de manera que no pueda generar energía ni desplazarse libremente. En\n\n              el momento en que busque liberarse de nuestra energía nos ira entregando los espacios, para desequilibrar y\n\n              golpear, en conclusión los ataques del Ving Tsun (Wing Chun) una vez que comienzan no terminan hasta que nuestro oponente\n\n              este fuera de combate. <br/><br/>\n\n              <strong>Si su ataque es más fuerte, sede</strong>\n\n              <br/><br/>Siempre que sentimos que nuestro oponente genera una\n\n              presión superior a la podemos contener con facilidad utilizando la estructura corporal o bien nos ataca cedemos.\n\n              El Ving Tsun (Wing Chun) posee un amplio arsenal de defensa que funciona correctamente utilizando el principio de ceder\n\n              ante la fuerza bruta generando un vacío en el punto de presión de nuestro oponente y atacamos directamente\n\n              por los flancos vulnerables de nuestro oponente ocupando la línea central aprovechando las puertas que deja\n\n              abiertas al atacarnos. En ocasiones este principio no solo se ve sustentado por las técnicas defensivas utilizadas\n\n              con este fin sino también por el reposicionamiento. <br/><br/>\n\n              <strong>Si el oponente retrocede, síguelo sin detenerte hasta el fin</strong><br/><br/> \n\n              Cuando el oponente siente el efecto que generan los principios antes explicados, busca retroceder para\n\n              poder recuperar su centro de equilibrio y rearmar su estructura corporal para poder contraatacar, por lo que\n\n              debemos seguirlo indefectiblemente golpeando los espacios abiertos que nos deje hasta que quede fuera de combate.</p>\n\n              <br/><br/>\n\n              <p style="text-align:right;">Autor: Yip Man</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>            \n\n          </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-12>\n\n            \n\n             <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showL}">\n\n            \n\n              <ion-item (click)="goL()" id="L">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showL}">\n\n                  <img src="assets/img/filosofia_ico.jpg" class="ico">\n\n                  <img src="assets/img/logo-color-icon.png" class="logo">\n\n                </ion-avatar>\n\n                Filosofía\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content bg-gris>\n\n              	<img src="assets/img/filosofia.jpg">\n\n            	<p>Este es un tema muy interesante para tratar y debatir, ya que el Ving Tsun (Wing Chun) posee una filosofía propia que extrae distintos conceptos de la trilogía filosófica china conformada por <strong>Budismo Chan</strong>, <strong>Taoísmo</strong> y <strong>Confucionismo</strong>. Esto no debería llamarnos demasiado la atención ya que estas tres corrientes diferenciadas con facilidad en el pasado en la actualidad China se han amalgamado y creado una filosofía popular. A continuación, realizaré una breve reseña sobre las características de cada una de las filosofías para posteriormente estar en condiciones de comprender el origen del Tao del Ving Tsun (Wing Chun). Es importante tener en claro que Tao, significa "camino" o "sendero" (recto o virtuoso) que conduce a la meta. No obstante, cuando en el Taoísmo se refieren al Tao se refieren a una fuerza omnipresente indescriptible, intangible e incontenible cuya forma de comprenderlo no es invadirlo mediante el estudio formal sino vaciarse para poder ser invadido por el. </p>\n\n\n\n<p><strong>Confucionismo</strong><br/><br/>\n\n Los primeros Confucionistas estudiaban los Seis Libros Clásicos y el Ceremonial, que incluían las responsabilidades sociales, el respeto a los ancianos, la práctica de las grandes virtudes humanas. Para él, todo debía funcionar armónicamente mediante “las cinco relaciones sociales” entre el soberano y el súbdito entre un padre y un hijo entre el hermano mayor y el hermano menor entre esposa y esposo entre amigo y amigo Confucio resumió la doctrina de la rectitud en la “frase de oro” del Evangelio, quinientos años antes de que la predicara el Nazareno. En formato positivo: “Haced a los demás lo que queráis que os hagan”. Y en formato también negativo, para explicar, no sólo la rectitud, sino también el altruismo: “No hagáis a los demás lo que no queréis que os hagan”. “Quien se ejercita en la rectitud y el altruismo no está lejos del Tao”. Pero es necesario cambiar para ir adaptándose más y más a ese estilo de ser. “sólo no cambian los grandes sabios y los grandes idiotas”. Propio del hombre es cambiar y adaptarse y, si es a mejor, adquiriendo mayor cultura, la naturaleza humana será más digna de confianza. Se cuenta que cuando estaba cerca su muerte, un discípulo suyo le pidió permiso para orar por el. A lo cual el maestro respondió: “Mi plegaria es mi vida”.</p>\n\n\n\n<p><strong>Taoísmo</strong><br/><br/>\n\nEl Taoísmo establece la existencia de tres fuerzas: una pasiva, otra activa y una tercera, conciliadora. Las dos primeras se oponen y complementan simultáneamente entre sí, es decir que son interdependientes de manera absoluta y funcionan como una unidad. Son el Yin (fuerza pasiva/sutil, femenina, húmeda...) y el Yang (fuerza activa/concreta, masculina, seca...). La tercera fuerza es el Tao, o fuerza superior que las contiene. El significado más antiguo que existe sobre el Tao dice: "Yi Yin, Yi Yang, Zhè Wei Tao", es decir, "un aspecto Yin, un aspecto Yang, eso es tao". "Yang" literalmente significa ladera luminosa (soleada) de la montaña "Yin" ladera oscura (sombría) de la montaña; "Yin" ladera oscura (sombría) de la montaña; entiéndase la idea de montaña como símbolo de "unidad" así, aunque representan dos fuerzas aparentemente opuestas, forman parte de una única naturaleza. La igualdad entre las dos primeras fuerzas entraña la igualdad de sus manifestaciones consideradas en abstracto. Por ello el taoísta no considera superior la vida sobre la muerte, no otorga supremacía a la construcción sobre la destrucción, ni a lo positivo sobre lo negativo, ni a la afirmación sobre la negación. El gran taoísta Lin An define así "el camino de la felicidad": La gran mayoría de las personas que vacía y mal se siente, porque usa las cosas para deleitar su corazón, en lugar de usar su corazón para disfrutar de las cosas. El Tao "es" como el espacio vacío para que se manifieste el todo. "Existía antes del Cielo y de la Tierra", no es posible decir de dónde proviene. Es madre de la creación y fuente de todos los seres. El tao engendró la unidad. La unidad dió origen a las dos facetas las cuales dieron el ser a la triada y la triada produjo los diez mil seres. El Tao tampoco es temporal o limitado; Es la fuente primaria cósmica de la que proviene la Creación. Es el principio de todos, la raíz del Cielo y de la Tierra, la "madre" de todas las cosas más, si intentamos definirlo, mirarlo u oírlo, no sería posible el Tao regresa al No-Ser, ahí donde es insondable, inalcanzable y eterno. Todas las cosas bajo el Cielo gozan de lo que es, lo que es surge de lo que no es y retorna al No-Ser, con el que nunca deja de estar ligado. El taoísmo excluye el concepto de ley y lo sustituye por el de orden. Es decir, las cosas son de determinada manera debido a que su posición en un universo en permanente movimiento les confiere una naturaleza que las obliga a ese comportamiento. Tao es el nombre global que se da al orden natural. El objetivo del Tao es enseñar al hombre a integrarse en la naturaleza, enseñarle a fluir, a integrarse en sí mismo en concordancia y armonía. Enseñar a compenetrarse con esta naturaleza y armonía de tal modo que llegue a experimentar en su propio cuerpo sus ritmos vitales. Sintonizándose el cuerpo humano mediante una serie de ejercicios con estos ritmos, ganando así serenidad mental y energía física. A principios del siglo IV a. C. los filósofos chinos escribían sobre el yin y el yang en términos relacionados con la naturaleza. Observando de la perspectiva del Tao, se ve cómo todas las cosas se elevan, se vuelven grandes y luego retornan a su raíz. Vivir y morir es simplemente entrar y salir. Las fuerzas de la mente no tienen poder sobre quien sigue el Tao. El camino del No- Ser lleva a la quietud y la observación, y conduce de lo múltiple al Uno. Para poder recorrer ese camino hace falta preparación interna. Mediante la práctica espiritual, la perseverancia, el recogimiento y el silencio se llega a un estado de relajación que debe ser tan sereno que posibilita la contemplación del Ser interior, el alma, y así se logra ver lo invisible, escuchar lo inaudible, sentir lo inalcanzable. El taoísmo influyó en numerosas áreas del conocimiento como la medicina y ciertas escuelas de meditación, e incluso las Artes Marciales. Al llegar el Buddhismo a China se produjo una muy interesante "síncresis", la interrelación entre el budismo y el taoísmo produjo entre otros efectos la escuela religiosa y filosófica budista Cha\'ang (sintetización de la palabra sánscrita dhyana, que significa: meditación) y , ésta, al pasar a Japón originó el zen. </p>\n\n\n\n<p><strong>Budismo Cha´ang</strong><br/><br/>\n\nEl Budismo Chan es la filosofía que se originó hace 1500 años en el Templo Siu Lam (Shao lin) de China y que hoy se ha convertido en la filosofía general del 90% de las Artes Marciales de nuestro tiempo. Como toda escuela budista, tiene sus orígenes en India. La palabra china Chan , es a su vez una transcripción del término sánscrito dhyāna, traducido normalmente como "meditación". El desarrollo del Zen parte pues de una noción doctrinal en los sutras budistas del mahayana en donde se afirma la preeminencia del cultivo de la meditación como la vía preferente para conseguir la iluminación o estado de sabiduría absoluta. El budismo primigenio observaba una progresión en distintos estados de la meditación que suceden en un cultivo gradual del practicante. En este contexto, el Chan afirmará la existencia de un acceso directo y espontáneo al último y superior de todos ellos - aquel que precede inmediatamente a la experiencia de la iluminación sin necesidad de experimentar los anteriores, mediante vías de acceso espontáneas y que son ajenas a la intelectualización de lo aprendido o a una noción de crecimiento gradual en el perfeccionamiento espiritual. El Chan es la tradición budista de la intuición y la espontaneidad. Estatua a la entrada del monasterio Shaolin de Henan, donde se inició el budismo Chan. Aunque la práctica Zen incluye el estudio de los sūtras y otros textos, el carácter directo e intuitivo de este tipo de tradición budista los sitúa en un segundo plano, se anima al discípulo a mantener su atención en el momento presente, confiando en la sabiduría innata de todo ser humano para realizar todo su potencial. Por lo tanto, este nuevo tipo de budismo se centra en el cultivo de la mente o meditación, cuya traducción china es la palabra Chan. En chino, a esta escuela se la llama directamente "Escuela de meditación" (Escuela del Chan). El resto de escuelas dedicaban buena parte de su tiempo al estudio de textos, ya que consideraban que su lectura entrañaba la acumulación de méritos para el despertar. </p>\n\n\n\n<p><strong>Biografía del Buda</strong><br/><br/>\n\nTa Mo Bodhidharma (en chino: Damó pronunciado Tamó) fue un monje de origen indio, el vigésimo octavo patriarca del budismo y el primer patriarca legendario y fundador la forma de budismo Chán. Proveniente del Sur de la India, llegó a China bajo el reino del emperador Wu del Liang (502-549 d.c). Antes de llegar a China, Boddidharma o Da Mo ya había realizado tres periodos de meditación intensa. Al llegar a China, Da Mo pasó por Guangzhou (Cantón) y después fue a Nanjing (Colina Dorada). Da Mo después de un tiempo decidió dirigirse hacia el norte para encontrar un lugar donde establecerse y comenzar a transmitir su enseñanza. El día que decidió dejar Nanjing y cruzar el río Changjiang (Yangtze o río Azul) para dirigirse al norte, las personas del lugar hicieron, deliberadamente, zarpar todas las naves con la intención de poner a prueba al monje extranjero. Cuando Da Mo llegó al río y observó que no había un solo bote disponible, pero que ambos lados del río se había reunido gran cantidad de personas que habían venido a verlo cruzar. Da Mo intuyendo lo que estaba pasando miró a su alrededor y vio a una anciana que sostenía un junco; Da Mo se acerco a ella y juntando sus manos se inclinó en señal de reverencia y pidió prestado el junco a la señora explicándole que deseaba cruzar el río de 400 metros de ancho. Cuando la mujer le  dió la caña, Da Mo caminó hasta la orilla y colocó el junco en las aguas del Changjiang, puso sus manos juntas, su mente en calma y su mirada dentro de sí, colocó ambos pies en el junco y comenzó a cruzar el enorme río impulsado suavemente por la brisa del sudeste mientras hacia una reverencia despidiéndose de la anciana. Hoy construida frente al salón de los héroes enjoyados hay una tablilla de piedra en la cual esta grabada la figura de un monje; tiene cejas pobladas, ojos grandes, pómulos prominentes, cara afilada, con barba y bigote poblados, grandes aretes en sus oídos, y sus pies descalzos apoyados en un junco, mientras cruza un río. Al llegar a Songshan (la montaña central de China) Da Mo se estableció en Shaolin para iniciar con su enseñanza. Hacia el norte del monasterio a medio camino hacia la montaña de los cinco animales, hay una pequeña cueva, del tamaño de un cuarto pequeño, la cual mira directamente hacia el sol. Al inicio de su vida en Shaolin, Da Mo solía escalar la montaña durante el día y sentarse en la cueva frente a la pared en estado de chana (meditación chan) y durante las tardes bajaba al monasterio a conversar de budismo con los otros monjes. Pero después de un tiempo ya no bajó al monasterio, sino que se quedó sentado frente a la pared, concentrado en lo fundamental. Así pasaron los años, y cuando se cansaba se ponía de pie, y comenzaba a hacer ejercicios, algunos imitando a los movimientos y estrategias de defensa de los animales que observaba a su alrededor, desarrollando lo que después se conocería como Kung Fu Shaolin; una vez que el entumecimiento había desaparecido, volvía a la cueva, se sentaba, se deshacía de todo pensamiento y guardaba silencio. Un hombre puede tolerar meditar durante primavera y otoño, pero en verano, cuando enjambres de mosquitos y todo tipo de insectos lo devoran se convierte en algo intolerable. Había años en los que la cara de Da Mo tenía tantas picaduras que se veía hinchada y deforme; pero el se mantenía inalterable, inmerso en su silencio. La región de Shaolin es muy montañosa, rodeada por valles profundos; en el invierno se pueden escuchar lobos, tigres y panteras. En una ocasión un joven monje subió a la cueva para llevarle algo de comida a Da Mo y encontró a un lobo que apoyando sus patas en los hombros de Da Mo acercaba su hocico jadeante al cuello del maestro; el joven monje grito con todas sus fuerzas, el lobo aulló y salió corriendo mientras Da Mo seguía inmutable. Durante un invierno ventoso y seco, durante el cual el helado aire del norte soplaba por toda la montaña y ni nieve ni lluvia habían caído; el pasto seco prendió en llamas y en poco tiempo toda la montaña estaba envuelta en fuego. Desde el monasterio todos podían ver como el fuego había llegado a la entrada de la cueva, así que varios monjes subieron entre las llamas batallando con el fuerte viento; pero al llegar a la cueva encontraron a Da Mo de cara a la piedra sin señal de movimiento alguno. Da Mo meditó durante un total de nueve años. Se dice que después de tres mil días mirando la pared su sombra se marcó en la piedra y en ésta se puede ver a la figura de un hombre sentado con las piernas cruzadas y las manos al frente juntas en meditación. Después de nueve años de meditación en el lugar la gente comenzó a llamar a la cueva "la cueva de Da Mo". Hoy en día la cueva se puede visitar en el interior del monasterio Shaolin, y frente a ésta se encuentra un arco de piedra en el que en su lado sur se encuentran grabadas las palabras "Mo Xuan Chu" - "El lugar de profundo silencio" frase compuesta por Hu Bin, un oficial del gobierno que vivió durante la dinastía Song; y en el lado norte están grabadas las palabras "Dong Lai Zhao Ji" "La marca del principio del este" escritas por Jin Xi de Yandu, durante la dinastía Ming. Afuera de la cueva, en la pared oeste está escrito un poema de cuatro versos escrito durante la dinastía Ming por Su Minwang de Changdan que dice: \'"¿Quién puede dominar la gran sabiduría del oeste? Nueve años de entrenamiento en la montaña de cinco animales. Si el verdadero entendimiento se puede alcanzar en el mundo de los hombres. Entonces es Da Mo quien ha alcanzado ese fin." En sus últimos años a pesar de estar enfermo visito el monasterio de Qianwang en LUOYANG para realizar una ceremonia budista. Cuando Da Mo dejó este mundo, los otros monjes en el monasterio Shaolin, como una manera de recordarlo retiraron la piedra de la pared donde solía meditar. Esta roca ahora se encuentra dentro del monasterio para que todos puedan admirarla. El famoso poeta XiaoYuanji, compuso, en memoria de la piedra, un poema que dice: "Una piedra en Shaolin, todos dicen que es un hombre. Claramente es un hombre, claramente es una piedra. ¿Qué piedra? La piedra de meditación. ¿Qué hombre? El hombre meditativo. El Buda meditativo, hijo de un rey, sentado por nueve años. Hecho del buda, un cuerpo vacío, el cuerpo impreso en el espíritu de la roca. La forma de la roca por siempre controlando el destino de la escuela Shaolin." </p>\n\n\n\n<p><strong>El Tao del Ving Tsun (Wing Chun)</strong><br/><br/>\n\nComo podemos apreciar luego de dar rienda suelta a este interesante paseo filosófico muchos de los componentes de estas filosofas se encuentran amalgamados en silencio dentro del Tao del Ving Tsun (Wing Chun). El Ving Tsun (Wing Chun) adoptó la forma de realcionamiento jerárquico familiar del Confucionismo al igual que las normas morales (Wude), y los ritos a los ancestros. La relación Sitó que debe llevarse a cabo entre los hijos y los padres marciales Sifu maestro y Todai Estudiantes y los hermanos mayores y hermanos menores Sihing y Sidai practicantes más viejos y más nuevos. La graduación en Ving Tsun básicamente se rige por lugares familiares y a los clanes dentro del Ving Tsun se les llaman familias. El verdadero Ving Tsun sólo puede ser practicado a través de la Vida-Kung Fu.En Chino llamada de “Sam Fa”. Sam Fa es el desarrollo que se logra a través del realcionamiento con todos los miembros de la Familia Kung Fu, que incluyen al maestro, los condiscípulos (hermanos Kung Fu) y al propio practicante. Es una forma de convivencia que no se limita solo al Mo-Gun lugar de practica, sino también fuera de ella. La Vida-Kung Fu, nos brinda la posibilidad de aplicar los principios del Sistema en todos los ámbitos de su vida. Esta forma de relacionamiento familiar ayuda a que el estudiante capte la esencia del Ving Tsun (Wing Chun) de forma natural y espontánea. Por otra parte el código moral Wu De es una simplificación de los códigos morales extraídos del Confucionismo, es una guía para aquellos estudiantes que carecen de una comprensión ética y la moral elevada y deben reencausarse mediante el estudio de las mismas, cuando el orden no es natural el confucionismo lo recupera por medio de reglas de comportamiento. Código Moral del Ving Tsun (Wing Chun) "Sé disciplinado – condúcete éticamente como artista marcial". "Practica la cortesía y la rectitud/justicia – sirve a la sociedad y respeta a tus mayores". "Ama a tus estudiantes – estad unidos y evitad los conflictos". "Limita tus deseos y la búsqueda de placeres corporales – preserva el espíritu verdadero". "Entrena diligentemente – mantén tu destreza". "Aprende a desarrollar la tranquilidad espiritual – abstente de discusiones y disputas". "Participa en la sociedad – sé moderado y gentil en tus maneras". "Ayuda al débil y al más joven – usa las técnicas marciales para el bien de la humanidad". "Transmite la tradición – preserva este arte chino y las reglas de conducta". La influencia del Taoísmo se hace presente en la técnica del sistema, vive en silencio en cada movimiento, en cada concepto. Tomar siempre el camino de menor resistencia, utilizar los opuestos complementarios, si mi oponente es más fuerte sedo, si el camino está libre, ataco, me adapto de forma natural y continua a cada movimiento que realiza mi adversario, no lucho contra mi oponente sino con mi oponente me mantengo vacío y en calma, si se mueve, me muevo, no pienso en lo que voy a hacer, fluyo como el agua y reacciono naturalmente. El sistema no es rígido ni estático, se adapta a las virtudes naturales de cada practicante. Gran parte de estos principios los puedo aplicar para resolver conflictos del diario vivir lo que los convierte en una filosofía practica. Origen Budista El sistema Ving Tsun tiene sus raíces en el Monasterio Siu Lam (Shao Lin) donde vivió y alcanzó la más alta reputación el Buda Ta Mo este ultimo Influencio las practicas y técnicas del monasterio y por consiguiente el Ving Tsun (Wing Chun) las heredó de forma indirecta. Se pueden ver algunas de estas técnicas meditativas y métodos de respiración propios de las prácticas Budistas Chan dentro de Siu Nim Tao y una serie de ejercicios complementarios llamados Hei Kung destinados a preparar nuestro cuerpo para resistir cierto tipo de exigencias o bien mejorar nuestra salud. Por todas estas connotaciones decimos que el Tao del Ving Tsun es un Tao propio basto y maravilloso que nos alimenta con la filosofía necesaria para un debido desarrollo marcial y familiar aportándonos los componentes necesarios para una vida social y espiritual plena. Cada estudiante posee las herramientas necesarias para llevar a cabo esta evolución si presta atención y busca debajo de lo visible del arte a la silenciosa filosofía del Ving Tsun.</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>            \n\n\n\n		  </ion-col>			\n\n          <ion-col col-12>\n\n            <ion-card [ngClass]="{\'btn-exp\': true, \'active\' : showHistoria}">\n\n            \n\n              <ion-item (click)="goH()">\n\n                <ion-avatar item-start [ngClass]="{\'zoom\' : showHistoria}">\n\n                  <img src="assets/img/historia_ico.jpg" class="ico">\n\n                  <img src="assets/img/logo-color-icon.png" class="logo">\n\n                </ion-avatar>\n\n                Historia del Ving Tsun\n\n                \n\n                <ion-icon name="ios-arrow-up"></ion-icon>\n\n              </ion-item>\n\n              <ion-card-content bg-gris>\n\n			<img src="assets/img/historia.jpg">\n\n            <p>La antepasada del sistema Ving Tsun (Wing Chun), la desaparecida señorita Yim Wing Chun, era nativa de la provincia de Kwangtung\n\n              en China. Como chica joven, era lista y activa y se destacó por su fuerte personalidad. Estaba prometida al\n\n              señor Leung Bok Chau, un mercante de sal de la provincia de Fukien. Poco tiempo después su madre murió. Su\n\n              padre, Yim Yee, fue acusado de un cargo de falsificación. De modo que su padre se escapó con ella, antes de\n\n              correr el peligro de ser encarcelado. Finalmente se asentó al pie de la montaña Tai Leung, en los limites de\n\n              las provincias de Yunan y Szechwan, en donde aprendieron a vivir como vendedores en una tienda de judías. Fue\n\n              durante el reinado de K´angshi, de la dinastía Ching, cuando los seguidores del estilo Siu Lun, de Kung Fu,\n\n              ganaron una envidiable reputación por su progreso en el arte de la lucha, incluso sus destrezas llegaron a\n\n              comprometer al gobierno Ching, quien decidió borrar la secta y destruir su monasterio, localizado en la montaña\n\n              Shung, en la provincia de Honan, en la China central. Los soldados fueron enviados con orden de destruir el\n\n              monasterio y eliminar la secta. Pero los monjes del monasterio Siu Lam y sus seguidores opusieron una gran\n\n              resistencia y su monasterio quedó sin daño después de una gran lucha. Chan Man Wai, el primer graduado del\n\n              servicio civil del año, fue quien preparó un gran plan con el fin de ganar cierto reconocimiento por el gobierno.\n\n              Creó un plan junto con algunos monjes del templo, especialmente con uno llamado, Ma Ning Yee, quien fue convencido\n\n              de traicionar al resto de sus compañeros prendiendo fuego el monasterio a sus espaldas. De esta manera, el\n\n              templo fue virtualmente quemado; los monjes y discípulos fueron repartidos por diversos sitios. Entre los supervivientes,\n\n              los más destacados fueron la Monja Budista Ng Mui, el Maestro Chi Shin, el Maestro Pak Mei, el Maestro Fung\n\n              To Tak y el Maestro Miu Hi. Todos ellos escaparon y lograron esconderse. La monja budista Ng Mui se refugió\n\n              en el templo de la Grulla Blanca, en la ladera de la montaña Tai Leung, también conocida por montaña Chai Har.\n\n              Fue allí en donde entabló amistad con Yim Yee y su hija Ving Tsun (Wing Chun), de quien habitualmente compraba judías en\n\n              su camino de vuelta del mercado. A la edad de 15 años el pelo de Ving Tsun (Wing Chun) comenzó a rizarse y era costumbre\n\n              de aquellos días que entonces ya estaba lista para el matrimonio. Su belleza atrajo la atención del bruto local,\n\n              quien intentó forzarla para que se casara con él. Los tratos continuos que recibía por parte de aquel bruto\n\n              llegaron a preocupar a ella y a su padre. Las noticias llegaron hasta Ng Mui, quien tuvo pena de Ving Tsun (Wing Chun)\n\n              y decidió tomarla como su discípulo. Ng Mui prometió enseñarle el arte a Ving Tsun (Wing Chun), de forma que fuera capaz\n\n              de repeler a aquel bruto, y después de eso casarse con su prometido. Desde aquel día Ving Tsun (Wing Chun) siguió a Ng\n\n              Mui todos los días para la práctica del Kung Fu. Cuando Ving Tsun (Wing Chun) era capaz de dominar las técnicas que Ng\n\n              Mui le había enseñado, desafió y derrotó a aquel bruto local, quien le había dado ciertos problemas. Después\n\n              Ng Mui dejó a Ving Tsun (Wing Chun) y comenzó con sus variados viajes por el país, solo después de haber hecho prometer\n\n              a Ving Tsun (Wing Chun) que enseñaría el arte para ayudar a los patriotas a restaurar la Dinastía Ching y a derrocar a\n\n              la Dinastía Ming. De lo aquí expuesto, se puede decir que el sistema Ving Tsun fue originado por Ng Mui. Después\n\n              de que Ving Tsun (Wing Chun) se había casado, pasó el arte del estilo a su marido Leung Bok Chau, quien a su vez lo pasó\n\n              a Leung Lan Kwai. Leung Lan Kawai enseñó el arte a Wong Wah Bo, miembro de una "troupe" a bordo de un junco,\n\n              conocido como el "junco rojo". Entre los asociados de Wong Wah Bo, en el Junco Rojo, había uno llamado Leung\n\n              Yee Tei, quien había aprendido la técnica del Palo Largo de "seis puntos y medio" del cocinero del barco. Dio\n\n              la casualidad que el cocinero de aquel barco no era otro que el Maestro Chi Shin del monasterio Siu Lam, que\n\n              había sido quemado en al montaña Shung de la provincia de Honan, como ya se había mencionado. La estrecha amistad\n\n              de Wong Wah Bo con Leung Yee Tei dio como resultado que se pasaran sus mutuos conocimientos en Kung Fu, dando\n\n              como resultado la incorporación de las técnicas del Palo Largo al sistema de Ving Tsun (Wing Chun). Leung Yee Tei enseñó\n\n              el arte del Ving Tsun (Wing Chun) a Leung Jan, un muy conocido físico de la ciudad de Fatsan, en la provincia de Kwangtung,\n\n              quien dominó todos los secretos del arte y alcanzó un alto grado de habilidad. Fue desafiado muchas veces y\n\n              derrotó a todos sus oponentes, por lo que llegó a tener una gran fama. Más tarde pasó sus técnicas al reverendo\n\n              Maestro Chan Wah Shun, de quien mis hermanos mayores en Kung Fu: Ng Siu Lo, Chung So, Chan Yu Min, Lui Yu Chai,\n\n              y yo mismo aprendimos el arte durante las docenas de ańos en que le seguimos. Se puede decir que el arte pasó\n\n              a nosotros en una línea directa de sucesión desde su origen. Estoy escribiendo la historia del Ving Tsun (Wing Chun) Kung\n\n              Fu en memoria respetuosa de mi antepasado. Un hombre que siempre pensaba en el camino del agua cuando la vivía.\n\n              Un hombre al que estoy eternamente agradecido por pasarme los conocimientos y habilidades que poseo hoy día.\n\n              Tomo esta oportunidad para decir que estoy organizando una Asociación de compañerismo de Ving Tsun (Wing Chun), y que me\n\n              gustaría llamar el apoyo de mis antiguos compañeros, y por una buena respuesta de estudiantes y seguidores\n\n              del sistema Ving Tsun (Wing Chun). ¿No es esta la manera de promocionar el Kung Fu, y proyectar la imagen de nuestro país?</p>\n\n              </ion-card-content>\n\n            \n\n            </ion-card>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n    </div>\n\n    </div>\n\n    <div *ngIf="showLinage" class="divContenido">\n\n\n\n       <div class="no-movil">\n\n      <div caja>\n\n          <div class="contenido" padding>\n\n            <h3>Gran Maestro Yip Man (1894-1972)</h3>\n\n            <img src="assets/img/ipMan.jpg" class="f-img-left" width="200"/>\n\n            <p>Yip Man (Ye Wen) -Yip Gai Man (Yi Jiwen)- nació en una familia adinerada de comerciantes, en Foshan en 1894. Comenzó\n\n              aprendiendo el Ving Tsun (Wing Chun) Kuen entre 1906 y 1911 bajo la dirección del Maestro Chan Wah Shun. Luego aprendió con\n\n              su Tío marcial, Leung Bik, puliendo sus habilidades a un nivel muy avanzado. Algunos de los estudiantes de Yip\n\n              Man, sin embargo, mantienen y mencionan que él refinó sus habilidades a través del trabajo duro y la visión personal\n\n              en Foshan. En 1942, bajo la ocupación japonesa Yip Man tomó algunos estudiantes en Yongan, como Chow Ywong Yiu,\n\n              Kwok Fu y Lun Gai (Lun Jie). En noviembre del año 1949, Yip Man huyó del levantamiento comunista en China rumbo\n\n              a Macao. Luego se mudó a Hong Kong dónde, en el año 1950, empezó a enseñar nuevamente el Ving Tsun (Wing Chun) Kuen a los miembros\n\n              de la Unión de Obreros de Restaurantes. Muchos de sus estudiantes, por su naturaleza amistosa y su conducta, lo\n\n              llamaron \'Man Suk\' (el Joven Tío Man) en los primeros años, y con el correr de los años lo llamaban \'Man Gung\'\n\n              (Abuelo Man). Gracias a Yip Man el Ving Tsun (Wing Chun) Kung Fu se extendió alrededor de todo el mundo.</p>\n\n          </div>\n\n      </div>\n\n      <div caja bg-gris>\n\n          \n\n          <div class="contenido" padding>\n\n            <h3>Gran Maestro Lun Kai (1928-2014)</h3>\n\n            <img src="assets/img/lunKai.jpg" class="f-img-right" width="200"/>\n\n            <p>El Gran Maestro Lun Kai nació en Cantón el 6 de noviembre de 1928 y murió el 5 de enero de 2014. Lun Kai junto a\n\n              su amigo Kwok Fu fueron unos de los primeros estudiantes del Gran Maestro Yip Man en Foshan su ciudad natal. Lun\n\n              Kai estudio con el Maestro Yip Man desde los catorce años, el Gran Maestro Yip Man tenía alrededor de cuarenta\n\n              años en este momento. El grupo se reunía por las tardes y estaba formado por ocho estudiantes. Durante la ocupación\n\n              japonesa las clases se llevaron a cabo en forma intensiva y secreta. Se hizo gran hincapié en el estudio de la\n\n              forma Siu Nim Tau y en la práctica de la postura a caballo, mientras que cuando se practicaba Chi Sao el Gran Maestro\n\n              Yip se vendaba los ojos y practicaba con todos los alumnos. El método de enseñanza en este momento se llevaba a\n\n              cabo todas las noches e incluía el estudio de Siu Nim Tao, Chum Kiu, Biu Tze, Mok Yan Jong, Bart Cham Dao, y Luk\n\n              Dim Bun Gwuan. No había ninguna instrucción de cualquier otra forma de entrenar las manos, aparte de Seung Chi\n\n              Sao. Antes de abandonar China, el Gran Maestro Yip Man instruyó a sus estudiantes para que pudieran utilizar el\n\n              Ojo de Fénix método de perforación que Sifu Lun Kai practicó y enseñó a sus discípulos durante muchos años. El\n\n              G.M Lun Kai fue un referente para la difusión del Ving Tsun en la Foshan Chin Woo Athletic Association primera\n\n              Asociación de Artes Marciales Chinas. Lun Kai y su Hermano Mayor Kwok Fu, fueron los asesores del comité del Centro\n\n              de Actividades de Investigación del Ving Tsun Kuen, en lo que refiere a la Línea Yip Man y contaron con el total\n\n              apoyo de la comunidad del Ving Tsun Kuen de Foshan. El Centro de Actividades de Investigación del Ving Tsun Kuen,\n\n              estaba representado y compuesto por todas las líneas del Ving Tsun existentes y oriundas de Foshan. El G.M Lun\n\n              Kai fue el presidente del Club de Boxeo de Ving Tsun de Yip Man de Foshan junto a los Maestros Kwok Fu y Yip Chun\n\n              que lo acompañaron como presidentes honorarios. En Julio del año 2010, las artes marciales originales enseñadas\n\n              por GM LUN KAI Sifu se registraron por primera vez en calidad de Club de Boxeo de Ving Tsun de Yip Man de Foshan\n\n              (Club Cultural de Comunicaciones Co., Ltd). Corregistrado como Asociación Atlética Foshan Yip Man Ving Tsun. El\n\n              G.M Lun Kai enseñó en Foshan de forma tradicional durante toda su vida y pasó el legado del Gran Maestro Yip Man\n\n              a numerosos estudiantes y Discípulos, destacándose entre ellos el Maestro Neldo Sacomani introductor indiscutido\n\n              de esta línea y con el estilo completo en Sudamérica. Fuente: Neldo Sacomani</p>\n\n          </div>\n\n      </div>\n\n      <div caja>\n\n      <div class="contenido" padding>\n\n        <h3>Maestro Neldo Sacomani</h3>\n\n        <img src="assets/img/neldo.jpg" class="f-img-left" width="200"/>\n\n        <p>Sifu NELDO SACOMANI, de reconocida trayectoria en la práctica del Kung Fu es el director de la Escuela Internacional\n\n          WU HSING CHUAN, entidad con base en la ciudad de La Plata, Argentina. Su entrenamiento en las artes marciales clásicas\n\n          del Kung Fu Wu Su empezó en el año 1971. Es presidente de la Asociación de Artes Marciales Chinas Tradicionales\n\n          \'Wu Hsing Chuan\' de Wushu Kung Fu, desde el año 1983. Ha estudiado y desarrollado los estilos: Bak Siu Lam Kune,\n\n          Hung Chia Chuan, Baguazhang, Ving Tsun y Tai ji Quan (Yang Shi - Sun Shi). Estudió con grandes maestros del Kung\n\n          Fu de renombre internacional y no solamente con maestros en wushu sino también con doctores en la medicina tradicional\n\n          china y Chi Kung (Laoshi Dr. Tong Zhi Hua,Hui). Está acreditado como Juez Nacional de Combate y Juez en Formas\n\n          Tradicionales y continúa entrenando todos los años en CHINA. Sifu Neldo Sacomani estudió y entrenó el SISTEMA COMPLETO\n\n          Yip Man Foshan Ving Tsun directamente en la Cuna del Ving Tsun (Cantón/China Continental) con su Maestro, el Sr.\n\n          Lun Kai y con Sr. Kwok Wai Zhang (hijo del Maestro Kwok Fu), ambos, dos de los primeros discípulos del Gran Maestro\n\n          Yip Man en su ciudad natal (Foshan). Neldo Sacomani es el introductor (oficial) de esta línea para Sudamérica,\n\n          debidamente certificado por su Maestro y la Asociación Atlética Ching Wu de Foshan.</p>\n\n      </div>\n\n      </div>\n\n      <div caja bg-gris> \n\n          <div class="contenido" padding>\n\n            <h3>Sifu Jorge Quiñones</h3>\n\n            <img src="assets/img/sifu.jpg" class="f-img-right" width="200"/>\n\n            <p>Sifu Jorge Quiñones es el introductor del sistema Ving Tsun moderno y tradicional a nuestro país, es el representante\n\n              oficial de la Linea Yip Man Foshan Ving Tsun y la Wu Hsing Chuan Athletic Association. Nacido en Montevideo, Uruguay\n\n              el 6 de Noviembre año 1975 e incursionó tempranamente en las artes marciales practicando Shao Lin Nan Chuan y Tai\n\n              Chi Chuan de la Familia Yang siendo certificado como instructor de ambos estilos. Sifu Jorge practica Ving Tsun\n\n              desde el año 2000 es Discípulo Directo bajo Ceremonia Bai Shi del Maestro Neldo Sacomani con quien aprendio y entreno\n\n              el SISTEMA COMPLETO Yip Man Foshan Ving Tsun, obteniendo el maximo grado de este estilo, siendo debidamente certificado\n\n              y respaldado por su Maestro, la Asociación Internacional Wu Hsing Chuan y la Embajada de la Republica popular China.\n\n              Actualmente se desempeña como: Director de la Academia Ving Tsun (Wing Chun) Uruguay Presidente de la Asociación Uruguaya de\n\n              Artes Marciales Chinas Tradicionales Miembro Activo y Representante Oficial de Wu Hsing Chuan Athletic Association\n\n              Sifu de Wu Hsing Chuan Athletic Association en Argentina</p>\n\n          </div>\n\n      </div>\n\n\n\n        </div>\n\n\n\n\n\n       <div xl-hide>\n\n       <ion-row>\n\n       	<ion-col col-12 text-center style="padding-bottom:0;"> \n\n                <img src="assets/img/ipMan.jpg" [ngClass]="{\'active\' : ipMan, \'linajeImg\': true}" (click)="showIpMan()"/> \n\n                <img src="assets/img/lunKai.jpg" [ngClass]="{\'active\' : lunKai, \'linajeImg\': true}" (click)="showLunKai()" class="linajeImg"/>\n\n                <img src="assets/img/neldo.jpg" [ngClass]="{\'active\' : neldo, \'linajeImg\': true}" (click)="showNeldo()" class="linajeImg"/>\n\n                <img src="assets/img/sifu.jpg" [ngClass]="{\'active\' : sifu, \'linajeImg\': true}" (click)="showSifu()" class="linajeImg"/>\n\n    	</ion-col>\n\n        <ion-col col-12 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1 class="p-col" style="padding-top:0;margin-top: -4px; background-color:#efefef;"> \n\n      <div *ngIf="ipMan" padding class="master">\n\n        <h3>Gran Maestro Yip Man (1894-1972)</h3>\n\n        <p>Yip Man (Ye Wen) -Yip Gai Man (Yi Jiwen)- nació en una familia adinerada de comerciantes, en Foshan en 1894. Comenzó\n\n          aprendiendo el Ving Tsun (Wing Chun) Kuen entre 1906 y 1911 bajo la dirección del Maestro Chan Wah Shun. Luego aprendió con\n\n          su Tío marcial, Leung Bik, puliendo sus habilidades a un nivel muy avanzado. Algunos de los estudiantes de Yip\n\n          Man, sin embargo, mantienen y mencionan que él refinó sus habilidades a través del trabajo duro y la visión personal\n\n          en Foshan. En 1942, bajo la ocupación japonesa Yip Man tomó algunos estudiantes en Yongan, como Chow Ywong Yiu,\n\n          Kwok Fu y Lun Gai (Lun Jie). En noviembre del año 1949, Yip Man huyó del levantamiento comunista en China rumbo\n\n          a Macao. Luego se mudó a Hong Kong dónde, en el año 1950, empezó a enseñar nuevamente el Ving Tsun (Wing Chun) Kuen a los miembros\n\n          de la Unión de Obreros de Restaurantes. Muchos de sus estudiantes, por su naturaleza amistosa y su conducta, lo\n\n          llamaron \'Man Suk\' (el Joven Tío Man) en los primeros años, y con el correr de los años lo llamaban \'Man Gung\'\n\n          (Abuelo Man). Gracias a Yip Man el Ving Tsun (Wing Chun) Kung Fu se extendió alrededor de todo el mundo.</p>\n\n      </div>\n\n      <div *ngIf="lunKai" padding class="master">\n\n        <h3>Gran Maestro Lun Kai (1928-2014)</h3>\n\n        <p>El Gran Maestro Lun Kai nació en Cantón el 6 de noviembre de 1928 y murió el 5 de enero de 2014. Lun Kai junto a\n\n          su amigo Kwok Fu fueron unos de los primeros estudiantes del Gran Maestro Yip Man en Foshan su ciudad natal. Lun\n\n          Kai estudio con el Maestro Yip Man desde los catorce años, el Gran Maestro Yip Man tenía alrededor de cuarenta\n\n          años en este momento. El grupo se reunía por las tardes y estaba formado por ocho estudiantes. Durante la ocupación\n\n          japonesa las clases se llevaron a cabo en forma intensiva y secreta. Se hizo gran hincapié en el estudio de la\n\n          forma Siu Nim Tau y en la práctica de la postura a caballo, mientras que cuando se practicaba Chi Sao el Gran Maestro\n\n          Yip se vendaba los ojos y practicaba con todos los alumnos. El método de enseñanza en este momento se llevaba a\n\n          cabo todas las noches e incluía el estudio de Siu Nim Tao, Chum Kiu, Biu Tze, Mok Yan Jong, Bart Cham Dao, y Luk\n\n          Dim Bun Gwuan. No había ninguna instrucción de cualquier otra forma de entrenar las manos, aparte de Seung Chi\n\n          Sao. Antes de abandonar China, el Gran Maestro Yip Man instruyó a sus estudiantes para que pudieran utilizar el\n\n          Ojo de Fénix método de perforación que Sifu Lun Kai practicó y enseñó a sus discípulos durante muchos años. El\n\n          G.M Lun Kai fue un referente para la difusión del Ving Tsun en la Foshan Chin Woo Athletic Association primera\n\n          Asociación de Artes Marciales Chinas. Lun Kai y su Hermano Mayor Kwok Fu, fueron los asesores del comité del Centro\n\n          de Actividades de Investigación del Ving Tsun Kuen, en lo que refiere a la Línea Yip Man y contaron con el total\n\n          apoyo de la comunidad del Ving Tsun Kuen de Foshan. El Centro de Actividades de Investigación del Ving Tsun Kuen,\n\n          estaba representado y compuesto por todas las líneas del Ving Tsun existentes y oriundas de Foshan. El G.M Lun\n\n          Kai fue el presidente del Club de Boxeo de Ving Tsun de Yip Man de Foshan junto a los Maestros Kwok Fu y Yip Chun\n\n          que lo acompañaron como presidentes honorarios. En Julio del año 2010, las artes marciales originales enseñadas\n\n          por GM LUN KAI Sifu se registraron por primera vez en calidad de Club de Boxeo de Ving Tsun de Yip Man de Foshan\n\n          (Club Cultural de Comunicaciones Co., Ltd). Corregistrado como Asociación Atlética Foshan Yip Man Ving Tsun. El\n\n          G.M Lun Kai enseñó en Foshan de forma tradicional durante toda su vida y pasó el legado del Gran Maestro Yip Man\n\n          a numerosos estudiantes y Discípulos, destacándose entre ellos el Maestro Neldo Sacomani introductor indiscutido\n\n          de esta línea y con el estilo completo en Sudamérica. Fuente: Neldo Sacomani</p>\n\n      </div>\n\n      <div *ngIf="sifu" padding class="master">\n\n        <h3>Sifu Jorge Quiñones</h3>\n\n        <p>Sifu Jorge Quiñones es el introductor del sistema Ving Tsun moderno y tradicional a nuestro país, es el representante\n\n          oficial de la Linea Yip Man Foshan Ving Tsun y la Wu Hsing Chuan Athletic Association. Nacido en Montevideo, Uruguay\n\n          el 6 de Noviembre año 1975 e incursionó tempranamente en las artes marciales practicando Shao Lin Nan Chuan y Tai\n\n          Chi Chuan de la Familia Yang siendo certificado como instructor de ambos estilos. Sifu Jorge practica Ving Tsun\n\n          desde el año 2000 es Discípulo Directo bajo Ceremonia Bai Shi del Maestro Neldo Sacomani con quien aprendio y entreno\n\n          el SISTEMA COMPLETO Yip Man Foshan Ving Tsun, obteniendo el maximo grado de este estilo, siendo debidamente certificado\n\n          y respaldado por su Maestro, la Asociación Internacional Wu Hsing Chuan y la Embajada de la Republica popular China.\n\n          Actualmente se desempeña como: Director de la Academia Ving Tsun (Wing Chun) Uruguay Presidente de la Asociación Uruguaya de\n\n          Artes Marciales Chinas Tradicionales Miembro Activo y Representante Oficial de Wu Hsing Chuan Athletic Association\n\n          Sifu de Wu Hsing Chuan Athletic Association en Argentina</p>\n\n      </div>\n\n      <div *ngIf="neldo" padding class="master">\n\n        <h3>Maestro Neldo Sacomani</h3>\n\n        <p>Sifu NELDO SACOMANI, de reconocida trayectoria en la práctica del Kung Fu es el director de la Escuela Internacional\n\n          WU HSING CHUAN, entidad con base en la ciudad de La Plata, Argentina. Su entrenamiento en las artes marciales clásicas\n\n          del Kung Fu Wu Su empezó en el año 1971. Es presidente de la Asociación de Artes Marciales Chinas Tradicionales\n\n          \'Wu Hsing Chuan\' de Wushu Kung Fu, desde el año 1983. Ha estudiado y desarrollado los estilos: Bak Siu Lam Kune,\n\n          Hung Chia Chuan, Baguazhang, Ving Tsun y Tai ji Quan (Yang Shi - Sun Shi). Estudió con grandes maestros del Kung\n\n          Fu de renombre internacional y no solamente con maestros en wushu sino también con doctores en la medicina tradicional\n\n          china y Chi Kung (Laoshi Dr. Tong Zhi Hua,Hui). Está acreditado como Juez Nacional de Combate y Juez en Formas\n\n          Tradicionales y continúa entrenando todos los años en CHINA. Sifu Neldo Sacomani estudió y entrenó el SISTEMA COMPLETO\n\n          Yip Man Foshan Ving Tsun directamente en la Cuna del Ving Tsun (Cantón/China Continental) con su Maestro, el Sr.\n\n          Lun Kai y con Sr. Kwok Wai Zhang (hijo del Maestro Kwok Fu), ambos, dos de los primeros discípulos del Gran Maestro\n\n          Yip Man en su ciudad natal (Foshan). Neldo Sacomani es el introductor (oficial) de esta línea para Sudamérica,\n\n          debidamente certificado por su Maestro y la Asociación Atlética Ching Wu de Foshan.</p>\n\n      </div>\n\n      	</ion-col>\n\n        </ion-row>\n\n        </div>\n\n\n\n                         \n\n      \n\n    </div>\n\n     <div *ngIf="showContacto" class="divContenido">\n\n      <div id="footer">\n\n\n\n        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.922845481352!2d-56.16552378459932!3d-34.90838568038172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a669514e7d%3A0x93c3df1fb71fe257!2sBulevar+General+Artigas+1168%2C+11300+Montevideo!5e0!3m2!1ses!2suy!4v1496360788602"\n\n        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>\n\n      	<ion-grid>\n\n        	<ion-row>\n\n            	<ion-col col-10 offset-1>\n\n                  <p>Sifu Jorge combina entrenamiento tradicional y filosofía oriental en un ambiente relajado y familiar, fomentando la\n\n                    relación Sito que se debe dar entre el Maestro (Si Fu) y los estudiantes (To Dai) necesaria para aprender Auténtico\n\n                    Kung Fu Ving Tsun</p>\n\n                  <p>\n\n                    <ion-icon name="phone-portrait"></ion-icon> Celular: <a href="tel:092781471">092 781 471</a></p>\n\n                  <p>\n\n                    <ion-icon name="md-mail"></ion-icon> Email: <a href="mailto:wingchunuruguay@gmail.com">wingchunuruguay@gmail.com</a></p>\n\n                  <p>\n\n                    <ion-icon name="ios-pin"></ion-icon> EQUILIBRIO, Instituto Superior de Artes Humanas: Bvar. Gral. Artigas 1168 / 1172</p>\n\n                  <p>\n\n                    <ion-icon name="md-alarm"></ion-icon> Lunes y Miércoles de 20.00 a 21.00 Hs</p>\n\n                </ion-col>\n\n            </ion-row>\n\n        </ion-grid>\n\n      </div>\n\n    </div>\n\n    <div *ngIf="showAmigos" class="divContenido amigos">\n\n         <ion-row>\n\n            <ion-col col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                <a href="http://www.wuhsingchuan.com.ar/" target="_blank">\n\n                  <ion-item>\n\n                    Wu Hsing Chuan Argentina\n\n                  </ion-item>\n\n                \n\n                  <img src="assets/img/logo-wu-hsing-chuan.jpg" class="imgMain"/>\n\n                \n\n                  <ion-card-content text-left>\n\n                    <p>Escuela de kung fu tradicional Wu Hsing Chuan Argentina dirigida por el Sifu Neldo Sacomani.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.wuhsingchuan.com.ar/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n            <ion-col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                	<a href="http://www.taichi.com.uy/" target="_blank">\n\n                  <ion-item>\n\n                    Tai Chi Yang Uruguay\n\n                  </ion-item>\n\n                \n\n                  <img src="assets/img/taichi-logo.jpg"  class="imgMain"/>\n\n                \n\n                  <ion-card-content>\n\n                    <p>El verdadero Tai Chi Chuan estilo Yang sin deformaciones, bajo la supervisión de los dos primeros Instructores autorizados, capacitados y respaldados por la International Yang Style Tai Chi Chuan Association en Uruguay, Carolina Alegre y Jorge Quiñones. Clases regulares, instructorados y seminarios.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.taichi.com.uy/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n          <ion-col col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                <a href="http://www.hunggarargentina.com.ar/" target="_blank">\n\n                  <ion-item>\n\n                    Hung Gar Argentina\n\n                  </ion-item>\n\n                \n\n                  <img src="assets/img/logo-hung.png" class="imgMain"/>\n\n                \n\n                  <ion-card-content text-left>\n\n                    <p>La Asociación Wu Hsing Chuan, es una entidad dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservándolas para las generaciones futuras.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.hunggarargentina.com.ar/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n            <ion-col col-12  col-sm-6 col-md-4 col-lg-3 col-xl-2>\n\n                <ion-card>\n\n                <a href="http://www.kungfutiechuan.com.ar/" target="_blank">\n\n                  <ion-item>\n\n                    Tie Chuan\n\n                  </ion-item>\n\n                \n\n<<<<<<< HEAD\n\n                  <img src="assets/img/tiechuan.jpg" class="imgMain"/>\n\n=======\n\n\n\n                  <img src="assets/img/tiechuan.jpg" class="imgMain"/>\n\n\n\n>>>>>>> master\n\n                \n\n                  <ion-card-content text-left>\n\n                    <p>Escuela de kung fu tradicional Tie Chuan.</p>\n\n                  </ion-card-content>\n\n                \n\n                  <ion-row>\n\n                    <ion-col>\n\n                      \n\n                      <button ion-button icon-left clear small>\n\n                        <ion-icon name="md-globe"></ion-icon>\n\n                        <div>http://www.kungfutiechuan.com.ar/</div>\n\n                      </button>\n\n                      \n\n                    </ion-col>\n\n                  </ion-row>\n\n                </a>\n\n                </ion-card>\n\n        	</ion-col>\n\n\n\n\n\n    	</ion-row>\n\n    </div>\n\n    <div *ngIf="showGaleria" class="divContenido" >\n\n      <iframe src="https://www.powr.io/plugins/instagram-feed/view?unique_label=e593de12_1497732754&external_type=iframe" width="100%" height="3000" frameborder="0"></iframe>\n\n    </div>\n\n  </section>\n\n  <footer class="no-movil" caja bg-black text-center>\n\n      <div class="contenido">\n\n          <ion-grid>\n\n          	<ion-row>\n\n            	<ion-col col-3 offset-3> \n\n                <a ion-fab href="https://www.facebook.com/yipmanvingtsun/"><ion-icon name="logo-facebook"></ion-icon></a>\n\n          		</ion-col>\n\n                <ion-col col-3>\n\n                <a ion-fab href="https://www.youtube.com/channel/UCbSCyPkCqETToYkP34pXdxA"><ion-icon name="logo-youtube"></ion-icon></a>\n\n          		</ion-col>\n\n                <ion-col col-3>\n\n                <a ion-fab href="https://www.instagram.com/vingtsunuruguay/"><ion-icon name="logo-instagram"></ion-icon></a>\n\n  	  	  		</ion-col>\n\n            </ion-row>\n\n          </ion-grid>\n\n      </div>\n\n  </footer>\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/codigo/Documents/workspace-wingchun/wingchun/wingchun/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _c || Object])
 ], HomePage);
@@ -55938,36 +55965,15 @@ var _a, _b, _c;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
-/* 100 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(101);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__decorators__ = __webpack_require__(198);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(47);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__ = __webpack_require__(199);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__["a"]; });
-
-
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
 /* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent__);
 /* unused harmony export ERR_CORDOVA_NOT_AVAILABLE */
 /* unused harmony export ERR_PLUGIN_NOT_INSTALLED */
@@ -56276,7 +56282,7 @@ function wrapInstance(pluginObj, methodName, opts) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(47);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashScreen; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -56368,7 +56374,7 @@ SplashScreen = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(47);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatusBar; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -56577,7 +56583,7 @@ StatusBar = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetController; });
@@ -56786,7 +56792,7 @@ function ActionSheetController_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertController; });
@@ -57907,12 +57913,12 @@ function Chip_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_picker_controller__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_picker_controller__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_form__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_base_input__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util_datetime_util__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util_datetime_util__ = __webpack_require__(233);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DateTime; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -58851,7 +58857,7 @@ var /** @type {?} */ DEFAULT_FORMAT = 'MMM D, YYYY';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_ui_event_manager__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fab__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab_list__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab_list__ = __webpack_require__(55);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FabContainer; });
 
 
@@ -60335,7 +60341,7 @@ function getUnitValue(val) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__infinite_scroll__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__infinite_scroll__ = __webpack_require__(57);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfiniteScrollContent; });
 
 
@@ -60433,8 +60439,8 @@ function InfiniteScrollContent_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__item_item__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__native_input__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__next_input__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__native_input__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__next_input__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__navigation_nav_controller__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_platform__ = __webpack_require__(3);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TextInput; });
@@ -61754,9 +61760,9 @@ function findReorderItem(node, listNode) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_options__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_options__ = __webpack_require__(60);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemSliding; });
 
 
@@ -62500,8 +62506,8 @@ function LoadingController_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_component__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_transitions__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_component__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_transitions__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loading; });
 var __extends = (this && this.__extends) || (function () {
@@ -62927,16 +62933,16 @@ function MenuToggle_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__backdrop_backdrop__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__backdrop_backdrop__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__content_content__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__gestures_gesture_controller__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_keyboard__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__menu_gestures__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__menu_gestures__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_menu_controller__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__gestures_ui_event_manager__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__split_pane_split_pane__ = __webpack_require__(33);
@@ -64002,7 +64008,7 @@ function ModalController_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navigation_overlay_proxy__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_impl__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_impl__ = __webpack_require__(209);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Modal; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -64064,7 +64070,7 @@ function Modal_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_pop__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_pop__ = __webpack_require__(67);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavPopAnchor; });
 
 
@@ -64147,7 +64153,7 @@ function NavPopAnchor_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navigation_deep_linker__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nav_push__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nav_push__ = __webpack_require__(68);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavPushAnchor; });
 
 
@@ -64306,8 +64312,8 @@ function Note_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__picker_component__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_transitions__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__picker_component__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_transitions__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Picker; });
 var __extends = (this && this.__extends) || (function () {
@@ -64437,7 +64443,7 @@ function Picker_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__popover__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__popover__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverController; });
 
@@ -64611,7 +64617,7 @@ function PopoverController_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_item__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__radio_group__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__radio_group__ = __webpack_require__(76);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioButton; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -65762,7 +65768,7 @@ function Range_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__refresher__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__refresher__ = __webpack_require__(77);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RefresherContent; });
 
 
@@ -66579,7 +66585,7 @@ function Searchbar_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_base_input__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__segment_button__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__segment_button__ = __webpack_require__(78);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Segment; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -66739,9 +66745,9 @@ function Segment_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_action_sheet__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover_popover__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_action_sheet__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover_popover__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_deep_linker__ = __webpack_require__(14);
@@ -66749,8 +66755,8 @@ function Segment_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__util_base_input__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__item_item__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__option_option__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__select_popover_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__option_option__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__select_popover_component__ = __webpack_require__(79);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Select; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -67308,7 +67314,7 @@ function Select_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__display_when__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__display_when__ = __webpack_require__(80);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HideWhen; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -67410,7 +67416,7 @@ function HideWhen_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__display_when__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__display_when__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_platform__ = __webpack_require__(3);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShowWhen; });
 var __extends = (this && this.__extends) || (function () {
@@ -67514,7 +67520,7 @@ function ShowWhen_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slides__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slides__ = __webpack_require__(81);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slide; });
 
 
@@ -67672,7 +67678,7 @@ function parallaxSetTransition(s, duration) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(85);
 /* harmony export (immutable) */ __webpack_exports__["a"] = initZoom;
 /* harmony export (immutable) */ __webpack_exports__["b"] = resetZoomEvents;
 
@@ -68700,7 +68706,7 @@ function TabButton_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_keyboard__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__navigation_nav_controller_base__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tabs__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tabs__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__transitions_transition_controller__ = __webpack_require__(46);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tab; });
 var __extends = (this && this.__extends) || (function () {
@@ -69380,8 +69386,8 @@ function ToastController_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toast_component__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toast_transitions__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toast_component__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toast_transitions__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toast; });
 var __extends = (this && this.__extends) || (function () {
@@ -69532,7 +69538,7 @@ var /** @type {?} */ TOAST_POSITION_BOTTOM = 'bottom';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__item_item__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__platform_key__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toggle_gesture__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toggle_gesture__ = __webpack_require__(220);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toggle; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -70386,16 +70392,16 @@ function Typography_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__virtual_util__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__virtual_util__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__content_content__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__virtual_item__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__virtual_footer__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__virtual_header__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__virtual_item__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__virtual_footer__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__virtual_header__ = __webpack_require__(90);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VirtualScroll; });
 
 
@@ -72908,7 +72914,7 @@ var /** @type {?} */ CLEAR_STATE_DEFERS = 80;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_dom__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__gestures_pointer_events__ = __webpack_require__(170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ripple__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ripple__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__gestures_ui_event_manager__ = __webpack_require__(20);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TapClick; });
 /* unused harmony export isActivatable */
@@ -74328,12 +74334,12 @@ exports.isScheduler = isScheduler;
 "use strict";
 
 var root_1 = __webpack_require__(30);
-var isArray_1 = __webpack_require__(96);
-var isPromise_1 = __webpack_require__(257);
+var isArray_1 = __webpack_require__(97);
+var isPromise_1 = __webpack_require__(258);
 var isObject_1 = __webpack_require__(187);
 var Observable_1 = __webpack_require__(11);
-var iterator_1 = __webpack_require__(254);
-var InnerSubscriber_1 = __webpack_require__(234);
+var iterator_1 = __webpack_require__(255);
+var InnerSubscriber_1 = __webpack_require__(235);
 var observable_1 = __webpack_require__(186);
 function subscribeToResult(outerSubscriber, result, outerValue, outerIndex) {
     var destination = new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex);
@@ -74411,7 +74417,7 @@ exports.subscribeToResult = subscribeToResult;
 
 "use strict";
 
-var errorObject_1 = __webpack_require__(95);
+var errorObject_1 = __webpack_require__(96);
 var tryCatchTarget;
 function tryCatcher() {
     try {
@@ -74481,7 +74487,7 @@ webpackEmptyContext.id = 192;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(100);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -74721,7 +74727,7 @@ var platformBrowserDynamic = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(100);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -74750,7 +74756,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({template:/*ion-inline-start:"/Users/codigo/Documents/workspace-wingchun/wingchun/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/codigo/Documents/workspace-wingchun/wingchun/src/app/app.html"*/
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({template:/*ion-inline-start:"/Users/codigo/Documents/workspace-wingchun/wingchun/wingchun/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/codigo/Documents/workspace-wingchun/wingchun/wingchun/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -101405,10 +101411,10 @@ function checkReady() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw__ = __webpack_require__(249);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw__);
 /* unused harmony export InstanceCheck */
 /* unused harmony export CordovaCheck */
@@ -101720,7 +101726,8 @@ var IonicNativePlugin = (function () {
 //# sourceMappingURL=ionic-native-plugin.js.map
 
 /***/ }),
-/* 200 */
+/* 200 */,
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -101861,7 +101868,7 @@ var ActionSheetWpSlideOut = (function (_super) {
 //# sourceMappingURL=action-sheet-transitions.js.map
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102029,7 +102036,7 @@ var AlertWpPopOut = (function (_super) {
 //# sourceMappingURL=alert-transitions.js.map
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102160,7 +102167,7 @@ function ClickBlock_tsickle_Closure_declarations() {
 //# sourceMappingURL=click-block.js.map
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102362,7 +102369,7 @@ var /** @type {?} */ ITEM_REORDER_ACTIVE = 'reorder-active';
 //# sourceMappingURL=item-reorder-gesture.js.map
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102538,7 +102545,7 @@ function clickedOptionButton(ev) {
 //# sourceMappingURL=item-sliding-gesture.js.map
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102706,12 +102713,12 @@ var LoadingWpPopOut = (function (_super) {
 //# sourceMappingURL=loading-transitions.js.map
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_slide_edge_gesture__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_slide_edge_gesture__ = __webpack_require__(92);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuContentGesture; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -102853,7 +102860,7 @@ function MenuContentGesture_tsickle_Closure_declarations() {
 //# sourceMappingURL=menu-gestures.js.map
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103065,14 +103072,14 @@ __WEBPACK_IMPORTED_MODULE_1__app_menu_controller__["a" /* MenuController */].reg
 //# sourceMappingURL=menu-types.js.map
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_component__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_transitions__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_component__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_transitions__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalImpl; });
 var __extends = (this && this.__extends) || (function () {
@@ -103167,7 +103174,7 @@ function ModalImpl_tsickle_Closure_declarations() {
 //# sourceMappingURL=modal-impl.js.map
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103302,7 +103309,7 @@ var ModalMDSlideOut = (function (_super) {
 //# sourceMappingURL=modal-transitions.js.map
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103317,7 +103324,7 @@ var /** @type {?} */ MAX_PICKER_SPEED = 60;
 //# sourceMappingURL=picker-options.js.map
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103381,13 +103388,13 @@ var PickerSlideOut = (function (_super) {
 //# sourceMappingURL=picker-transitions.js.map
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_component__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_transitions__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_component__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_transitions__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverImpl; });
 var __extends = (this && this.__extends) || (function () {
@@ -103462,7 +103469,7 @@ function PopoverImpl_tsickle_Closure_declarations() {
 //# sourceMappingURL=popover-impl.js.map
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103736,7 +103743,7 @@ var /** @type {?} */ POPOVER_MD_BODY_PADDING = 12;
 //# sourceMappingURL=popover-transitions.js.map
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103867,7 +103874,7 @@ function onEnterKey(s, event) {
 //# sourceMappingURL=swiper-a11y.js.map
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -104002,17 +104009,17 @@ var /** @type {?} */ SWIPER_CONTROLLER = {
 //# sourceMappingURL=swiper-controller.js.map
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_index__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_pagination__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_classes__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_pagination__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_classes__ = __webpack_require__(82);
 /* harmony export (immutable) */ __webpack_exports__["a"] = initEvents;
 
 
@@ -104825,7 +104832,7 @@ function doResize(s, plt, forceUpdatePagination) {
 //# sourceMappingURL=swiper-events.js.map
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -104941,7 +104948,7 @@ function enableKeyboardControl(s, plt, shouldEnable) {
 //# sourceMappingURL=swiper-keyboard.js.map
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -105185,7 +105192,7 @@ var /** @type {?} */ TOAST_POSITION_MIDDLE = 'middle';
 //# sourceMappingURL=toast-transitions.js.map
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -105270,7 +105277,7 @@ function ToggleGesture_tsickle_Closure_declarations() {
 //# sourceMappingURL=toggle-gesture.js.map
 
 /***/ }),
-/* 220 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -105923,12 +105930,12 @@ var /** @type {?} */ REQUIRED_DOM_READS = 2;
 //# sourceMappingURL=virtual-util.js.map
 
 /***/ }),
-/* 221 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hammer__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hammer__ = __webpack_require__(223);
 /* unused harmony export Gesture */
 
 
@@ -106039,7 +106046,7 @@ function Gesture_tsickle_Closure_declarations() {
 //# sourceMappingURL=gesture.js.map
 
 /***/ }),
-/* 222 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -108210,7 +108217,7 @@ win.Hammer = Hammer;
 //# sourceMappingURL=hammer.js.map
 
 /***/ }),
-/* 223 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -108305,7 +108312,7 @@ function PanRecognizer_tsickle_Closure_declarations() {
 //# sourceMappingURL=recognizers.js.map
 
 /***/ }),
-/* 224 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -108314,7 +108321,7 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_root__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_root__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_dom_controller__ = __webpack_require__(8);
@@ -108324,7 +108331,7 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__gestures_gesture_config__ = __webpack_require__(169);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__tap_click_haptic__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_keyboard__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util_module_loader__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util_module_loader__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__util_ng_module_loader__ = __webpack_require__(181);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__platform_platform_registry__ = __webpack_require__(174);
@@ -108332,14 +108339,14 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__config_mode_registry__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__transitions_transition_controller__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__navigation_url_serializer__ = __webpack_require__(173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_action_sheet_action_sheet_component__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_action_sheet_action_sheet_component__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_action_sheet_action_sheet_controller__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_alert_alert_component__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_alert_alert_component__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_alert_alert_controller__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_app_click_block__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_app_click_block__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_app_overlay_portal__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_avatar_avatar__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_backdrop_backdrop__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_backdrop_backdrop__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_badge_badge__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_button_button__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_card_card__ = __webpack_require__(112);
@@ -108352,72 +108359,72 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_datetime_datetime__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_fab_fab__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_fab_fab_container__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_fab_fab_list__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_fab_fab_list__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_grid_col__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_grid_grid__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_grid_row__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_icon_icon__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_icon_icon__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_img_img__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_infinite_scroll_infinite_scroll__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_infinite_scroll_infinite_scroll__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_input_native_input__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_input_next_input__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_input_native_input__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_input_next_input__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_input_input__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_item_item__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_item_item_content__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_item_item_divider__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_item_item_group__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_item_item_options__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_item_item_reorder__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_item_item_options__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_item_item_reorder__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_item_item_sliding__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_item_reorder__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_label_label__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_list_list__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_list_list_header__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_loading_loading_component__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_label_label__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_list_list__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_list_list_header__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_loading_loading_component__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_loading_loading_controller__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_menu_menu__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_menu_menu_close__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_app_menu_controller__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_menu_menu_toggle__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_modal_modal_component__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_modal_modal_component__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__components_modal_modal_controller__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_nav_nav__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_nav_nav_pop__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_nav_nav__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_nav_nav_pop__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_nav_nav_pop_anchor__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_nav_nav_push__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_nav_nav_push__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__components_nav_nav_push_anchor__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_note_note__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_option_option__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_picker_picker_component__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_picker_picker_column__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_picker_picker_controller__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_popover_popover_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_option_option__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_picker_picker_component__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_picker_picker_column__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_picker_picker_controller__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_popover_popover_component__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__components_popover_popover_controller__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_radio_radio_button__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_radio_radio_group__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_radio_radio_group__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__components_range_range__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__components_range_range_knob__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__components_refresher_refresher__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__components_refresher_refresher__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__components_refresher_refresher_content__ = __webpack_require__(144);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_scroll_scroll__ = __webpack_require__(145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_searchbar_searchbar__ = __webpack_require__(146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_segment_segment__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_select_select__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_select_select_popover_component__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_segment_segment_button__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_select_select_popover_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_segment_segment_button__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_show_hide_when_show_when__ = __webpack_require__(150);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_98__components_show_hide_when_hide_when__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_99__components_slides_slide__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_slides_slides__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_slides_slides__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_101__components_spinner_spinner__ = __webpack_require__(154);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_102__components_split_pane_split_pane__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_103__components_tabs_tab__ = __webpack_require__(156);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_104__components_tabs_tab_button__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_tabs_tab_highlight__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_tabs_tabs__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_tabs_tab_highlight__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_tabs_tabs__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_thumbnail_thumbnail__ = __webpack_require__(157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_toast_toast_component__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_toast_toast_component__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_109__components_toast_toast_controller__ = __webpack_require__(158);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__components_toggle_toggle__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__components_toolbar_toolbar_footer__ = __webpack_require__(162);
@@ -108427,9 +108434,9 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_115__components_toolbar_toolbar_title__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_116__components_toolbar_navbar__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_117__components_typography_typography__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__components_virtual_scroll_virtual_footer__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__components_virtual_scroll_virtual_header__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_120__components_virtual_scroll_virtual_item__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__components_virtual_scroll_virtual_footer__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__components_virtual_scroll_virtual_header__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_120__components_virtual_scroll_virtual_item__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_121__components_virtual_scroll_virtual_scroll__ = __webpack_require__(167);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonicModule; });
 /* unused harmony export IonicPageModule */
@@ -108977,7 +108984,7 @@ function provideLocationStrategy(platformLocationStrategy, baseHref, config) {
 //# sourceMappingURL=module.js.map
 
 /***/ }),
-/* 225 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -109246,13 +109253,13 @@ function IonicPage(config) {
 //# sourceMappingURL=ionic-page.js.map
 
 /***/ }),
-/* 226 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_slide_edge_gesture__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_slide_edge_gesture__ = __webpack_require__(92);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeBackGesture; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -109348,7 +109355,7 @@ function SwipeBackGesture_tsickle_Closure_declarations() {
 //# sourceMappingURL=swipe-back.js.map
 
 /***/ }),
-/* 227 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -109397,7 +109404,7 @@ function QueryParams_tsickle_Closure_declarations() {
 //# sourceMappingURL=query-params.js.map
 
 /***/ }),
-/* 228 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -109575,7 +109582,7 @@ var /** @type {?} */ TOUCH_DOWN_ACCEL = 300;
 //# sourceMappingURL=ripple.js.map
 
 /***/ }),
-/* 229 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -109760,7 +109767,7 @@ var IOSTransition = (function (_super) {
 //# sourceMappingURL=transition-ios.js.map
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -109840,7 +109847,7 @@ var MDTransition = (function (_super) {
 //# sourceMappingURL=transition-md.js.map
 
 /***/ }),
-/* 231 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -109919,7 +109926,7 @@ var WPTransition = (function (_super) {
 //# sourceMappingURL=transition-wp.js.map
 
 /***/ }),
-/* 232 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -110443,7 +110450,7 @@ var /** @type {?} */ VALID_AMPM_PREFIX = [
 //# sourceMappingURL=datetime-util.js.map
 
 /***/ }),
-/* 233 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -110528,7 +110535,7 @@ var IonicErrorHandler = (function (_super) {
 //# sourceMappingURL=ionic-error-handler.js.map
 
 /***/ }),
-/* 234 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -110570,7 +110577,7 @@ exports.InnerSubscriber = InnerSubscriber;
 //# sourceMappingURL=InnerSubscriber.js.map
 
 /***/ }),
-/* 235 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -110616,18 +110623,18 @@ exports.SubjectSubscription = SubjectSubscription;
 //# sourceMappingURL=SubjectSubscription.js.map
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(11);
-var fromEvent_1 = __webpack_require__(245);
+var fromEvent_1 = __webpack_require__(246);
 Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -110638,7 +110645,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(11);
-var ScalarObservable_1 = __webpack_require__(243);
+var ScalarObservable_1 = __webpack_require__(244);
 var EmptyObservable_1 = __webpack_require__(185);
 var isScheduler_1 = __webpack_require__(188);
 /**
@@ -110755,7 +110762,7 @@ exports.ArrayObservable = ArrayObservable;
 //# sourceMappingURL=ArrayObservable.js.map
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -110765,7 +110772,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subject_1 = __webpack_require__(93);
+var Subject_1 = __webpack_require__(94);
 var Observable_1 = __webpack_require__(11);
 var Subscriber_1 = __webpack_require__(29);
 var Subscription_1 = __webpack_require__(36);
@@ -110923,7 +110930,7 @@ var RefCountSubscriber = (function (_super) {
 //# sourceMappingURL=ConnectableObservable.js.map
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -111011,7 +111018,7 @@ exports.ErrorObservable = ErrorObservable;
 //# sourceMappingURL=ErrorObservable.js.map
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -111023,7 +111030,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(11);
 var EmptyObservable_1 = __webpack_require__(185);
-var isArray_1 = __webpack_require__(96);
+var isArray_1 = __webpack_require__(97);
 var subscribeToResult_1 = __webpack_require__(189);
 var OuterSubscriber_1 = __webpack_require__(184);
 /**
@@ -111129,7 +111136,7 @@ var ForkJoinSubscriber = (function (_super) {
 //# sourceMappingURL=ForkJoinObservable.js.map
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -111141,8 +111148,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(11);
 var tryCatch_1 = __webpack_require__(190);
-var isFunction_1 = __webpack_require__(97);
-var errorObject_1 = __webpack_require__(95);
+var isFunction_1 = __webpack_require__(98);
+var errorObject_1 = __webpack_require__(96);
 var Subscription_1 = __webpack_require__(36);
 var toString = Object.prototype.toString;
 function isNodeStyleEventEmitter(sourceObj) {
@@ -111275,7 +111282,7 @@ exports.FromEventObservable = FromEventObservable;
 //# sourceMappingURL=FromEventObservable.js.map
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -111402,7 +111409,7 @@ function dispatchError(arg) {
 //# sourceMappingURL=PromiseObservable.js.map
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -111466,24 +111473,14 @@ exports.ScalarObservable = ScalarObservable;
 //# sourceMappingURL=ScalarObservable.js.map
 
 /***/ }),
-/* 244 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var ForkJoinObservable_1 = __webpack_require__(240);
-exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
-//# sourceMappingURL=forkJoin.js.map
-
-/***/ }),
 /* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromEventObservable_1 = __webpack_require__(241);
-exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
-//# sourceMappingURL=fromEvent.js.map
+var ForkJoinObservable_1 = __webpack_require__(241);
+exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
+//# sourceMappingURL=forkJoin.js.map
 
 /***/ }),
 /* 246 */
@@ -111491,9 +111488,9 @@ exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
 
 "use strict";
 
-var PromiseObservable_1 = __webpack_require__(242);
-exports.fromPromise = PromiseObservable_1.PromiseObservable.create;
-//# sourceMappingURL=fromPromise.js.map
+var FromEventObservable_1 = __webpack_require__(242);
+exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
+//# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
 /* 247 */
@@ -111501,9 +111498,9 @@ exports.fromPromise = PromiseObservable_1.PromiseObservable.create;
 
 "use strict";
 
-var merge_1 = __webpack_require__(250);
-exports.merge = merge_1.mergeStatic;
-//# sourceMappingURL=merge.js.map
+var PromiseObservable_1 = __webpack_require__(243);
+exports.fromPromise = PromiseObservable_1.PromiseObservable.create;
+//# sourceMappingURL=fromPromise.js.map
 
 /***/ }),
 /* 248 */
@@ -111511,12 +111508,22 @@ exports.merge = merge_1.mergeStatic;
 
 "use strict";
 
-var ErrorObservable_1 = __webpack_require__(239);
+var merge_1 = __webpack_require__(251);
+exports.merge = merge_1.mergeStatic;
+//# sourceMappingURL=merge.js.map
+
+/***/ }),
+/* 249 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var ErrorObservable_1 = __webpack_require__(240);
 exports._throw = ErrorObservable_1.ErrorObservable.create;
 //# sourceMappingURL=throw.js.map
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -111609,13 +111616,13 @@ var MapSubscriber = (function (_super) {
 //# sourceMappingURL=map.js.map
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ArrayObservable_1 = __webpack_require__(237);
-var mergeAll_1 = __webpack_require__(251);
+var ArrayObservable_1 = __webpack_require__(238);
+var mergeAll_1 = __webpack_require__(252);
 var isScheduler_1 = __webpack_require__(188);
 /* tslint:disable:max-line-length */
 /**
@@ -111759,7 +111766,7 @@ exports.mergeStatic = mergeStatic;
 //# sourceMappingURL=merge.js.map
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -111876,12 +111883,12 @@ exports.MergeAllSubscriber = MergeAllSubscriber;
 //# sourceMappingURL=mergeAll.js.map
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ConnectableObservable_1 = __webpack_require__(238);
+var ConnectableObservable_1 = __webpack_require__(239);
 /* tslint:disable:max-line-length */
 /**
  * Returns an Observable that emits the results of invoking a specified selector on items
@@ -111939,13 +111946,13 @@ exports.MulticastOperator = MulticastOperator;
 //# sourceMappingURL=multicast.js.map
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var multicast_1 = __webpack_require__(252);
-var Subject_1 = __webpack_require__(93);
+var multicast_1 = __webpack_require__(253);
+var Subject_1 = __webpack_require__(94);
 function shareSubjectFactory() {
     return new Subject_1.Subject();
 }
@@ -111969,7 +111976,7 @@ exports.share = share;
 //# sourceMappingURL=share.js.map
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -112009,7 +112016,7 @@ exports.$$iterator = symbolIteratorPonyfill(root_1.root);
 //# sourceMappingURL=iterator.js.map
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -112042,7 +112049,7 @@ exports.ObjectUnsubscribedError = ObjectUnsubscribedError;
 //# sourceMappingURL=ObjectUnsubscribedError.js.map
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -112073,7 +112080,7 @@ exports.UnsubscriptionError = UnsubscriptionError;
 //# sourceMappingURL=UnsubscriptionError.js.map
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -112085,13 +112092,13 @@ exports.isPromise = isPromise;
 //# sourceMappingURL=isPromise.js.map
 
 /***/ }),
-/* 258 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Subscriber_1 = __webpack_require__(29);
-var rxSubscriber_1 = __webpack_require__(94);
+var rxSubscriber_1 = __webpack_require__(95);
 var Observer_1 = __webpack_require__(183);
 function toSubscriber(nextOrObserver, error, complete) {
     if (nextOrObserver) {
@@ -112111,7 +112118,7 @@ exports.toSubscriber = toSubscriber;
 //# sourceMappingURL=toSubscriber.js.map
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
