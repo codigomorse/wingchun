@@ -2,6 +2,10 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Content } from 'ionic-angular';
 import { Slides } from 'ionic-angular';
+import { Vibration } from '@ionic-native/vibration';
+
+
+
 
 @Component({
   selector: 'page-home',
@@ -31,7 +35,7 @@ export class HomePage {
   private activePage = "Inicio";
 
   @ViewChild(Slides) slides: Slides;
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, private vibration :Vibration) {
     this.slides2 = [
       {
         //title: "Welcome to the Docs!",
@@ -41,10 +45,18 @@ export class HomePage {
       {
         //title: "Welcome to the Docs!",
         //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-        image: "assets/img/vt1.png",
+        image: "assets/img/banner-1.jpg",
+      },
+      {
+        //title: "Welcome to the Docs!",
+        //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
+        image: "assets/img/banner-5-2.jpg",
       }
     ];
   }
+  
+
+  
   hideAll() {
     this.showStart = false;
     this.showVingTsung = false;
@@ -55,6 +67,12 @@ export class HomePage {
     document.getElementById("menu-bar").click();
     this.scollUp();
   }
+
+  vibra() {
+	this.vibration.vibrate(500);
+  }
+
+
   goGaleria(){
     this.hideAll();
     this.showGaleria = true;
@@ -158,18 +176,22 @@ export class HomePage {
   showIpMan() {
     this.hideLinaje();
     this.ipMan = true;
+	this.vibra();
   }
   showLunKai() {
     this.hideLinaje();
     this.lunKai = true;
+	this.vibra();
   }
   showNeldo() {
     this.hideLinaje();
     this.neldo = true;
+	this.vibra();
   }
   showSifu() {
     this.hideLinaje();
     this.sifu = true;
+	this.vibra();
   }
   scollUp(){
     this.content.scrollToTop();
