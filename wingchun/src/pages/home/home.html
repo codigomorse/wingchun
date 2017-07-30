@@ -54,6 +54,7 @@
       </ion-slides>
       <ion-grid>
         <ion-row>
+
           <ion-col col-12 text-justify text-left caja> 
           	<div class="contenido">
             <h1 text-center>¿Quienes somos?</h1>
@@ -704,7 +705,7 @@ Como podemos apreciar luego de dar rienda suelta a este interesante paseo filos�
                 <img src="assets/img/sifu.jpg" [ngClass]="{'active' : sifu, 'linajeImg': true}" (click)="showSifu()" class="linajeImg"/>
     	</ion-col>
         <ion-col col-12 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1 class="p-col" style="padding-top:0;margin-top: -4px; background-color:#efefef;"> 
-      <div *ngIf="ipMan" padding>
+      <div *ngIf="ipMan" padding class="master">
         <h3>Gran Maestro Yip Man (1894-1972)</h3>
         <p>Yip Man (Ye Wen) -Yip Gai Man (Yi Jiwen)- nació en una familia adinerada de comerciantes, en Foshan en 1894. Comenzó
           aprendiendo el Ving Tsun (Wing Chun) Kuen entre 1906 y 1911 bajo la dirección del Maestro Chan Wah Shun. Luego aprendió con
@@ -717,7 +718,7 @@ Como podemos apreciar luego de dar rienda suelta a este interesante paseo filos�
           llamaron 'Man Suk' (el Joven Tío Man) en los primeros años, y con el correr de los años lo llamaban 'Man Gung'
           (Abuelo Man). Gracias a Yip Man el Ving Tsun (Wing Chun) Kung Fu se extendió alrededor de todo el mundo.</p>
       </div>
-      <div *ngIf="lunKai" padding>
+      <div *ngIf="lunKai" padding class="master">
         <h3>Gran Maestro Lun Kai (1928-2014)</h3>
         <p>El Gran Maestro Lun Kai nació en Cantón el 6 de noviembre de 1928 y murió el 5 de enero de 2014. Lun Kai junto a
           su amigo Kwok Fu fueron unos de los primeros estudiantes del Gran Maestro Yip Man en Foshan su ciudad natal. Lun
@@ -743,7 +744,7 @@ Como podemos apreciar luego de dar rienda suelta a este interesante paseo filos�
           a numerosos estudiantes y Discípulos, destacándose entre ellos el Maestro Neldo Sacomani introductor indiscutido
           de esta línea y con el estilo completo en Sudamérica. Fuente: Neldo Sacomani</p>
       </div>
-      <div *ngIf="sifu" padding>
+      <div *ngIf="sifu" padding class="master">
         <h3>Sifu Jorge Quiñones</h3>
         <p>Sifu Jorge Quiñones es el introductor del sistema Ving Tsun moderno y tradicional a nuestro país, es el representante
           oficial de la Linea Yip Man Foshan Ving Tsun y la Wu Hsing Chuan Athletic Association. Nacido en Montevideo, Uruguay
@@ -756,7 +757,7 @@ Como podemos apreciar luego de dar rienda suelta a este interesante paseo filos�
           Artes Marciales Chinas Tradicionales Miembro Activo y Representante Oficial de Wu Hsing Chuan Athletic Association
           Sifu de Wu Hsing Chuan Athletic Association en Argentina</p>
       </div>
-      <div *ngIf="neldo" padding>
+      <div *ngIf="neldo" padding class="master">
         <h3>Maestro Neldo Sacomani</h3>
         <p>Sifu NELDO SACOMANI, de reconocida trayectoria en la práctica del Kung Fu es el director de la Escuela Internacional
           WU HSING CHUAN, entidad con base en la ciudad de La Plata, Argentina. Su entrenamiento en las artes marciales clásicas
@@ -892,7 +893,9 @@ Como podemos apreciar luego de dar rienda suelta a este interesante paseo filos�
                     Tie Chuan
                   </ion-item>
                 
+
                   <img src="assets/img/tiechuan.jpg" class="imgMain"/>
+
                 
                   <ion-card-content text-left>
                     <p>Escuela de kung fu tradicional Tie Chuan.</p>
