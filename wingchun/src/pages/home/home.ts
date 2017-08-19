@@ -39,17 +39,17 @@ export class HomePage {
       {
         //title: "Welcome to the Docs!",
         //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-        image: "assets/img/vt1.png",
-      },
-      {
-        //title: "Welcome to the Docs!",
-        //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
         image: "assets/img/banner-1.jpg",
       },
       {
         //title: "Welcome to the Docs!",
         //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-        image: "assets/img/banner-5-2.jpg",
+        image: "assets/img/banner-2.jpg",
+      },
+      {
+        //title: "Welcome to the Docs!",
+        //description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
+        image: "assets/img/banner-3.jpg",
       }
     ];
   }
